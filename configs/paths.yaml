@@ -32,7 +32,7 @@ tokens:
 project:
   name: robust-one-shot-instance-segmentation
   repo_dirname: one-shot-segmentation
-  repo_url: https://github.com/YOUR_GITHUB_USERNAME/one-shot-segmentation.git
+  repo_url: https://github.com/BellilxDhaker/cvision.git
   repo_branch: main
   drive_folder: ${DRIVE_FOLDER}
   paths_config: configs/paths.yaml
