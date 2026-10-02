@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb_export.json
+
+# Local / Colab artefacts - never commit large data
+drive_root/
+data/
+checkpoints/
+results/
+logs/
+*.pt
+*.pth
+*.safetensors
+*.npz
+*.ckpt
+
+# Keep directory structure, ignore contents
+!models/
+!matching/
+!perturbations/
+!evaluation/
+!experiments/
+!visualization/
+models/*
+matching/*
+perturbations/*
+evaluation/*
+experiments/*
+visualization/*
+!*/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
