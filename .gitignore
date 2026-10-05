@@ -12,32 +12,23 @@ venv/
 .ipynb_checkpoints/
 *.ipynb_export.json
 
-# Local / Colab artefacts - never commit large data
-drive_root/
+# Datasets, model weights and run artefacts - never commit these
+# The source packages under models/, matching/, pipeline/, evaluation/,
+# visualization/ and tools/ ARE committed; only their outputs are ignored.
+datasets/
 data/
 checkpoints/
 results/
 logs/
+drive_root/
 *.pt
 *.pth
 *.safetensors
 *.npz
 *.ckpt
-
-# Keep directory structure, ignore contents
-!models/
-!matching/
-!perturbations/
-!evaluation/
-!experiments/
-!visualization/
-models/*
-matching/*
-perturbations/*
-evaluation/*
-experiments/*
-visualization/*
-!*/.gitkeep
+*.zip
+*.tar
+*.tar.gz
 
 # OS / editor
 .DS_Store
