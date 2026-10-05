@@ -1,95 +1,76 @@
 # =============================================================================
-# paths.yaml - Single source of truth for every filesystem path.
+# paths.yaml - filesystem layout and runtime defaults for Phase 1.
 #
-# Values may contain ${TOKEN} placeholders. Tokens are resolved at runtime by
-# scripts/project_setup.py using, in order of priority:
-#
-#   1. explicit keyword arguments passed in the notebook (notebook config cell)
-#   2. environment variables (OSS_* / TOKEN_*)
-#   3. the `tokens:` block below
-#   4. the `${token}` spelling is resolved case-sensitively
-#
-# Any individual path can also be overridden with an environment variable of the
-# form OSS_<SECTION>_<KEY>, e.g. OSS_PATHS_DATA_ROOT=/somewhere/else.
-#
-# Colab note: persistent data must live under the Google Drive mount, because
-# /content is wiped whenever the runtime is recycled.
+# Relative paths are resolved against the project root (the folder holding this
+# repository). In Colab the project root is the notebook bundle directory, so the
+# same config works locally and remotely. Every value can be overridden with an
+# environment variable of the form OSS_<SECTION>_<KEY>, e.g.
+# OSS_PATHS_DATASETS_ROOT=/content/datasets.
 # =============================================================================
 
-tokens:
-  COLAB_BASE: /content
-  DRIVE_MOUNT: /content/drive
-  DRIVE_FOLDER: one-shot-segmentation
-  REPO_ROOT: /content/one-shot-segmentation
-  PROJECT_DIRNAME: one-shot-segmentation
-  # DRIVE_ROOT is derived from `drive.root` at load time and can always be
-  # overridden with the OSS_DRIVE_ROOT environment variable.
-  DRIVE_ROOT: ${DRIVE_MOUNT}/MyDrive/${DRIVE_FOLDER}
-
-# Where the Drive folder itself lives, e.g. /content/drive/MyDrive/one-shot-segmentation
-# DRIVE_FOLDER is relative to the MyDrive root so the config survives users who
-# organise their Drive differently.
 project:
-  name: robust-one-shot-instance-segmentation
-  repo_dirname: one-shot-segmentation
-  repo_url: https://github.com/BellilxDhaker/cvision.git
-  repo_branch: main
-  drive_folder: ${DRIVE_FOLDER}
-  paths_config: configs/paths.yaml
+  name: one-shot-instance-segmentation
+  phase: 1
+  notebook: notebooks/02_one_shot_pipeline.ipynb
 
-drive:
-  mount_point: ${DRIVE_MOUNT}
-  mydrive: ${DRIVE_MOUNT}/MyDrive
-  root: ${DRIVE_MOUNT}/MyDrive/${DRIVE_FOLDER}
-
-# All heavy artefacts (datasets, checkpoints, feature caches, results).
 paths:
-  data_root: ${DRIVE_ROOT}/data
-  raw_root: ${DRIVE_ROOT}/data/raw
-  processed_root: ${DRIVE_ROOT}/data/processed
-  cache_root: ${DRIVE_ROOT}/data/cache
-  splits_root: ${DRIVE_ROOT}/data/splits
+  # User-provided reference/target pairs and the evaluation manifest.
+  data_root: data
+  cases_manifest: data/cases.json
+  # The synthetic demo pair, written by tools/make_demo_pair.py.
+  demo_root: data
+  # Few-shot segmentation datasets, see tools/download_datasets.py.
+  datasets_root: datasets
+  downloads_root: datasets/downloads
+  # Downloaded or user-supplied weights; the two checkpoints below are pulled
+  # from the Hugging Face hub into the runtime cache unless cache_dir is set.
+  checkpoints_root: checkpoints
+  # Predicted masks, similarity maps, figures and JSON summaries.
+  results_root: results
+  experiments_root: experiments
+  logs_root: logs
 
-  checkpoints_root: ${DRIVE_ROOT}/checkpoints
+datasets:
+  coco20i: datasets/COCO2014
+  fss1000: datasets/FSS-1000
+  lvis: datasets/LVIS
+  paco: datasets/PACO-Part
+  pascal: datasets/Pascal-Part
 
-  results_root: ${DRIVE_ROOT}/results
-  results_baseline: ${DRIVE_ROOT}/results/baseline
-  results_robustness: ${DRIVE_ROOT}/results/robustness
-  results_proposed: ${DRIVE_ROOT}/results/proposed
-  results_ablation: ${DRIVE_ROOT}/results/ablation
-  results_final: ${DRIVE_ROOT}/results/final
-
-  logs_root: ${DRIVE_ROOT}/logs
-  env_reports_root: ${DRIVE_ROOT}/results/environment
-
-# Sub-layout of the feature cache. One directory per (model, preprocessing)
-# combination so a changed backbone or input resolution can never silently
-# collide with previously cached tensors.
-cache:
-  version: 1
-  root: ${DRIVE_ROOT}/data/cache
-  dino_v2_root: ${DRIVE_ROOT}/data/cache/dinov2
-  extensions: [.pt]
-
-# Where packages are installed / caches kept inside the ephemeral container.
-runtime:
-  hf_home: /root/.cache/huggingface
-  torch_home: /root/.cache/torch
-  clone_root: ${COLAB_BASE}/${PROJECT_DIRNAME}
-
-# ---------------------------------------------------------------------------
-# Resource expectations. Used by scripts/environment_check.py to decide whether
-# the selected Colab runtime is sufficient. Thresholds are intentionally
-# generic; Phase 0 only needs a modern CUDA GPU with a few GB of VRAM.
-# ---------------------------------------------------------------------------
-resources:
-  min_vram_gb: 8.0        # hard requirement for this project
-  recommended_vram_gb: 15.0  # GPU with more memory is preferable for later phases
-  min_system_ram_gb: 12.0
-  min_free_disk_gb: 20.0  # free space on the Drive mount
-
-# Placeholders kept for later phases; nothing is downloaded in Phase 0.
+# Frozen pretrained models. Both are loaded through `transformers`, never cloned
+# from an external repository, and are used with eval() and requires_grad_(False).
 models:
-  dinov2:
-    default: facebook/dinov2-base
-    feature_cache_root: ${DRIVE_ROOT}/data/cache/dinov2
+  feature_encoder:
+    id: facebook/dinov2-base
+    layer: -1                 # last transformer block
+    max_size: 518             # longest side of the encoder input, in pixels
+    image_size: null          # null keeps the aspect ratio, rounded to a patch
+    normalise: true           # L2-normalise tokens so cosine = dot product
+    dtype: float32
+  segmenter:
+    id: facebook/sam-vit-base
+    multimask_output: true    # keep the highest scoring of SAM's three masks
+    dtype: float32
+
+# Stage defaults. OneShotPipeline accepts all of these as keyword arguments, so
+# this block documents the values the notebook and any script start from.
+pipeline:
+  min_coverage: 0.5           # patch share needed to count as reference object
+  aggregate: both             # max + prototype correspondence, averaged
+  localization:
+    threshold: 0.5
+    min_area_fraction: 0.002
+    closing: 7                # morphological closing side, in pixels
+    opening: 0
+    max_candidates: 5
+  smoothing_sigma: 1.5        # Gaussian smoothing of the similarity map
+  clip_percentile: 99.0
+  min_percentile: 1.0
+
+evaluation:
+  metrics: [iou, dice, precision, recall]
+
+runtime:
+  device: auto                # cuda when available, else cpu
+  cache_dir: checkpoints      # null keeps the default Hugging Face cache
+  download_datasets: false    # the notebook never downloads data unless asked
