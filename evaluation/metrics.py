@@ -161,3 +161,104 @@ def evaluate_results(
             row["seconds"] = float(getattr(result, "runtime", {}).get("total", float("nan")))
         rows.append(row)
     return EvaluationReport(rows=rows)
+
+
+SUCCESS_THRESHOLDS = (0.5, 0.7, 0.9)
+
+
+def summarize_values(values: Sequence[float],
+                     thresholds: Sequence[float] = SUCCESS_THRESHOLDS) -> Dict[str, float]:
+    """Distribution summary for one metric across many samples.
+
+    A mean alone hides too much: a handful of near-perfect cases can lift the
+    average while most pairs fail, and a failure with an empty prediction scores
+    `0.0` rather than disappearing. The median and the success rates at fixed IoU
+    thresholds are what make a run comparable to another run.
+    """
+    if not len(values):
+        return {}
+    array = np.asarray([float(value) for value in values], dtype=float)
+    summary: Dict[str, float] = {
+        "count": int(array.size),
+        "mean": float(array.mean()),
+        "median": float(np.median(array)),
+        "std": float(array.std(ddof=0)),
+        "min": float(array.min()),
+        "max": float(array.max()),
+        "q25": float(np.percentile(array, 25)),
+        "q75": float(np.percentile(array, 75)),
+    }
+    for threshold in thresholds:
+        key = f"success_rate_at_{threshold:g}".replace(".", "_")
+        summary[key] = float((array >= threshold).mean())
+    return summary
+
+
+def aggregate_rows(rows: Sequence[Dict[str, Any]],
+                   metrics: Sequence[str] = ("iou", "dice", "precision", "recall"),
+                   by: Optional[Sequence[str]] = None,
+                   min_group: int = 1) -> Dict[str, Any]:
+    """Summarise metric rows overall and per group.
+
+    Args:
+        rows: rows as produced by the benchmark runner, each holding at least one
+            metric column.
+        metrics: metric column names to summarise.
+        by: optional columns to group by, such as `category` or `scale_condition`.
+        min_group: groups with fewer samples than this are pooled into `other`,
+            so a per-category table cannot be read off a single pair. The default
+            keeps every group visible; its `count` says how thin it is.
+
+    Returns:
+        A dict with `overall` metrics, a `groups` mapping, and the counts that
+        produced them.
+    """
+    payload: Dict[str, Any] = {"overall": {}, "groups": {}, "rows": len(rows)}
+    for metric in metrics:
+        values = [row[metric] for row in rows if metric in row and row[metric] is not None]
+        payload["overall"][metric] = summarize_values(values)
+
+    for column in (by or ()):
+        buckets: Dict[str, List[Dict[str, Any]]] = {}
+        for row in rows:
+            key = str(row.get(column, "unknown"))
+            buckets.setdefault(key, []).append(row)
+        small = sorted(key for key, items in buckets.items() if len(items) < min_group)
+        if small:
+            pooled = [row for key in small for row in buckets.pop(key)]
+            if pooled:
+                buckets["other"] = pooled
+        payload["groups"][column] = {
+            key: {
+                "count": len(items),
+                **{metric: summarize_values([item[metric] for item in items
+                                            if metric in item and item[metric] is not None])
+                   for metric in metrics},
+            }
+            for key, items in sorted(buckets.items())
+        }
+    return payload
+
+
+def iou_histogram(values: Sequence[float], bins: int = 10,
+                  thresholds: Sequence[float] = (0.25, 0.5, 0.75, 0.9)) -> Dict[str, Any]:
+    """Histogram of IoU plus the counts needed to draw a precision/recall curve.
+
+    Both come from the same numbers on purpose: the histogram shows the shape of
+    the distribution, and the threshold counts answer "how many pairs were good
+    enough to be usable", which is a different question.
+    """
+    if not len(values):
+        return {"counts": [], "bin_edges": [], "thresholds": {}}
+    array = np.asarray([float(value) for value in values], dtype=float)
+    counts, edges = np.histogram(np.clip(array, 0.0, 1.0), bins=bins, range=(0.0, 1.0))
+    return {
+        "counts": [int(value) for value in counts],
+        "bin_edges": [float(value) for value in edges],
+        "mean": float(array.mean()),
+        "median": float(np.median(array)),
+        "thresholds": {f"{threshold:g}": int((array >= threshold).sum())
+                       for threshold in thresholds},
+        "count": int(array.size),
+    }
+
