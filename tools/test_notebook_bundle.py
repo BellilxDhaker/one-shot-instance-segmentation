@@ -24,8 +24,13 @@ from typing import Dict, Iterator, List, Optional, Tuple
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from tools.embed_sources import (  # noqa: E402
+    BENCHMARK_CHECKED,
+    BENCHMARK_MODULES,
+    BENCHMARK_NOTEBOOK_PATH,
     NOTEBOOK_PATH,
     REVISION_NAME,
+    benchmark_notebook_is_current,
+    benchmark_sources,
     fingerprint,
     notebook_has_stored_outputs,
     notebook_is_current,
@@ -40,14 +45,20 @@ def _text(cell: Dict[str, object]) -> str:
     return "".join(cell.get("source", []))
 
 
-def _cells() -> Tuple[str, str]:
-    with open(NOTEBOOK_PATH, "r", encoding="utf-8") as handle:
+def _cells(path: str = NOTEBOOK_PATH) -> Tuple[str, str]:
+    with open(path, "r", encoding="utf-8") as handle:
         cells = json.load(handle).get("cells", [])
     source = [text for text in map(_text, cells) if "SOURCE_FILES = " in text]
     check = [text for text in map(_text, cells) if REVISION_NAME in text and "importlib" in text]
     assert source, "no source cell found in the notebook"
     assert check, "no revision check cell found in the notebook"
     return source[0], check[0]
+
+
+def _code_texts(path: str) -> List[str]:
+    with open(path, "r", encoding="utf-8") as handle:
+        cells = json.load(handle).get("cells", [])
+    return [_text(cell) for cell in cells if cell.get("cell_type") == "code"]
 
 
 def _payload(source_cell: str) -> str:
@@ -227,6 +238,55 @@ def _patched_notebook(path: str) -> Iterator[None]:
         embed.NOTEBOOK_PATH = original
 
 
+def test_benchmark_notebook_is_up_to_date() -> None:
+    assert benchmark_notebook_is_current(), (
+        f"benchmark notebook is stale for revision "
+        f"{fingerprint(benchmark_sources())}; run: python tools/embed_sources.py"
+    )
+    print(f"benchmark notebook is current ({fingerprint(benchmark_sources())})")
+
+
+def test_benchmark_notebook_is_committed_without_outputs() -> None:
+    assert not notebook_has_stored_outputs(BENCHMARK_NOTEBOOK_PATH), (
+        "the benchmark notebook carries stored outputs; "
+        "run: python tools/embed_sources.py"
+    )
+    size_kb = os.path.getsize(BENCHMARK_NOTEBOOK_PATH) / 1024.0
+    assert size_kb < 500, f"benchmark notebook is {size_kb:.0f} KB, which suggests outputs"
+    print(f"benchmark notebook is committed clean ({size_kb:.0f} KB, no stored outputs)")
+
+
+def test_benchmark_notebook_embeds_the_phase2_modules() -> None:
+    source_cell, check_cell = _cells(BENCHMARK_NOTEBOOK_PATH)
+    payload = json.loads(_payload(source_cell))
+    assert set(payload) == set(BENCHMARK_MODULES), "embedded file list differs from the project"
+    for relative, text in payload.items():
+        assert f"{REVISION_NAME} = " in text, f"{relative} carries no revision marker"
+    expected = f'EXPECTED_SOURCE_REVISION = "{fingerprint(benchmark_sources())}"'
+    assert expected in source_cell
+    for module in BENCHMARK_CHECKED:
+        assert f'"{module}"' in check_cell, f"revision check does not cover {module}"
+    print(f"benchmark notebook embeds {len(payload)} modules and checks {len(BENCHMARK_CHECKED)}")
+
+
+def test_benchmark_notebook_covers_the_workflow() -> None:
+    """The notebook must do the four things the phase asks for, in code."""
+    code = "\n".join(_code_texts(BENCHMARK_NOTEBOOK_PATH))
+    required = {
+        "mount Google Drive": "drive.mount(",
+        "integrity gate": "check_dataset(",
+        "resume-aware run": "run_split(",
+        "smoke-test limit": "OSB_LIMIT",
+        "worst-pair panels": "plot_benchmark_pair(",
+        "provenance": "provenance.json",
+        "write results back": "shutil.copytree(",
+        "single-pipeline contract": "segment_object(",
+    }
+    for label, needle in required.items():
+        assert needle in code, f"the benchmark notebook never runs {label} ({needle})"
+    print(f"benchmark notebook covers {len(required)} workflow steps")
+
+
 def main() -> int:
     test_notebook_is_up_to_date()
     test_notebook_is_committed_without_outputs()
@@ -236,6 +296,10 @@ def main() -> int:
     test_check_cell_reports_a_module_without_a_marker()
     test_check_cell_asks_for_a_restart_when_reload_raises()
     test_check_cell_reports_what_it_could_not_repair()
+    test_benchmark_notebook_is_up_to_date()
+    test_benchmark_notebook_is_committed_without_outputs()
+    test_benchmark_notebook_embeds_the_phase2_modules()
+    test_benchmark_notebook_covers_the_workflow()
     print("NOTEBOOK BUNDLE TEST PASSED")
     return 0
 

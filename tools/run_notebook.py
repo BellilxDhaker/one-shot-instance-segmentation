@@ -1,4 +1,4 @@
-"""Run `notebooks/02_one_shot_pipeline.ipynb` in order, outside Colab.
+"""Run a generated notebook in order, outside Colab.
 
 Executing the cells in one namespace is the closest local approximation of
 `Runtime > Run all`, and it catches the failures that a syntax check misses: a
@@ -6,6 +6,7 @@ cell that uses a name from an earlier cell, a module missing from the embedded
 bundle, a shape that only appears at runtime.
 
     python tools/run_notebook.py
+    python tools/run_notebook.py --notebook notebooks/03_dataset_evaluation.ipynb
     python tools/run_notebook.py --notebook notebooks/02_one_shot_pipeline.ipynb --stop-after 9
 
 Shell lines (`!pip install ...`) are skipped; everything else runs. Set
@@ -85,7 +86,10 @@ def main(argv: Sequence[str]) -> int:
     arguments = parser.parse_args(argv)
     if arguments.workdir:
         os.environ["NOTEBOOK_WORKDIR"] = arguments.workdir
-    return run(arguments.notebook, arguments.stop_after)
+    # Resolved before the run chdir's into the workspace, so a relative
+    # --notebook still points at the repository when --workdir is given.
+    notebook = arguments.notebook if os.path.isabs(arguments.notebook) else os.path.abspath(arguments.notebook)
+    return run(notebook, arguments.stop_after)
 
 
 if __name__ == "__main__":
