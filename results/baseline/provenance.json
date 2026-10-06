@@ -1,0 +1,50 @@
+{
+  "created_unix": 1791292574,
+  "created_utc": "2026-10-06T13:16:14Z",
+  "dataset": {
+    "dataset": "coco2017-val",
+    "identity_level": "category",
+    "manifest": "train.json, validation.json, test.json",
+    "root": "C:\\Users\\hp\\Desktop\\Nouveau dossier\\data",
+    "samples": 100,
+    "split": "all"
+  },
+  "elapsed_seconds": 0.4,
+  "environment": {
+    "cuda_available": false,
+    "cudnn_version": "None",
+    "device": "cpu",
+    "git_revision": "a84c044562978a75655d3e9ca19ad5cbb59d6a6f",
+    "machine": "AMD64",
+    "packages": {
+      "PIL": "10.4.0",
+      "matplotlib": "3.10.9",
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "torch": "2.14.0+cpu",
+      "torchvision": "0.29.0+cpu",
+      "transformers": "5.18.0"
+    },
+    "platform": "Windows-10-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "python": "3.10.6",
+    "torch_cuda_build": "None",
+    "transformers_cache": ""
+  },
+  "method": "dinov2-base+sam-base",
+  "pipeline": {
+    "encoder": {
+      "device": "cpu",
+      "model_id": "facebook/dinov2-base",
+      "parameters": null,
+      "trainable_parameters": null
+    },
+    "segmenter": {
+      "device": "cpu",
+      "model_id": "facebook/sam-vit-base",
+      "parameters": null,
+      "trainable_parameters": null
+    }
+  },
+  "seed": 0
+}

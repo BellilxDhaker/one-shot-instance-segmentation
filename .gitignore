@@ -11,14 +11,16 @@ venv/
 # Notebooks
 .ipynb_checkpoints/
 *.ipynb_export.json
+# scratch directory the notebooks write their embedded modules into
+one_shot_src/
 
 # Datasets, model weights and run artefacts - never commit these
 # The source packages under models/, matching/, pipeline/, evaluation/,
-# visualization/ and tools/ ARE committed; only their outputs are ignored.
+# visualization/, tools/ and scripts/ ARE committed; only their outputs are
+# ignored. data/ and results/ are handled below more finely, because the pair
+# manifests and the baseline numbers are evidence while the pixels are not.
 datasets/
-data/
 checkpoints/
-results/
 logs/
 drive_root/
 *.pt
@@ -29,6 +31,24 @@ drive_root/
 *.zip
 *.tar
 *.tar.gz
+
+# Phase 2 benchmark data: splits, metadata and the source index fix the pair set
+# exactly and are small, so they stay tracked. Raw COCO downloads and every
+# image are reproducible with tools/build_benchmark.py.
+data/raw/
+data/**/*.jpg
+data/**/*.png
+
+# Run artefacts: keep the numbers, the sample records and the panels the README
+# shows; drop anything else a run happens to render.
+results/*
+!results/baseline/
+results/baseline/*
+!results/baseline/results.csv
+!results/baseline/summary.json
+!results/baseline/provenance.json
+!results/baseline/samples/
+!results/baseline/figures/
 
 # OS / editor
 .DS_Store
