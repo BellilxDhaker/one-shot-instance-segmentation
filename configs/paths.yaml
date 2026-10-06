@@ -1,17 +1,20 @@
 # =============================================================================
-# paths.yaml - filesystem layout and runtime defaults for Phase 1.
+# paths.yaml - filesystem layout and runtime defaults.
 #
 # Relative paths are resolved against the project root (the folder holding this
 # repository). In Colab the project root is the notebook bundle directory, so the
 # same config works locally and remotely. Every value can be overridden with an
 # environment variable of the form OSS_<SECTION>_<KEY>, e.g.
-# OSS_PATHS_DATASETS_ROOT=/content/datasets.
+# OSS_PATHS_DATASETS_ROOT=/content/datasets. Notebook 03 uses the OSB_* form for
+# the paths it has to find on its own (OSB_PROJECT_DIR, OSB_DATA_ROOT,
+# OSB_RESULTS_DIR, OSB_SPLIT, OSB_LIMIT, OSB_SEED).
 # =============================================================================
 
 project:
   name: one-shot-instance-segmentation
-  phase: 1
+  phase: 2                       # Phase 1 pipeline frozen; Phase 2 benchmark current
   notebook: notebooks/02_one_shot_pipeline.ipynb
+  benchmark_notebook: notebooks/03_dataset_evaluation.ipynb
 
 paths:
   # User-provided reference/target pairs and the evaluation manifest.
@@ -29,6 +32,12 @@ paths:
   results_root: results
   experiments_root: experiments
   logs_root: logs
+  # Phase 2 benchmark: pairs built from COCO 2017 val by tools/build_benchmark.py.
+  benchmark_root: data
+  benchmark_samples: data/samples
+  benchmark_splits: data/splits
+  benchmark_annotations: data/raw/annotations/instances_val2017.json
+  benchmark_results: results/baseline
 
 datasets:
   coco20i: datasets/COCO2014
@@ -36,6 +45,26 @@ datasets:
   lvis: datasets/LVIS
   paco: datasets/PACO-Part
   pascal: datasets/Pascal-Part
+
+# Phase 2 pair selection. The identity level is the honest one for this dataset:
+# COCO has no instance video, so a reference and a target are two different
+# objects of the same category, never two views of one object. Only the scale
+# condition is measured; the others are reported as "unknown" rather than
+# invented. See docs/pairing_protocol.md for the full rule set.
+benchmark:
+  dataset: coco2017-val
+  pairs: 100
+  seed: 0
+  min_area_fraction: 0.005        # mask area / image area, both bounds measured
+  max_area_fraction: 0.6
+  categories_cap: null            # null keeps the round-robin category balance
+  split_ratios: [0.6, 0.2, 0.2]   # train, validation, test
+  identity_level: category
+  scale_bins:                     # measured from the mask area ratio
+    smaller_in_target: "<0.5"
+    similar: "0.5-2.0"
+    larger_in_target: ">2.0"
+  unknown_conditions: [viewpoint_condition, illumination_condition, occlusion_condition]
 
 # Frozen pretrained models. Both are loaded through `transformers`, never cloned
 # from an external repository, and are used with eval() and requires_grad_(False).
@@ -69,6 +98,7 @@ pipeline:
 
 evaluation:
   metrics: [iou, dice, precision, recall]
+  success_thresholds: [0.5, 0.7, 0.9]   # share of pairs at or above each, per run
 
 runtime:
   device: auto                # cuda when available, else cpu
