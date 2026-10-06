@@ -1,0 +1,56 @@
+{
+  "category": "vase",
+  "category_id": 86,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 5.2501,
+    "reference_area_fraction": 0.025492,
+    "reference_bbox": [
+      397.43,
+      111.92,
+      62.63,
+      141.96
+    ],
+    "reference_image_size": [
+      480,
+      640
+    ],
+    "target_area_fraction": 0.132363,
+    "target_bbox": [
+      208.65,
+      140.43,
+      182.99,
+      386.76
+    ],
+    "target_image_size": [
+      480,
+      640
+    ]
+  },
+  "object_id": "coco2017-1994789-1153655",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0051/reference.jpg",
+  "reference_mask": "samples/sample_0051/reference_mask.png",
+  "sample_id": "sample_0051",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1994789,
+      1153655
+    ],
+    "file_name": [
+      "000000097585.jpg",
+      "000000557884.jpg"
+    ],
+    "image_id": [
+      97585,
+      557884
+    ]
+  },
+  "target_image": "samples/sample_0051/target.jpg",
+  "target_mask": "samples/sample_0051/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

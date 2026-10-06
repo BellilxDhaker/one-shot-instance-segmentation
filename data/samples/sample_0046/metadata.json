@@ -1,0 +1,56 @@
+{
+  "category": "zebra",
+  "category_id": 24,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.1818,
+    "reference_area_fraction": 0.208725,
+    "reference_bbox": [
+      262.42,
+      77.67,
+      193.84,
+      292.04
+    ],
+    "reference_image_size": [
+      500,
+      375
+    ],
+    "target_area_fraction": 0.038538,
+    "target_bbox": [
+      13.76,
+      268.79,
+      205.24,
+      152.75
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-590129-1822860",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0046/reference.jpg",
+  "reference_mask": "samples/sample_0046/reference_mask.png",
+  "sample_id": "sample_0046",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      590129,
+      1822860
+    ],
+    "file_name": [
+      "000000116589.jpg",
+      "000000215245.jpg"
+    ],
+    "image_id": [
+      116589,
+      215245
+    ]
+  },
+  "target_image": "samples/sample_0046/target.jpg",
+  "target_mask": "samples/sample_0046/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

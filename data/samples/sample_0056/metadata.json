@@ -1,0 +1,56 @@
+{
+  "category": "fire hydrant",
+  "category_id": 11,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.1941,
+    "reference_area_fraction": 0.222217,
+    "reference_bbox": [
+      174.02,
+      251.45,
+      296.27,
+      381.12
+    ],
+    "reference_image_size": [
+      480,
+      640
+    ],
+    "target_area_fraction": 0.043728,
+    "target_bbox": [
+      365.59,
+      186.15,
+      93.08,
+      206.31
+    ],
+    "target_image_size": [
+      640,
+      427
+    ]
+  },
+  "object_id": "coco2017-417721-417693",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0056/reference.jpg",
+  "reference_mask": "samples/sample_0056/reference_mask.png",
+  "sample_id": "sample_0056",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      417721,
+      417693
+    ],
+    "file_name": [
+      "000000171050.jpg",
+      "000000189226.jpg"
+    ],
+    "image_id": [
+      171050,
+      189226
+    ]
+  },
+  "target_image": "samples/sample_0056/target.jpg",
+  "target_mask": "samples/sample_0056/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

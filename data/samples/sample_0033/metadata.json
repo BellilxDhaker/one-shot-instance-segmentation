@@ -1,0 +1,56 @@
+{
+  "category": "surfboard",
+  "category_id": 42,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.9151,
+    "reference_area_fraction": 0.027035,
+    "reference_bbox": [
+      238.78,
+      222.33,
+      318.38,
+      81.62
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.024814,
+    "target_bbox": [
+      248.66,
+      237.52,
+      92.16,
+      206.81
+    ],
+    "target_image_size": [
+      612,
+      612
+    ]
+  },
+  "object_id": "coco2017-648632-649219",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0033/reference.jpg",
+  "reference_mask": "samples/sample_0033/reference_mask.png",
+  "sample_id": "sample_0033",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      648632,
+      649219
+    ],
+    "file_name": [
+      "000000193674.jpg",
+      "000000380711.jpg"
+    ],
+    "image_id": [
+      193674,
+      380711
+    ]
+  },
+  "target_image": "samples/sample_0033/target.jpg",
+  "target_mask": "samples/sample_0033/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

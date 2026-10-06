@@ -1,0 +1,56 @@
+{
+  "category": "elephant",
+  "category_id": 22,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.0878,
+    "reference_area_fraction": 0.090264,
+    "reference_bbox": [
+      116.49,
+      178.05,
+      214.66,
+      215.73
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.008024,
+    "target_bbox": [
+      396.22,
+      224.35,
+      99.76,
+      38.61
+    ],
+    "target_image_size": [
+      640,
+      524
+    ]
+  },
+  "object_id": "coco2017-581517-1411207",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0043/reference.jpg",
+  "reference_mask": "samples/sample_0043/reference_mask.png",
+  "sample_id": "sample_0043",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      581517,
+      1411207
+    ],
+    "file_name": [
+      "000000108864.jpg",
+      "000000173799.jpg"
+    ],
+    "image_id": [
+      108864,
+      173799
+    ]
+  },
+  "target_image": "samples/sample_0043/target.jpg",
+  "target_mask": "samples/sample_0043/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

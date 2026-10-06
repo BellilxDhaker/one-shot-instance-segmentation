@@ -1,0 +1,594 @@
+{
+  "dataset": "coco2017-val",
+  "seed": 0,
+  "requested_pairs": 100,
+  "annotation_file": "raw/annotations/instances_val2017.json",
+  "min_area_fraction": 0.005,
+  "max_area_fraction": 0.6,
+  "pairs": [
+    {
+      "sample_id": "sample_0001",
+      "category": "person",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0002",
+      "category": "chair",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0003",
+      "category": "dining table",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0004",
+      "category": "car",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0005",
+      "category": "cup",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0006",
+      "category": "bowl",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0007",
+      "category": "truck",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0008",
+      "category": "bottle",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0009",
+      "category": "tv",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0010",
+      "category": "couch",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0011",
+      "category": "cat",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0012",
+      "category": "bench",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0013",
+      "category": "bus",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0014",
+      "category": "laptop",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0015",
+      "category": "dog",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0016",
+      "category": "handbag",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0017",
+      "category": "train",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0018",
+      "category": "umbrella",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0019",
+      "category": "toilet",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0020",
+      "category": "potted plant",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0021",
+      "category": "motorcycle",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0022",
+      "category": "sink",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0023",
+      "category": "book",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0024",
+      "category": "pizza",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0025",
+      "category": "bed",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0026",
+      "category": "tennis racket",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0027",
+      "category": "horse",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0028",
+      "category": "cake",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0029",
+      "category": "backpack",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0030",
+      "category": "bicycle",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0031",
+      "category": "giraffe",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0032",
+      "category": "oven",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0033",
+      "category": "surfboard",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0034",
+      "category": "keyboard",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0035",
+      "category": "clock",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0036",
+      "category": "boat",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0037",
+      "category": "refrigerator",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0038",
+      "category": "cell phone",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0039",
+      "category": "fork",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0040",
+      "category": "sandwich",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0041",
+      "category": "teddy bear",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0042",
+      "category": "airplane",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0043",
+      "category": "elephant",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0044",
+      "category": "skateboard",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0045",
+      "category": "knife",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0046",
+      "category": "zebra",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0047",
+      "category": "banana",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0048",
+      "category": "bird",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0049",
+      "category": "suitcase",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0050",
+      "category": "cow",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0051",
+      "category": "vase",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0052",
+      "category": "tie",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0053",
+      "category": "wine glass",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0054",
+      "category": "traffic light",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0055",
+      "category": "broccoli",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0056",
+      "category": "fire hydrant",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0057",
+      "category": "orange",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0058",
+      "category": "sheep",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0059",
+      "category": "carrot",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0060",
+      "category": "kite",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0061",
+      "category": "spoon",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0062",
+      "category": "apple",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0063",
+      "category": "skis",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0064",
+      "category": "remote",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0065",
+      "category": "bear",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0066",
+      "category": "donut",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0067",
+      "category": "microwave",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0068",
+      "category": "mouse",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0069",
+      "category": "stop sign",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0070",
+      "category": "hot dog",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0071",
+      "category": "frisbee",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0072",
+      "category": "baseball bat",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0073",
+      "category": "baseball glove",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0074",
+      "category": "parking meter",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0075",
+      "category": "snowboard",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0076",
+      "category": "sports ball",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0077",
+      "category": "scissors",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0078",
+      "category": "toothbrush",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0079",
+      "category": "toaster",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0080",
+      "category": "hair drier",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0081",
+      "category": "person",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0082",
+      "category": "chair",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0083",
+      "category": "dining table",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0084",
+      "category": "car",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0085",
+      "category": "cup",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0086",
+      "category": "bowl",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0087",
+      "category": "truck",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0088",
+      "category": "bottle",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0089",
+      "category": "tv",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0090",
+      "category": "couch",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0091",
+      "category": "cat",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0092",
+      "category": "bench",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0093",
+      "category": "bus",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0094",
+      "category": "laptop",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0095",
+      "category": "dog",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0096",
+      "category": "handbag",
+      "scale_condition": "similar"
+    },
+    {
+      "sample_id": "sample_0097",
+      "category": "train",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0098",
+      "category": "umbrella",
+      "scale_condition": "larger_in_target"
+    },
+    {
+      "sample_id": "sample_0099",
+      "category": "toilet",
+      "scale_condition": "smaller_in_target"
+    },
+    {
+      "sample_id": "sample_0100",
+      "category": "potted plant",
+      "scale_condition": "similar"
+    }
+  ],
+  "samples": 100,
+  "categories": [
+    "airplane",
+    "apple",
+    "backpack",
+    "banana",
+    "baseball bat",
+    "baseball glove",
+    "bear",
+    "bed",
+    "bench",
+    "bicycle",
+    "bird",
+    "boat",
+    "book",
+    "bottle",
+    "bowl",
+    "broccoli",
+    "bus",
+    "cake",
+    "car",
+    "carrot",
+    "cat",
+    "cell phone",
+    "chair",
+    "clock",
+    "couch",
+    "cow",
+    "cup",
+    "dining table",
+    "dog",
+    "donut",
+    "elephant",
+    "fire hydrant",
+    "fork",
+    "frisbee",
+    "giraffe",
+    "hair drier",
+    "handbag",
+    "horse",
+    "hot dog",
+    "keyboard",
+    "kite",
+    "knife",
+    "laptop",
+    "microwave",
+    "motorcycle",
+    "mouse",
+    "orange",
+    "oven",
+    "parking meter",
+    "person",
+    "pizza",
+    "potted plant",
+    "refrigerator",
+    "remote",
+    "sandwich",
+    "scissors",
+    "sheep",
+    "sink",
+    "skateboard",
+    "skis",
+    "snowboard",
+    "spoon",
+    "sports ball",
+    "stop sign",
+    "suitcase",
+    "surfboard",
+    "teddy bear",
+    "tennis racket",
+    "tie",
+    "toaster",
+    "toilet",
+    "toothbrush",
+    "traffic light",
+    "train",
+    "truck",
+    "tv",
+    "umbrella",
+    "vase",
+    "wine glass",
+    "zebra"
+  ],
+  "elapsed_seconds": 339.3
+}

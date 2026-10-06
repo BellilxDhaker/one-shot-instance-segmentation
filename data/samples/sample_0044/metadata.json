@@ -1,0 +1,56 @@
+{
+  "category": "skateboard",
+  "category_id": 41,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.1103,
+    "reference_area_fraction": 0.078302,
+    "reference_bbox": [
+      110.74,
+      169.71,
+      184.09,
+      261.75
+    ],
+    "reference_image_size": [
+      540,
+      640
+    ],
+    "target_area_fraction": 0.00914,
+    "target_bbox": [
+      276.16,
+      258.97,
+      67.63,
+      140.9
+    ],
+    "target_image_size": [
+      640,
+      418
+    ]
+  },
+  "object_id": "coco2017-638070-639463",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0044/reference.jpg",
+  "reference_mask": "samples/sample_0044/reference_mask.png",
+  "sample_id": "sample_0044",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      638070,
+      639463
+    ],
+    "file_name": [
+      "000000370813.jpg",
+      "000000304180.jpg"
+    ],
+    "image_id": [
+      370813,
+      304180
+    ]
+  },
+  "target_image": "samples/sample_0044/target.jpg",
+  "target_mask": "samples/sample_0044/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

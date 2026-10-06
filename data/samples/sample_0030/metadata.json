@@ -1,0 +1,56 @@
+{
+  "category": "bicycle",
+  "category_id": 2,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.7953,
+    "reference_area_fraction": 0.006615,
+    "reference_bbox": [
+      178.5,
+      456.57,
+      159.85,
+      23.43
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.005227,
+    "target_bbox": [
+      202.18,
+      489.74,
+      66.7,
+      59.54
+    ],
+    "target_image_size": [
+      640,
+      640
+    ]
+  },
+  "object_id": "coco2017-130806-127950",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0030/reference.jpg",
+  "reference_mask": "samples/sample_0030/reference_mask.png",
+  "sample_id": "sample_0030",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      130806,
+      127950
+    ],
+    "file_name": [
+      "000000507037.jpg",
+      "000000319607.jpg"
+    ],
+    "image_id": [
+      507037,
+      319607
+    ]
+  },
+  "target_image": "samples/sample_0030/target.jpg",
+  "target_mask": "samples/sample_0030/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

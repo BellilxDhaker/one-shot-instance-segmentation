@@ -1,0 +1,56 @@
+{
+  "category": "tv",
+  "category_id": 72,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.132,
+    "reference_area_fraction": 0.108377,
+    "reference_bbox": [
+      63.85,
+      2.28,
+      277.69,
+      119.59
+    ],
+    "reference_image_size": [
+      640,
+      451
+    ],
+    "target_area_fraction": 0.014701,
+    "target_bbox": [
+      82.75,
+      108.32,
+      72.73,
+      70.85
+    ],
+    "target_image_size": [
+      480,
+      640
+    ]
+  },
+  "object_id": "coco2017-31458-1969335",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0009/reference.jpg",
+  "reference_mask": "samples/sample_0009/reference_mask.png",
+  "sample_id": "sample_0009",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      31458,
+      1969335
+    ],
+    "file_name": [
+      "000000463618.jpg",
+      "000000189436.jpg"
+    ],
+    "image_id": [
+      463618,
+      189436
+    ]
+  },
+  "target_image": "samples/sample_0009/target.jpg",
+  "target_mask": "samples/sample_0009/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

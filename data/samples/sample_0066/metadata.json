@@ -1,0 +1,56 @@
+{
+  "category": "donut",
+  "category_id": 60,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 12.1134,
+    "reference_area_fraction": 0.005817,
+    "reference_bbox": [
+      220.92,
+      119.65,
+      70.92,
+      35.13
+    ],
+    "reference_image_size": [
+      480,
+      640
+    ],
+    "target_area_fraction": 0.068216,
+    "target_bbox": [
+      226.52,
+      70.11,
+      180.13,
+      145.62
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-1925293-1080349",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0066/reference.jpg",
+  "reference_mask": "samples/sample_0066/reference_mask.png",
+  "sample_id": "sample_0066",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1925293,
+      1080349
+    ],
+    "file_name": [
+      "000000349152.jpg",
+      "000000148957.jpg"
+    ],
+    "image_id": [
+      349152,
+      148957
+    ]
+  },
+  "target_image": "samples/sample_0066/target.jpg",
+  "target_mask": "samples/sample_0066/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

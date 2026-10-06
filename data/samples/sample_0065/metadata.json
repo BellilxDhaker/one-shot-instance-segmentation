@@ -1,0 +1,56 @@
+{
+  "category": "bear",
+  "category_id": 23,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.6711,
+    "reference_area_fraction": 0.072704,
+    "reference_bbox": [
+      134.29,
+      177.98,
+      232.18,
+      102.74
+    ],
+    "reference_image_size": [
+      640,
+      360
+    ],
+    "target_area_fraction": 0.048892,
+    "target_bbox": [
+      1.03,
+      15.09,
+      85.24,
+      249.55
+    ],
+    "target_image_size": [
+      640,
+      457
+    ]
+  },
+  "object_id": "coco2017-587646-588042",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0065/reference.jpg",
+  "reference_mask": "samples/sample_0065/reference_mask.png",
+  "sample_id": "sample_0065",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      587646,
+      588042
+    ],
+    "file_name": [
+      "000000532071.jpg",
+      "000000020247.jpg"
+    ],
+    "image_id": [
+      532071,
+      20247
+    ]
+  },
+  "target_image": "samples/sample_0065/target.jpg",
+  "target_mask": "samples/sample_0065/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

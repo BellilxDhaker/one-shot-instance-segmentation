@@ -1,0 +1,56 @@
+{
+  "category": "oven",
+  "category_id": 79,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 2.1684,
+    "reference_area_fraction": 0.028925,
+    "reference_bbox": [
+      0.0,
+      274.51,
+      98.95,
+      119.7
+    ],
+    "reference_image_size": [
+      426,
+      640
+    ],
+    "target_area_fraction": 0.062585,
+    "target_bbox": [
+      260.97,
+      413.72,
+      164.03,
+      155.74
+    ],
+    "target_image_size": [
+      425,
+      640
+    ]
+  },
+  "object_id": "coco2017-2228145-2139696",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0032/reference.jpg",
+  "reference_mask": "samples/sample_0032/reference_mask.png",
+  "sample_id": "sample_0032",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      2228145,
+      2139696
+    ],
+    "file_name": [
+      "000000419974.jpg",
+      "000000033638.jpg"
+    ],
+    "image_id": [
+      419974,
+      33638
+    ]
+  },
+  "target_image": "samples/sample_0032/target.jpg",
+  "target_mask": "samples/sample_0032/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

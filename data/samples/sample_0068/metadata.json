@@ -1,0 +1,56 @@
+{
+  "category": "mouse",
+  "category_id": 74,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 1.6397,
+    "reference_area_fraction": 0.019684,
+    "reference_bbox": [
+      224.36,
+      385.08,
+      114.12,
+      78.76
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.032448,
+    "target_bbox": [
+      337.18,
+      415.5,
+      130.1,
+      118.75
+    ],
+    "target_image_size": [
+      480,
+      640
+    ]
+  },
+  "object_id": "coco2017-1105714-1104548",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0068/reference.jpg",
+  "reference_mask": "samples/sample_0068/reference_mask.png",
+  "sample_id": "sample_0068",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1105714,
+      1104548
+    ],
+    "file_name": [
+      "000000248314.jpg",
+      "000000294162.jpg"
+    ],
+    "image_id": [
+      248314,
+      294162
+    ]
+  },
+  "target_image": "samples/sample_0068/target.jpg",
+  "target_mask": "samples/sample_0068/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

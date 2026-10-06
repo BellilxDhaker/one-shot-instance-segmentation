@@ -1,0 +1,56 @@
+{
+  "category": "handbag",
+  "category_id": 31,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 1.0944,
+    "reference_area_fraction": 0.032315,
+    "reference_bbox": [
+      71.43,
+      60.35,
+      154.43,
+      78.13
+    ],
+    "reference_image_size": [
+      500,
+      375
+    ],
+    "target_area_fraction": 0.035874,
+    "target_bbox": [
+      349.39,
+      188.01,
+      90.14,
+      144.99
+    ],
+    "target_image_size": [
+      500,
+      333
+    ]
+  },
+  "object_id": "coco2017-1174289-1178474",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0096/reference.jpg",
+  "reference_mask": "samples/sample_0096/reference_mask.png",
+  "sample_id": "sample_0096",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1174289,
+      1178474
+    ],
+    "file_name": [
+      "000000534041.jpg",
+      "000000033221.jpg"
+    ],
+    "image_id": [
+      534041,
+      33221
+    ]
+  },
+  "target_image": "samples/sample_0096/target.jpg",
+  "target_mask": "samples/sample_0096/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

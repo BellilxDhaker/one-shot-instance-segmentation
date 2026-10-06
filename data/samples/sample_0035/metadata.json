@@ -1,0 +1,56 @@
+{
+  "category": "clock",
+  "category_id": 85,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 2.207,
+    "reference_area_fraction": 0.005446,
+    "reference_bbox": [
+      39.87,
+      0.85,
+      49.77,
+      41.25
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.011781,
+    "target_bbox": [
+      498.29,
+      83.39,
+      52.17,
+      82.02
+    ],
+    "target_image_size": [
+      640,
+      426
+    ]
+  },
+  "object_id": "coco2017-1666281-1666350",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0035/reference.jpg",
+  "reference_mask": "samples/sample_0035/reference_mask.png",
+  "sample_id": "sample_0035",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1666281,
+      1666350
+    ],
+    "file_name": [
+      "000000298396.jpg",
+      "000000218362.jpg"
+    ],
+    "image_id": [
+      298396,
+      218362
+    ]
+  },
+  "target_image": "samples/sample_0035/target.jpg",
+  "target_mask": "samples/sample_0035/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

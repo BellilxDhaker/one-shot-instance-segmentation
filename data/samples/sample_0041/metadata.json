@@ -1,0 +1,56 @@
+{
+  "category": "teddy bear",
+  "category_id": 88,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 2.3317,
+    "reference_area_fraction": 0.058877,
+    "reference_bbox": [
+      192.93,
+      137.38,
+      131.62,
+      140.79
+    ],
+    "reference_image_size": [
+      500,
+      374
+    ],
+    "target_area_fraction": 0.13654,
+    "target_bbox": [
+      232.46,
+      42.75,
+      294.03,
+      400.76
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-1163023-1159137",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0041/reference.jpg",
+  "reference_mask": "samples/sample_0041/reference_mask.png",
+  "sample_id": "sample_0041",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1163023,
+      1159137
+    ],
+    "file_name": [
+      "000000325527.jpg",
+      "000000207585.jpg"
+    ],
+    "image_id": [
+      325527,
+      207585
+    ]
+  },
+  "target_image": "samples/sample_0041/target.jpg",
+  "target_mask": "samples/sample_0041/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

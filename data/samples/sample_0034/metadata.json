@@ -1,0 +1,56 @@
+{
+  "category": "keyboard",
+  "category_id": 76,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.3956,
+    "reference_area_fraction": 0.054991,
+    "reference_bbox": [
+      164.08,
+      202.44,
+      303.49,
+      82.25
+    ],
+    "reference_image_size": [
+      640,
+      427
+    ],
+    "target_area_fraction": 0.021745,
+    "target_bbox": [
+      242.78,
+      267.51,
+      194.4,
+      71.94
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-1634499-1115781",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0034/reference.jpg",
+  "reference_mask": "samples/sample_0034/reference_mask.png",
+  "sample_id": "sample_0034",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1634499,
+      1115781
+    ],
+    "file_name": [
+      "000000215778.jpg",
+      "000000569059.jpg"
+    ],
+    "image_id": [
+      215778,
+      569059
+    ]
+  },
+  "target_image": "samples/sample_0034/target.jpg",
+  "target_mask": "samples/sample_0034/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

@@ -1,0 +1,56 @@
+{
+  "category": "banana",
+  "category_id": 52,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.1472,
+    "reference_area_fraction": 0.037253,
+    "reference_bbox": [
+      91.69,
+      264.34,
+      188.76,
+      168.27
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.005733,
+    "target_bbox": [
+      219.48,
+      370.06,
+      28.65,
+      54.57
+    ],
+    "target_image_size": [
+      375,
+      500
+    ]
+  },
+  "object_id": "coco2017-1042088-1544295",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0047/reference.jpg",
+  "reference_mask": "samples/sample_0047/reference_mask.png",
+  "sample_id": "sample_0047",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1042088,
+      1544295
+    ],
+    "file_name": [
+      "000000269314.jpg",
+      "000000376307.jpg"
+    ],
+    "image_id": [
+      269314,
+      376307
+    ]
+  },
+  "target_image": "samples/sample_0047/target.jpg",
+  "target_mask": "samples/sample_0047/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

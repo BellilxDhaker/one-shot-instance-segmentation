@@ -1,0 +1,56 @@
+{
+  "category": "sheep",
+  "category_id": 20,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.0902,
+    "reference_area_fraction": 0.165855,
+    "reference_bbox": [
+      401.31,
+      65.35,
+      199.73,
+      357.13
+    ],
+    "reference_image_size": [
+      640,
+      428
+    ],
+    "target_area_fraction": 0.015238,
+    "target_bbox": [
+      403.78,
+      445.8,
+      76.22,
+      105.75
+    ],
+    "target_image_size": [
+      480,
+      640
+    ]
+  },
+  "object_id": "coco2017-61537-61816",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0058/reference.jpg",
+  "reference_mask": "samples/sample_0058/reference_mask.png",
+  "sample_id": "sample_0058",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      61537,
+      61816
+    ],
+    "file_name": [
+      "000000360325.jpg",
+      "000000395388.jpg"
+    ],
+    "image_id": [
+      360325,
+      395388
+    ]
+  },
+  "target_image": "samples/sample_0058/target.jpg",
+  "target_mask": "samples/sample_0058/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

@@ -1,0 +1,56 @@
+{
+  "category": "kite",
+  "category_id": 38,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.0406,
+    "reference_area_fraction": 0.222368,
+    "reference_bbox": [
+      51.25,
+      118.36,
+      458.82,
+      290.42
+    ],
+    "reference_image_size": [
+      640,
+      482
+    ],
+    "target_area_fraction": 0.009499,
+    "target_bbox": [
+      242.58,
+      121.7,
+      216.65,
+      107.77
+    ],
+    "target_image_size": [
+      640,
+      427
+    ]
+  },
+  "object_id": "coco2017-621853-1465879",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0060/reference.jpg",
+  "reference_mask": "samples/sample_0060/reference_mask.png",
+  "sample_id": "sample_0060",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      621853,
+      1465879
+    ],
+    "file_name": [
+      "000000099024.jpg",
+      "000000017959.jpg"
+    ],
+    "image_id": [
+      99024,
+      17959
+    ]
+  },
+  "target_image": "samples/sample_0060/target.jpg",
+  "target_mask": "samples/sample_0060/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

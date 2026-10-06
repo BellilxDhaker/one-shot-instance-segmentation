@@ -1,0 +1,56 @@
+{
+  "category": "wine glass",
+  "category_id": 46,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 3.7968,
+    "reference_area_fraction": 0.009759,
+    "reference_bbox": [
+      449.69,
+      76.6,
+      58.71,
+      77.34
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.037377,
+    "target_bbox": [
+      0.0,
+      3.07,
+      66.05,
+      238.03
+    ],
+    "target_image_size": [
+      640,
+      291
+    ]
+  },
+  "object_id": "coco2017-2182951-662573",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0053/reference.jpg",
+  "reference_mask": "samples/sample_0053/reference_mask.png",
+  "sample_id": "sample_0053",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      2182951,
+      662573
+    ],
+    "file_name": [
+      "000000116208.jpg",
+      "000000438226.jpg"
+    ],
+    "image_id": [
+      116208,
+      438226
+    ]
+  },
+  "target_image": "samples/sample_0053/target.jpg",
+  "target_mask": "samples/sample_0053/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

@@ -1,0 +1,56 @@
+{
+  "category": "truck",
+  "category_id": 8,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 3.0682,
+    "reference_area_fraction": 0.160486,
+    "reference_bbox": [
+      220.68,
+      121.79,
+      298.39,
+      219.71
+    ],
+    "reference_image_size": [
+      640,
+      426
+    ],
+    "target_area_fraction": 0.49072,
+    "target_bbox": [
+      56.74,
+      44.72,
+      509.71,
+      364.49
+    ],
+    "target_image_size": [
+      640,
+      427
+    ]
+  },
+  "object_id": "coco2017-396402-394674",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0007/reference.jpg",
+  "reference_mask": "samples/sample_0007/reference_mask.png",
+  "sample_id": "sample_0007",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      396402,
+      394674
+    ],
+    "file_name": [
+      "000000334006.jpg",
+      "000000426372.jpg"
+    ],
+    "image_id": [
+      334006,
+      426372
+    ]
+  },
+  "target_image": "samples/sample_0007/target.jpg",
+  "target_mask": "samples/sample_0007/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

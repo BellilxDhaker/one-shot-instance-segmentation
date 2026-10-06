@@ -1,0 +1,56 @@
+{
+  "category": "pizza",
+  "category_id": 59,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.2878,
+    "reference_area_fraction": 0.072347,
+    "reference_bbox": [
+      412.68,
+      221.92,
+      184.51,
+      173.3
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.020865,
+    "target_bbox": [
+      251.69,
+      128.0,
+      152.44,
+      50.34
+    ],
+    "target_image_size": [
+      478,
+      640
+    ]
+  },
+  "object_id": "coco2017-1923608-1077464",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0024/reference.jpg",
+  "reference_mask": "samples/sample_0024/reference_mask.png",
+  "sample_id": "sample_0024",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1923608,
+      1077464
+    ],
+    "file_name": [
+      "000000106266.jpg",
+      "000000279541.jpg"
+    ],
+    "image_id": [
+      106266,
+      279541
+    ]
+  },
+  "target_image": "samples/sample_0024/target.jpg",
+  "target_mask": "samples/sample_0024/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

@@ -1,0 +1,56 @@
+{
+  "category": "spoon",
+  "category_id": 50,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 2.6731,
+    "reference_area_fraction": 0.013935,
+    "reference_bbox": [
+      549.79,
+      244.79,
+      62.13,
+      183.05
+    ],
+    "reference_image_size": [
+      640,
+      428
+    ],
+    "target_area_fraction": 0.035566,
+    "target_bbox": [
+      305.26,
+      171.33,
+      333.3,
+      196.31
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-703056-708022",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0061/reference.jpg",
+  "reference_mask": "samples/sample_0061/reference_mask.png",
+  "sample_id": "sample_0061",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      703056,
+      708022
+    ],
+    "file_name": [
+      "000000528399.jpg",
+      "000000227765.jpg"
+    ],
+    "image_id": [
+      528399,
+      227765
+    ]
+  },
+  "target_image": "samples/sample_0061/target.jpg",
+  "target_mask": "samples/sample_0061/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

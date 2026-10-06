@@ -1,0 +1,56 @@
+{
+  "category": "motorcycle",
+  "category_id": 4,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 12.3789,
+    "reference_area_fraction": 0.024202,
+    "reference_bbox": [
+      544.57,
+      323.95,
+      95.43,
+      147.44
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.294976,
+    "target_bbox": [
+      73.89,
+      142.81,
+      523.91,
+      278.27
+    ],
+    "target_image_size": [
+      640,
+      427
+    ]
+  },
+  "object_id": "coco2017-155431-365209",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0021/reference.jpg",
+  "reference_mask": "samples/sample_0021/reference_mask.png",
+  "sample_id": "sample_0021",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      155431,
+      365209
+    ],
+    "file_name": [
+      "000000078748.jpg",
+      "000000152120.jpg"
+    ],
+    "image_id": [
+      78748,
+      152120
+    ]
+  },
+  "target_image": "samples/sample_0021/target.jpg",
+  "target_mask": "samples/sample_0021/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

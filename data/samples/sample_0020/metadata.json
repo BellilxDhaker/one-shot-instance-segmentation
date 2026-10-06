@@ -1,0 +1,56 @@
+{
+  "category": "potted plant",
+  "category_id": 64,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.5526,
+    "reference_area_fraction": 0.016639,
+    "reference_bbox": [
+      126.74,
+      240.09,
+      109.25,
+      87.4
+    ],
+    "reference_image_size": [
+      640,
+      484
+    ],
+    "target_area_fraction": 0.009408,
+    "target_bbox": [
+      352.72,
+      139.19,
+      65.76,
+      82.25
+    ],
+    "target_image_size": [
+      480,
+      640
+    ]
+  },
+  "object_id": "coco2017-20490-1609911",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0020/reference.jpg",
+  "reference_mask": "samples/sample_0020/reference_mask.png",
+  "sample_id": "sample_0020",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      20490,
+      1609911
+    ],
+    "file_name": [
+      "000000462614.jpg",
+      "000000486040.jpg"
+    ],
+    "image_id": [
+      462614,
+      486040
+    ]
+  },
+  "target_image": "samples/sample_0020/target.jpg",
+  "target_mask": "samples/sample_0020/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

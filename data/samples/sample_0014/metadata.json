@@ -1,0 +1,56 @@
+{
+  "category": "laptop",
+  "category_id": 73,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 3.5572,
+    "reference_area_fraction": 0.059232,
+    "reference_bbox": [
+      376.22,
+      84.86,
+      223.78,
+      170.82
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.209938,
+    "target_bbox": [
+      219.55,
+      100.74,
+      314.26,
+      317.48
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-1098482-1097706",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0014/reference.jpg",
+  "reference_mask": "samples/sample_0014/reference_mask.png",
+  "sample_id": "sample_0014",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1098482,
+      1097706
+    ],
+    "file_name": [
+      "000000513688.jpg",
+      "000000046031.jpg"
+    ],
+    "image_id": [
+      513688,
+      46031
+    ]
+  },
+  "target_image": "samples/sample_0014/target.jpg",
+  "target_mask": "samples/sample_0014/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

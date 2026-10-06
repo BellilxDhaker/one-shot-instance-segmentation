@@ -1,0 +1,56 @@
+{
+  "category": "refrigerator",
+  "category_id": 82,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.344,
+    "reference_area_fraction": 0.219925,
+    "reference_bbox": [
+      272.75,
+      9.77,
+      266.31,
+      330.74
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.077057,
+    "target_bbox": [
+      460.39,
+      0.0,
+      39.61,
+      328.64
+    ],
+    "target_image_size": [
+      500,
+      333
+    ]
+  },
+  "object_id": "coco2017-330921-333731",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0037/reference.jpg",
+  "reference_mask": "samples/sample_0037/reference_mask.png",
+  "sample_id": "sample_0037",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      330921,
+      333731
+    ],
+    "file_name": [
+      "000000024243.jpg",
+      "000000349837.jpg"
+    ],
+    "image_id": [
+      24243,
+      349837
+    ]
+  },
+  "target_image": "samples/sample_0037/target.jpg",
+  "target_mask": "samples/sample_0037/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

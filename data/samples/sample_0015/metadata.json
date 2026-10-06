@@ -1,0 +1,56 @@
+{
+  "category": "dog",
+  "category_id": 18,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.4972,
+    "reference_area_fraction": 0.266117,
+    "reference_bbox": [
+      8.73,
+      13.41,
+      521.69,
+      441.22
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.132051,
+    "target_bbox": [
+      341.43,
+      150.83,
+      218.68,
+      207.45
+    ],
+    "target_image_size": [
+      640,
+      427
+    ]
+  },
+  "object_id": "coco2017-5993-14638",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0015/reference.jpg",
+  "reference_mask": "samples/sample_0015/reference_mask.png",
+  "sample_id": "sample_0015",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      5993,
+      14638
+    ],
+    "file_name": [
+      "000000447200.jpg",
+      "000000305343.jpg"
+    ],
+    "image_id": [
+      447200,
+      305343
+    ]
+  },
+  "target_image": "samples/sample_0015/target.jpg",
+  "target_mask": "samples/sample_0015/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

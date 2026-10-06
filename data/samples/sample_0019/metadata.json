@@ -1,0 +1,56 @@
+{
+  "category": "toilet",
+  "category_id": 70,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 1.0839,
+    "reference_area_fraction": 0.231859,
+    "reference_bbox": [
+      133.45,
+      125.7,
+      222.42,
+      407.54
+    ],
+    "reference_image_size": [
+      480,
+      640
+    ],
+    "target_area_fraction": 0.251338,
+    "target_bbox": [
+      93.48,
+      281.65,
+      327.91,
+      349.48
+    ],
+    "target_image_size": [
+      480,
+      640
+    ]
+  },
+  "object_id": "coco2017-1093584-1092201",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0019/reference.jpg",
+  "reference_mask": "samples/sample_0019/reference_mask.png",
+  "sample_id": "sample_0019",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1093584,
+      1092201
+    ],
+    "file_name": [
+      "000000251065.jpg",
+      "000000568690.jpg"
+    ],
+    "image_id": [
+      251065,
+      568690
+    ]
+  },
+  "target_image": "samples/sample_0019/target.jpg",
+  "target_mask": "samples/sample_0019/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

@@ -1,0 +1,56 @@
+{
+  "category": "stop sign",
+  "category_id": 13,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.6974,
+    "reference_area_fraction": 0.050811,
+    "reference_bbox": [
+      216.24,
+      110.29,
+      140.77,
+      142.23
+    ],
+    "reference_image_size": [
+      480,
+      640
+    ],
+    "target_area_fraction": 0.035644,
+    "target_bbox": [
+      116.14,
+      115.77,
+      113.18,
+      107.58
+    ],
+    "target_image_size": [
+      404,
+      640
+    ]
+  },
+  "object_id": "coco2017-271021-269186",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0069/reference.jpg",
+  "reference_mask": "samples/sample_0069/reference_mask.png",
+  "sample_id": "sample_0069",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      271021,
+      269186
+    ],
+    "file_name": [
+      "000000122745.jpg",
+      "000000015440.jpg"
+    ],
+    "image_id": [
+      122745,
+      15440
+    ]
+  },
+  "target_image": "samples/sample_0069/target.jpg",
+  "target_mask": "samples/sample_0069/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

@@ -1,0 +1,56 @@
+{
+  "category": "bottle",
+  "category_id": 44,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.2231,
+    "reference_area_fraction": 0.090125,
+    "reference_bbox": [
+      0.0,
+      26.61,
+      93.72,
+      187.68
+    ],
+    "reference_image_size": [
+      336,
+      500
+    ],
+    "target_area_fraction": 0.020721,
+    "target_bbox": [
+      379.72,
+      302.97,
+      66.85,
+      124.41
+    ],
+    "target_image_size": [
+      640,
+      428
+    ]
+  },
+  "object_id": "coco2017-1870847-90753",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0088/reference.jpg",
+  "reference_mask": "samples/sample_0088/reference_mask.png",
+  "sample_id": "sample_0088",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1870847,
+      90753
+    ],
+    "file_name": [
+      "000000066841.jpg",
+      "000000209530.jpg"
+    ],
+    "image_id": [
+      66841,
+      209530
+    ]
+  },
+  "target_image": "samples/sample_0088/target.jpg",
+  "target_mask": "samples/sample_0088/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

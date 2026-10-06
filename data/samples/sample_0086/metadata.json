@@ -1,0 +1,56 @@
+{
+  "category": "bowl",
+  "category_id": 51,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.3418,
+    "reference_area_fraction": 0.020397,
+    "reference_bbox": [
+      43.98,
+      0.2,
+      173.6,
+      49.6
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.006943,
+    "target_bbox": [
+      471.08,
+      231.04,
+      55.69,
+      41.07
+    ],
+    "target_image_size": [
+      640,
+      379
+    ]
+  },
+  "object_id": "coco2017-712784-713668",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0086/reference.jpg",
+  "reference_mask": "samples/sample_0086/reference_mask.png",
+  "sample_id": "sample_0086",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      712784,
+      713668
+    ],
+    "file_name": [
+      "000000153632.jpg",
+      "000000211120.jpg"
+    ],
+    "image_id": [
+      153632,
+      211120
+    ]
+  },
+  "target_image": "samples/sample_0086/target.jpg",
+  "target_mask": "samples/sample_0086/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

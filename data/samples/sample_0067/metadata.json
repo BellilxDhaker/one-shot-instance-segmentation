@@ -1,0 +1,56 @@
+{
+  "category": "microwave",
+  "category_id": 78,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.0462,
+    "reference_area_fraction": 0.125725,
+    "reference_bbox": [
+      139.51,
+      156.76,
+      211.41,
+      185.53
+    ],
+    "reference_image_size": [
+      418,
+      640
+    ],
+    "target_area_fraction": 0.00587,
+    "target_bbox": [
+      90.46,
+      227.13,
+      59.01,
+      35.54
+    ],
+    "target_image_size": [
+      640,
+      428
+    ]
+  },
+  "object_id": "coco2017-1118985-1119525",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0067/reference.jpg",
+  "reference_mask": "samples/sample_0067/reference_mask.png",
+  "sample_id": "sample_0067",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1118985,
+      1119525
+    ],
+    "file_name": [
+      "000000577584.jpg",
+      "000000525083.jpg"
+    ],
+    "image_id": [
+      577584,
+      525083
+    ]
+  },
+  "target_image": "samples/sample_0067/target.jpg",
+  "target_mask": "samples/sample_0067/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

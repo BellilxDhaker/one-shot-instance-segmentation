@@ -1,0 +1,56 @@
+{
+  "category": "broccoli",
+  "category_id": 56,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.0221,
+    "reference_area_fraction": 0.285835,
+    "reference_bbox": [
+      1.01,
+      102.72,
+      397.79,
+      273.92
+    ],
+    "reference_image_size": [
+      640,
+      428
+    ],
+    "target_area_fraction": 0.006364,
+    "target_bbox": [
+      185.5,
+      237.32,
+      77.87,
+      36.42
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-1058001-1060528",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0055/reference.jpg",
+  "reference_mask": "samples/sample_0055/reference_mask.png",
+  "sample_id": "sample_0055",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1058001,
+      1060528
+    ],
+    "file_name": [
+      "000000062554.jpg",
+      "000000141328.jpg"
+    ],
+    "image_id": [
+      62554,
+      141328
+    ]
+  },
+  "target_image": "samples/sample_0055/target.jpg",
+  "target_mask": "samples/sample_0055/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

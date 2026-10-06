@@ -1,0 +1,56 @@
+{
+  "category": "toothbrush",
+  "category_id": 90,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 1.0772,
+    "reference_area_fraction": 0.009631,
+    "reference_bbox": [
+      456.57,
+      122.79,
+      114.86,
+      182.15
+    ],
+    "reference_image_size": [
+      640,
+      476
+    ],
+    "target_area_fraction": 0.009857,
+    "target_bbox": [
+      486.98,
+      272.66,
+      153.02,
+      146.21
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-341646-1998926",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0078/reference.jpg",
+  "reference_mask": "samples/sample_0078/reference_mask.png",
+  "sample_id": "sample_0078",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      341646,
+      1998926
+    ],
+    "file_name": [
+      "000000241319.jpg",
+      "000000560474.jpg"
+    ],
+    "image_id": [
+      241319,
+      560474
+    ]
+  },
+  "target_image": "samples/sample_0078/target.jpg",
+  "target_mask": "samples/sample_0078/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

@@ -1,0 +1,56 @@
+{
+  "category": "parking meter",
+  "category_id": 14,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.6944,
+    "reference_area_fraction": 0.164938,
+    "reference_bbox": [
+      418.52,
+      202.86,
+      221.12,
+      268.58
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.114609,
+    "target_bbox": [
+      44.62,
+      216.43,
+      143.2,
+      319.56
+    ],
+    "target_image_size": [
+      480,
+      640
+    ]
+  },
+  "object_id": "coco2017-419476-418211",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0074/reference.jpg",
+  "reference_mask": "samples/sample_0074/reference_mask.png",
+  "sample_id": "sample_0074",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      419476,
+      418211
+    ],
+    "file_name": [
+      "000000230450.jpg",
+      "000000135410.jpg"
+    ],
+    "image_id": [
+      230450,
+      135410
+    ]
+  },
+  "target_image": "samples/sample_0074/target.jpg",
+  "target_mask": "samples/sample_0074/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

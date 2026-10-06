@@ -1,0 +1,56 @@
+{
+  "category": "couch",
+  "category_id": 63,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 1.7331,
+    "reference_area_fraction": 0.060199,
+    "reference_bbox": [
+      105.05,
+      230.7,
+      150.32,
+      141.78
+    ],
+    "reference_image_size": [
+      640,
+      398
+    ],
+    "target_area_fraction": 0.103874,
+    "target_bbox": [
+      455.73,
+      235.51,
+      182.81,
+      244.16
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-99646-113621",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0010/reference.jpg",
+  "reference_mask": "samples/sample_0010/reference_mask.png",
+  "sample_id": "sample_0010",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      99646,
+      113621
+    ],
+    "file_name": [
+      "000000319935.jpg",
+      "000000543047.jpg"
+    ],
+    "image_id": [
+      319935,
+      543047
+    ]
+  },
+  "target_image": "samples/sample_0010/target.jpg",
+  "target_mask": "samples/sample_0010/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

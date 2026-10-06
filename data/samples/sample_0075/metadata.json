@@ -1,0 +1,56 @@
+{
+  "category": "snowboard",
+  "category_id": 36,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 2.8209,
+    "reference_area_fraction": 0.0129,
+    "reference_bbox": [
+      238.58,
+      519.59,
+      148.67,
+      51.53
+    ],
+    "reference_image_size": [
+      480,
+      640
+    ],
+    "target_area_fraction": 0.036275,
+    "target_bbox": [
+      12.39,
+      165.92,
+      207.76,
+      132.47
+    ],
+    "target_image_size": [
+      640,
+      426
+    ]
+  },
+  "object_id": "coco2017-619689-620656",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0075/reference.jpg",
+  "reference_mask": "samples/sample_0075/reference_mask.png",
+  "sample_id": "sample_0075",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      619689,
+      620656
+    ],
+    "file_name": [
+      "000000393469.jpg",
+      "000000447465.jpg"
+    ],
+    "image_id": [
+      393469,
+      447465
+    ]
+  },
+  "target_image": "samples/sample_0075/target.jpg",
+  "target_mask": "samples/sample_0075/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

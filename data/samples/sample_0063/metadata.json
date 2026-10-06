@@ -1,0 +1,56 @@
+{
+  "category": "skis",
+  "category_id": 35,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 5.5387,
+    "reference_area_fraction": 0.005968,
+    "reference_bbox": [
+      100.85,
+      403.65,
+      87.23,
+      38.77
+    ],
+    "reference_image_size": [
+      444,
+      640
+    ],
+    "target_area_fraction": 0.031996,
+    "target_bbox": [
+      108.11,
+      437.41,
+      390.56,
+      136.59
+    ],
+    "target_image_size": [
+      640,
+      574
+    ]
+  },
+  "object_id": "coco2017-2200513-2199903",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0063/reference.jpg",
+  "reference_mask": "samples/sample_0063/reference_mask.png",
+  "sample_id": "sample_0063",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      2200513,
+      2199903
+    ],
+    "file_name": [
+      "000000005529.jpg",
+      "000000061747.jpg"
+    ],
+    "image_id": [
+      5529,
+      61747
+    ]
+  },
+  "target_image": "samples/sample_0063/target.jpg",
+  "target_mask": "samples/sample_0063/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

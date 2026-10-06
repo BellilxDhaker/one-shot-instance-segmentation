@@ -1,0 +1,56 @@
+{
+  "category": "apple",
+  "category_id": 53,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.3579,
+    "reference_area_fraction": 0.014941,
+    "reference_bbox": [
+      96.14,
+      0.41,
+      129.18,
+      39.95
+    ],
+    "reference_image_size": [
+      480,
+      640
+    ],
+    "target_area_fraction": 0.005407,
+    "target_bbox": [
+      0.52,
+      182.34,
+      47.01,
+      40.06
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-1907763-1551504",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0062/reference.jpg",
+  "reference_mask": "samples/sample_0062/reference_mask.png",
+  "sample_id": "sample_0062",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1907763,
+      1551504
+    ],
+    "file_name": [
+      "000000429281.jpg",
+      "000000217753.jpg"
+    ],
+    "image_id": [
+      429281,
+      217753
+    ]
+  },
+  "target_image": "samples/sample_0062/target.jpg",
+  "target_mask": "samples/sample_0062/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

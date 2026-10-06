@@ -1,0 +1,56 @@
+{
+  "category": "book",
+  "category_id": 84,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 2.741,
+    "reference_area_fraction": 0.019024,
+    "reference_bbox": [
+      181.73,
+      170.95,
+      68.03,
+      100.51
+    ],
+    "reference_image_size": [
+      640,
+      428
+    ],
+    "target_area_fraction": 0.051683,
+    "target_bbox": [
+      422.21,
+      0.0,
+      119.68,
+      350.03
+    ],
+    "target_image_size": [
+      640,
+      427
+    ]
+  },
+  "object_id": "coco2017-1141588-1147813",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0023/reference.jpg",
+  "reference_mask": "samples/sample_0023/reference_mask.png",
+  "sample_id": "sample_0023",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1141588,
+      1147813
+    ],
+    "file_name": [
+      "000000458255.jpg",
+      "000000520077.jpg"
+    ],
+    "image_id": [
+      458255,
+      520077
+    ]
+  },
+  "target_image": "samples/sample_0023/target.jpg",
+  "target_mask": "samples/sample_0023/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

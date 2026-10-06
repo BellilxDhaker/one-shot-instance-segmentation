@@ -1,0 +1,56 @@
+{
+  "category": "traffic light",
+  "category_id": 10,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 1.0696,
+    "reference_area_fraction": 0.016048,
+    "reference_bbox": [
+      460.58,
+      29.87,
+      79.82,
+      127.28
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.017034,
+    "target_bbox": [
+      56.29,
+      0.93,
+      78.89,
+      104.41
+    ],
+    "target_image_size": [
+      640,
+      559
+    ]
+  },
+  "object_id": "coco2017-1199484-404367",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0054/reference.jpg",
+  "reference_mask": "samples/sample_0054/reference_mask.png",
+  "sample_id": "sample_0054",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1199484,
+      404367
+    ],
+    "file_name": [
+      "000000155451.jpg",
+      "000000212573.jpg"
+    ],
+    "image_id": [
+      155451,
+      212573
+    ]
+  },
+  "target_image": "samples/sample_0054/target.jpg",
+  "target_mask": "samples/sample_0054/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

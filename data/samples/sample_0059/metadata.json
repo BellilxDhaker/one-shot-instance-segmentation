@@ -1,0 +1,56 @@
+{
+  "category": "carrot",
+  "category_id": 57,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 3.6465,
+    "reference_area_fraction": 0.006096,
+    "reference_bbox": [
+      307.58,
+      160.11,
+      69.95,
+      21.07
+    ],
+    "reference_image_size": [
+      500,
+      375
+    ],
+    "target_area_fraction": 0.022485,
+    "target_bbox": [
+      70.96,
+      143.65,
+      103.03,
+      76.51
+    ],
+    "target_image_size": [
+      640,
+      361
+    ]
+  },
+  "object_id": "coco2017-1563949-1565449",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0059/reference.jpg",
+  "reference_mask": "samples/sample_0059/reference_mask.png",
+  "sample_id": "sample_0059",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1563949,
+      1565449
+    ],
+    "file_name": [
+      "000000194940.jpg",
+      "000000456143.jpg"
+    ],
+    "image_id": [
+      194940,
+      456143
+    ]
+  },
+  "target_image": "samples/sample_0059/target.jpg",
+  "target_mask": "samples/sample_0059/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

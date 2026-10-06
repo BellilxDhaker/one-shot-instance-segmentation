@@ -1,0 +1,56 @@
+{
+  "category": "car",
+  "category_id": 3,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 2.2719,
+    "reference_area_fraction": 0.032126,
+    "reference_bbox": [
+      304.62,
+      52.72,
+      193.97,
+      98.94
+    ],
+    "reference_image_size": [
+      640,
+      578
+    ],
+    "target_area_fraction": 0.072657,
+    "target_bbox": [
+      73.45,
+      148.9,
+      208.3,
+      82.19
+    ],
+    "target_image_size": [
+      335,
+      500
+    ]
+  },
+  "object_id": "coco2017-1338552-347918",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0004/reference.jpg",
+  "reference_mask": "samples/sample_0004/reference_mask.png",
+  "sample_id": "sample_0004",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1338552,
+      347918
+    ],
+    "file_name": [
+      "000000449312.jpg",
+      "000000293071.jpg"
+    ],
+    "image_id": [
+      449312,
+      293071
+    ]
+  },
+  "target_image": "samples/sample_0004/target.jpg",
+  "target_mask": "samples/sample_0004/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

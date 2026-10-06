@@ -1,0 +1,56 @@
+{
+  "category": "bird",
+  "category_id": 16,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 3.3726,
+    "reference_area_fraction": 0.006316,
+    "reference_bbox": [
+      500.78,
+      99.53,
+      85.75,
+      50.76
+    ],
+    "reference_image_size": [
+      640,
+      427
+    ],
+    "target_area_fraction": 0.021146,
+    "target_bbox": [
+      195.96,
+      206.85,
+      132.62,
+      99.95
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-2229976-36154",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0048/reference.jpg",
+  "reference_mask": "samples/sample_0048/reference_mask.png",
+  "sample_id": "sample_0048",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      2229976,
+      36154
+    ],
+    "file_name": [
+      "000000277051.jpg",
+      "000000041888.jpg"
+    ],
+    "image_id": [
+      277051,
+      41888
+    ]
+  },
+  "target_image": "samples/sample_0048/target.jpg",
+  "target_mask": "samples/sample_0048/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

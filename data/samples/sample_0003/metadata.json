@@ -1,0 +1,56 @@
+{
+  "category": "dining table",
+  "category_id": 67,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.0811,
+    "reference_area_fraction": 0.074598,
+    "reference_bbox": [
+      44.77,
+      176.46,
+      208.95,
+      124.67
+    ],
+    "reference_image_size": [
+      500,
+      338
+    ],
+    "target_area_fraction": 0.006044,
+    "target_bbox": [
+      8.66,
+      248.51,
+      63.02,
+      47.74
+    ],
+    "target_image_size": [
+      425,
+      640
+    ]
+  },
+  "object_id": "coco2017-1964764-1964357",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0003/reference.jpg",
+  "reference_mask": "samples/sample_0003/reference_mask.png",
+  "sample_id": "sample_0003",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1964764,
+      1964357
+    ],
+    "file_name": [
+      "000000396526.jpg",
+      "000000140987.jpg"
+    ],
+    "image_id": [
+      396526,
+      140987
+    ]
+  },
+  "target_image": "samples/sample_0003/target.jpg",
+  "target_mask": "samples/sample_0003/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

@@ -1,0 +1,56 @@
+{
+  "category": "cow",
+  "category_id": 21,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.252,
+    "reference_area_fraction": 0.034649,
+    "reference_bbox": [
+      406.85,
+      254.54,
+      96.53,
+      146.53
+    ],
+    "reference_image_size": [
+      640,
+      427
+    ],
+    "target_area_fraction": 0.008791,
+    "target_bbox": [
+      282.86,
+      104.38,
+      123.54,
+      38.82
+    ],
+    "target_image_size": [
+      640,
+      428
+    ]
+  },
+  "object_id": "coco2017-1820647-278823",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0050/reference.jpg",
+  "reference_mask": "samples/sample_0050/reference_mask.png",
+  "sample_id": "sample_0050",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1820647,
+      278823
+    ],
+    "file_name": [
+      "000000512648.jpg",
+      "000000023937.jpg"
+    ],
+    "image_id": [
+      512648,
+      23937
+    ]
+  },
+  "target_image": "samples/sample_0050/target.jpg",
+  "target_mask": "samples/sample_0050/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

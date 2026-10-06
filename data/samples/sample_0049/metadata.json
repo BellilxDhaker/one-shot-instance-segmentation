@@ -1,0 +1,56 @@
+{
+  "category": "suitcase",
+  "category_id": 33,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.224,
+    "reference_area_fraction": 0.188364,
+    "reference_bbox": [
+      373.33,
+      61.23,
+      241.64,
+      187.66
+    ],
+    "reference_image_size": [
+      640,
+      293
+    ],
+    "target_area_fraction": 0.042849,
+    "target_bbox": [
+      110.97,
+      390.12,
+      131.62,
+      68.8
+    ],
+    "target_image_size": [
+      318,
+      500
+    ]
+  },
+  "object_id": "coco2017-1186317-1842139",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0049/reference.jpg",
+  "reference_mask": "samples/sample_0049/reference_mask.png",
+  "sample_id": "sample_0049",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1186317,
+      1842139
+    ],
+    "file_name": [
+      "000000312278.jpg",
+      "000000445722.jpg"
+    ],
+    "image_id": [
+      312278,
+      445722
+    ]
+  },
+  "target_image": "samples/sample_0049/target.jpg",
+  "target_mask": "samples/sample_0049/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

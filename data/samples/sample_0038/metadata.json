@@ -1,0 +1,56 @@
+{
+  "category": "cell phone",
+  "category_id": 77,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.0912,
+    "reference_area_fraction": 0.107803,
+    "reference_bbox": [
+      44.56,
+      163.92,
+      121.92,
+      205.99
+    ],
+    "reference_image_size": [
+      500,
+      375
+    ],
+    "target_area_fraction": 0.009931,
+    "target_bbox": [
+      314.25,
+      168.05,
+      79.57,
+      53.75
+    ],
+    "target_image_size": [
+      640,
+      427
+    ]
+  },
+  "object_id": "coco2017-322217-323312",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0038/reference.jpg",
+  "reference_mask": "samples/sample_0038/reference_mask.png",
+  "sample_id": "sample_0038",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      322217,
+      323312
+    ],
+    "file_name": [
+      "000000365886.jpg",
+      "000000213035.jpg"
+    ],
+    "image_id": [
+      365886,
+      213035
+    ]
+  },
+  "target_image": "samples/sample_0038/target.jpg",
+  "target_mask": "samples/sample_0038/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

@@ -1,0 +1,56 @@
+{
+  "category": "person",
+  "category_id": 1,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 1.6072,
+    "reference_area_fraction": 0.011889,
+    "reference_bbox": [
+      362.83,
+      344.77,
+      69.15,
+      82.01
+    ],
+    "reference_image_size": [
+      640,
+      427
+    ],
+    "target_area_fraction": 0.019401,
+    "target_bbox": [
+      10.05,
+      43.51,
+      65.39,
+      201.97
+    ],
+    "target_image_size": [
+      425,
+      640
+    ]
+  },
+  "object_id": "coco2017-1229061-1710651",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0001/reference.jpg",
+  "reference_mask": "samples/sample_0001/reference_mask.png",
+  "sample_id": "sample_0001",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1229061,
+      1710651
+    ],
+    "file_name": [
+      "000000300341.jpg",
+      "000000329323.jpg"
+    ],
+    "image_id": [
+      300341,
+      329323
+    ]
+  },
+  "target_image": "samples/sample_0001/target.jpg",
+  "target_mask": "samples/sample_0001/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

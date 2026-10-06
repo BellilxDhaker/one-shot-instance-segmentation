@@ -1,0 +1,56 @@
+{
+  "category": "airplane",
+  "category_id": 5,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 12.8359,
+    "reference_area_fraction": 0.029252,
+    "reference_bbox": [
+      225.37,
+      191.57,
+      322.2,
+      113.9
+    ],
+    "reference_image_size": [
+      640,
+      427
+    ],
+    "target_area_fraction": 0.368696,
+    "target_bbox": [
+      0.0,
+      19.53,
+      323.3,
+      293.91
+    ],
+    "target_image_size": [
+      500,
+      319
+    ]
+  },
+  "object_id": "coco2017-159116-159295",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0042/reference.jpg",
+  "reference_mask": "samples/sample_0042/reference_mask.png",
+  "sample_id": "sample_0042",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      159116,
+      159295
+    ],
+    "file_name": [
+      "000000131386.jpg",
+      "000000524850.jpg"
+    ],
+    "image_id": [
+      131386,
+      524850
+    ]
+  },
+  "target_image": "samples/sample_0042/target.jpg",
+  "target_mask": "samples/sample_0042/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

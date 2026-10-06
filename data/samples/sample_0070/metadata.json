@@ -1,0 +1,56 @@
+{
+  "category": "hot dog",
+  "category_id": 58,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.2483,
+    "reference_area_fraction": 0.099758,
+    "reference_bbox": [
+      29.85,
+      157.15,
+      306.27,
+      194.51
+    ],
+    "reference_image_size": [
+      478,
+      640
+    ],
+    "target_area_fraction": 0.024993,
+    "target_bbox": [
+      137.89,
+      527.73,
+      169.37,
+      55.46
+    ],
+    "target_image_size": [
+      480,
+      640
+    ]
+  },
+  "object_id": "coco2017-1068304-1070340",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0070/reference.jpg",
+  "reference_mask": "samples/sample_0070/reference_mask.png",
+  "sample_id": "sample_0070",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1068304,
+      1070340
+    ],
+    "file_name": [
+      "000000029675.jpg",
+      "000000024567.jpg"
+    ],
+    "image_id": [
+      29675,
+      24567
+    ]
+  },
+  "target_image": "samples/sample_0070/target.jpg",
+  "target_mask": "samples/sample_0070/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

@@ -1,0 +1,56 @@
+{
+  "category": "cake",
+  "category_id": 61,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.1144,
+    "reference_area_fraction": 0.104113,
+    "reference_bbox": [
+      206.3,
+      117.07,
+      264.84,
+      160.24
+    ],
+    "reference_image_size": [
+      640,
+      427
+    ],
+    "target_area_fraction": 0.012053,
+    "target_bbox": [
+      0.08,
+      328.81,
+      62.11,
+      59.67
+    ],
+    "target_image_size": [
+      375,
+      500
+    ]
+  },
+  "object_id": "coco2017-1084226-1088367",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0028/reference.jpg",
+  "reference_mask": "samples/sample_0028/reference_mask.png",
+  "sample_id": "sample_0028",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1084226,
+      1088367
+    ],
+    "file_name": [
+      "000000063965.jpg",
+      "000000570471.jpg"
+    ],
+    "image_id": [
+      63965,
+      570471
+    ]
+  },
+  "target_image": "samples/sample_0028/target.jpg",
+  "target_mask": "samples/sample_0028/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

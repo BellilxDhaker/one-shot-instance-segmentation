@@ -1,0 +1,56 @@
+{
+  "category": "bus",
+  "category_id": 6,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 11.7337,
+    "reference_area_fraction": 0.006643,
+    "reference_bbox": [
+      451.07,
+      143.06,
+      83.81,
+      30.51
+    ],
+    "reference_image_size": [
+      640,
+      425
+    ],
+    "target_area_fraction": 0.079351,
+    "target_bbox": [
+      306.1,
+      182.31,
+      305.13,
+      102.68
+    ],
+    "target_image_size": [
+      640,
+      427
+    ]
+  },
+  "object_id": "coco2017-2171575-162869",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0013/reference.jpg",
+  "reference_mask": "samples/sample_0013/reference_mask.png",
+  "sample_id": "sample_0013",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      2171575,
+      162869
+    ],
+    "file_name": [
+      "000000454798.jpg",
+      "000000429109.jpg"
+    ],
+    "image_id": [
+      454798,
+      429109
+    ]
+  },
+  "target_image": "samples/sample_0013/target.jpg",
+  "target_mask": "samples/sample_0013/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

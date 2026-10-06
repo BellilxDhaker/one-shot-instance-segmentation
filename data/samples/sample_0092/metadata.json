@@ -1,0 +1,56 @@
+{
+  "category": "bench",
+  "category_id": 15,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 35.7874,
+    "reference_area_fraction": 0.006596,
+    "reference_bbox": [
+      411.91,
+      95.14,
+      87.47,
+      27.38
+    ],
+    "reference_image_size": [
+      640,
+      470
+    ],
+    "target_area_fraction": 0.236468,
+    "target_bbox": [
+      120.22,
+      87.59,
+      407.91,
+      224.13
+    ],
+    "target_image_size": [
+      640,
+      383
+    ]
+  },
+  "object_id": "coco2017-1398360-577281",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0092/reference.jpg",
+  "reference_mask": "samples/sample_0092/reference_mask.png",
+  "sample_id": "sample_0092",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1398360,
+      577281
+    ],
+    "file_name": [
+      "000000267537.jpg",
+      "000000310072.jpg"
+    ],
+    "image_id": [
+      267537,
+      310072
+    ]
+  },
+  "target_image": "samples/sample_0092/target.jpg",
+  "target_mask": "samples/sample_0092/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

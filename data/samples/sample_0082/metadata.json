@@ -1,0 +1,56 @@
+{
+  "category": "chair",
+  "category_id": 62,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 1.5659,
+    "reference_area_fraction": 0.01615,
+    "reference_bbox": [
+      240.74,
+      181.53,
+      91.07,
+      49.49
+    ],
+    "reference_image_size": [
+      640,
+      360
+    ],
+    "target_area_fraction": 0.024854,
+    "target_bbox": [
+      293.22,
+      306.6,
+      113.62,
+      79.72
+    ],
+    "target_image_size": [
+      640,
+      427
+    ]
+  },
+  "object_id": "coco2017-378783-102658",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0082/reference.jpg",
+  "reference_mask": "samples/sample_0082/reference_mask.png",
+  "sample_id": "sample_0082",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      378783,
+      102658
+    ],
+    "file_name": [
+      "000000564336.jpg",
+      "000000440475.jpg"
+    ],
+    "image_id": [
+      564336,
+      440475
+    ]
+  },
+  "target_image": "samples/sample_0082/target.jpg",
+  "target_mask": "samples/sample_0082/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

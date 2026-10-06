@@ -1,0 +1,56 @@
+{
+  "category": "toaster",
+  "category_id": 80,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.0418,
+    "reference_area_fraction": 0.249782,
+    "reference_bbox": [
+      126.35,
+      143.27,
+      284.27,
+      329.4
+    ],
+    "reference_image_size": [
+      640,
+      502
+    ],
+    "target_area_fraction": 0.010638,
+    "target_bbox": [
+      100.93,
+      379.74,
+      82.36,
+      54.57
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-1128607-1128478",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0079/reference.jpg",
+  "reference_mask": "samples/sample_0079/reference_mask.png",
+  "sample_id": "sample_0079",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1128607,
+      1128478
+    ],
+    "file_name": [
+      "000000232348.jpg",
+      "000000135561.jpg"
+    ],
+    "image_id": [
+      232348,
+      135561
+    ]
+  },
+  "target_image": "samples/sample_0079/target.jpg",
+  "target_mask": "samples/sample_0079/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

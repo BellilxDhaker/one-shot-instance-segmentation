@@ -1,0 +1,56 @@
+{
+  "category": "boat",
+  "category_id": 9,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.0808,
+    "reference_area_fraction": 0.071143,
+    "reference_bbox": [
+      114.24,
+      228.1,
+      372.66,
+      94.32
+    ],
+    "reference_image_size": [
+      640,
+      427
+    ],
+    "target_area_fraction": 0.005814,
+    "target_bbox": [
+      0.0,
+      181.28,
+      67.08,
+      33.41
+    ],
+    "target_image_size": [
+      640,
+      480
+    ]
+  },
+  "object_id": "coco2017-179404-2055709",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0036/reference.jpg",
+  "reference_mask": "samples/sample_0036/reference_mask.png",
+  "sample_id": "sample_0036",
+  "scale_condition": "smaller_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      179404,
+      2055709
+    ],
+    "file_name": [
+      "000000378139.jpg",
+      "000000377882.jpg"
+    ],
+    "image_id": [
+      378139,
+      377882
+    ]
+  },
+  "target_image": "samples/sample_0036/target.jpg",
+  "target_mask": "samples/sample_0036/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

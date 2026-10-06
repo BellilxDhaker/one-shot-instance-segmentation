@@ -1,0 +1,56 @@
+{
+  "category": "baseball glove",
+  "category_id": 40,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 5.0895,
+    "reference_area_fraction": 0.026819,
+    "reference_bbox": [
+      260.01,
+      37.0,
+      114.06,
+      131.61
+    ],
+    "reference_image_size": [
+      427,
+      640
+    ],
+    "target_area_fraction": 0.134885,
+    "target_bbox": [
+      33.11,
+      130.39,
+      159.37,
+      123.49
+    ],
+    "target_image_size": [
+      288,
+      307
+    ]
+  },
+  "object_id": "coco2017-1858307-634731",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0073/reference.jpg",
+  "reference_mask": "samples/sample_0073/reference_mask.png",
+  "sample_id": "sample_0073",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      1858307,
+      634731
+    ],
+    "file_name": [
+      "000000253695.jpg",
+      "000000027932.jpg"
+    ],
+    "image_id": [
+      253695,
+      27932
+    ]
+  },
+  "target_image": "samples/sample_0073/target.jpg",
+  "target_mask": "samples/sample_0073/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

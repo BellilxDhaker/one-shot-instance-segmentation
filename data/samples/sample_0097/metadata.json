@@ -1,0 +1,56 @@
+{
+  "category": "train",
+  "category_id": 7,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 2.3585,
+    "reference_area_fraction": 0.125005,
+    "reference_bbox": [
+      94.89,
+      211.79,
+      295.69,
+      390.58
+    ],
+    "reference_image_size": [
+      612,
+      612
+    ],
+    "target_area_fraction": 0.292934,
+    "target_bbox": [
+      1.91,
+      105.39,
+      544.11,
+      256.34
+    ],
+    "target_image_size": [
+      640,
+      425
+    ]
+  },
+  "object_id": "coco2017-170830-173675",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0097/reference.jpg",
+  "reference_mask": "samples/sample_0097/reference_mask.png",
+  "sample_id": "sample_0097",
+  "scale_condition": "larger_in_target",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      170830,
+      173675
+    ],
+    "file_name": [
+      "000000419882.jpg",
+      "000000135902.jpg"
+    ],
+    "image_id": [
+      419882,
+      135902
+    ]
+  },
+  "target_image": "samples/sample_0097/target.jpg",
+  "target_mask": "samples/sample_0097/target_mask.png",
+  "viewpoint_condition": "unknown"
+}

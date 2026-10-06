@@ -1,0 +1,56 @@
+{
+  "category": "baseball bat",
+  "category_id": 39,
+  "dataset": "coco2017-val",
+  "identity_level": "category",
+  "illumination_condition": "unknown",
+  "measured": {
+    "area_ratio_target_over_reference": 0.8778,
+    "reference_area_fraction": 0.018568,
+    "reference_bbox": [
+      441.17,
+      147.78,
+      86.29,
+      292.31
+    ],
+    "reference_image_size": [
+      640,
+      480
+    ],
+    "target_area_fraction": 0.015771,
+    "target_bbox": [
+      135.08,
+      279.65,
+      381.64,
+      30.57
+    ],
+    "target_image_size": [
+      640,
+      512
+    ]
+  },
+  "object_id": "coco2017-628128-628868",
+  "occlusion_condition": "unknown",
+  "reference_image": "samples/sample_0072/reference.jpg",
+  "reference_mask": "samples/sample_0072/reference_mask.png",
+  "sample_id": "sample_0072",
+  "scale_condition": "similar",
+  "source": {
+    "annotation_file": "instances_val2017.json",
+    "annotation_id": [
+      628128,
+      628868
+    ],
+    "file_name": [
+      "000000415727.jpg",
+      "000000292330.jpg"
+    ],
+    "image_id": [
+      415727,
+      292330
+    ]
+  },
+  "target_image": "samples/sample_0072/target.jpg",
+  "target_mask": "samples/sample_0072/target_mask.png",
+  "viewpoint_condition": "unknown"
+}
