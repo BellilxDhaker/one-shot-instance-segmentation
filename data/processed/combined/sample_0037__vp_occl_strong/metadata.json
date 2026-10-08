@@ -1,0 +1,75 @@
+{
+  "category": "refrigerator",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-330921-333731",
+  "original_sample_id": "sample_0037",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 225.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            480.0,
+            164.5
+          ],
+          "post_shift_px": [
+            416.33,
+            -45.36
+          ],
+          "pre_shift_px": [
+            -230.0,
+            2.0
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 1.4247,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.3009,
+          "anchor": [
+            469,
+            201
+          ],
+          "aspect": 1.3826,
+          "feathered": true,
+          "occluder_type": "patch",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            208,
+            165
+          ],
+          "window": [
+            432,
+            151,
+            500,
+            251
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 1774832859,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

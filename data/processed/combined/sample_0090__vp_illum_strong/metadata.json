@@ -1,0 +1,57 @@
+{
+  "category": "couch",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2223626-113720",
+  "original_sample_id": "sample_0090",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            55,
+            55,
+            0,
+            85
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            242.0,
+            316.5
+          ],
+          "post_shift_px": [
+            -322.82,
+            81.2
+          ],
+          "pre_shift_px": [
+            78.0,
+            -76.5
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 2.8354,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 29.716,
+          "mean_before": 81.763
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 3501898766,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

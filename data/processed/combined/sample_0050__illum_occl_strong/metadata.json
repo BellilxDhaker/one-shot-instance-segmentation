@@ -1,0 +1,52 @@
+{
+  "category": "cow",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1820647-278823",
+  "original_sample_id": "sample_0050",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 19.083,
+          "mean_before": 111.164
+        },
+        "variant": "low_light_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2944,
+          "anchor": [
+            288,
+            124
+          ],
+          "aspect": 1.1697,
+          "feathered": false,
+          "occluder_type": "rect",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            562,
+            307
+          ],
+          "window": [
+            263,
+            95,
+            313,
+            153
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 972340412,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_strong"
+}

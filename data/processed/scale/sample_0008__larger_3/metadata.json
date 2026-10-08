@@ -1,0 +1,30 @@
+{
+  "category": "bottle",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-79545-1491882",
+  "original_sample_id": "sample_0008",
+  "parameters": {
+    "achieved_factor": 2.0081,
+    "clamped": false,
+    "object_area_fraction_after": 0.015251,
+    "object_area_fraction_before": 0.007594,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 2.0,
+    "window": [
+      187,
+      86,
+      640,
+      425
+    ],
+    "zoom": 1.4142
+  },
+  "random_seed": 4280979565,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_3"
+}

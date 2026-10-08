@@ -1,0 +1,57 @@
+{
+  "category": "apple",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1907763-1551504",
+  "original_sample_id": "sample_0062",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            17,
+            0,
+            0,
+            0
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            24.0,
+            202.5
+          ],
+          "post_shift_px": [
+            -540.82,
+            -32.8
+          ],
+          "pre_shift_px": [
+            296.0,
+            37.5
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 1.9843,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 26.721,
+          "mean_before": 100.647
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 2591402675,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

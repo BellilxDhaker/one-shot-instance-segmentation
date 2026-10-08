@@ -1,0 +1,36 @@
+{
+  "category": "tennis racket",
+  "condition": "rect",
+  "dataset": "coco2017-val",
+  "family": "occlusion",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-655753-655158",
+  "original_sample_id": "sample_0026",
+  "parameters": {
+    "achieved_fraction": 0.2969,
+    "anchor": [
+      229,
+      367
+    ],
+    "aspect": 0.6241,
+    "feathered": false,
+    "occluder_type": "rect",
+    "target_fraction": 0.3,
+    "texture_origin": [
+      75,
+      25
+    ],
+    "window": [
+      140,
+      311,
+      318,
+      423
+    ],
+    "within_tolerance": true
+  },
+  "random_seed": 2802340673,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "occlude",
+  "variant": "occlude_3"
+}

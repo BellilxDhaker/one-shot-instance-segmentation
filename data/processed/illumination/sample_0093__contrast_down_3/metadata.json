@@ -1,0 +1,18 @@
+{
+  "category": "bus",
+  "condition": "contrast_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-248552-165954",
+  "original_sample_id": "sample_0093",
+  "parameters": {
+    "mean_after": 72.047,
+    "mean_before": 72.639
+  },
+  "random_seed": 478118342,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_down_3"
+}

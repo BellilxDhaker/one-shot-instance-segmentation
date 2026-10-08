@@ -1,0 +1,52 @@
+{
+  "category": "bed",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1611708-316292",
+  "original_sample_id": "sample_0025",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 39.667,
+          "mean_before": 149.106
+        },
+        "variant": "low_light_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2989,
+          "anchor": [
+            234,
+            353
+          ],
+          "aspect": 0.8267,
+          "feathered": true,
+          "occluder_type": "patch",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            106,
+            223
+          ],
+          "window": [
+            105,
+            246,
+            363,
+            460
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 3331433291,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_strong"
+}

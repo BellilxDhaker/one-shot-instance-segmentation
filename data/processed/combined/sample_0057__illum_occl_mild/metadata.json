@@ -1,0 +1,52 @@
+{
+  "category": "orange",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2187549-1912948",
+  "original_sample_id": "sample_0057",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 16.658,
+          "mean_before": 58.142
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.1991,
+          "anchor": [
+            210,
+            375
+          ],
+          "aspect": 1.2536,
+          "feathered": false,
+          "occluder_type": "polygon",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            17,
+            239
+          ],
+          "window": [
+            172,
+            328,
+            248,
+            422
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 2413076733,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

@@ -1,0 +1,52 @@
+{
+  "category": "suitcase",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1186317-1842139",
+  "original_sample_id": "sample_0049",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 48.699,
+          "mean_before": 90.251
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2053,
+          "anchor": [
+            146,
+            399
+          ],
+          "aspect": 0.7601,
+          "feathered": false,
+          "occluder_type": "polygon",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            74,
+            114
+          ],
+          "window": [
+            95,
+            360,
+            197,
+            438
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 4178222944,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

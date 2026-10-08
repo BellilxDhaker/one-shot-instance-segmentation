@@ -1,0 +1,18 @@
+{
+  "category": "sink",
+  "condition": "brightness_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1129323-1134446",
+  "original_sample_id": "sample_0022",
+  "parameters": {
+    "mean_after": 92.652,
+    "mean_before": 116.314
+  },
+  "random_seed": 3439927623,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_down_1"
+}

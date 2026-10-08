@@ -1,0 +1,52 @@
+{
+  "category": "baseball glove",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1858307-634731",
+  "original_sample_id": "sample_0073",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 48.249,
+          "mean_before": 111.765
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.1984,
+          "anchor": [
+            97,
+            168
+          ],
+          "aspect": 1.4937,
+          "feathered": false,
+          "occluder_type": "polygon",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            208,
+            57
+          ],
+          "window": [
+            65,
+            121,
+            129,
+            215
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 2256907359,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

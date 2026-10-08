@@ -1,0 +1,30 @@
+{
+  "category": "broccoli",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1058001-1060528",
+  "original_sample_id": "sample_0055",
+  "parameters": {
+    "achieved_factor": 1.4363,
+    "clamped": false,
+    "object_area_fraction_after": 0.009141,
+    "object_area_fraction_before": 0.006364,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.43,
+    "window": [
+      0,
+      55,
+      535,
+      456
+    ],
+    "zoom": 1.1958
+  },
+  "random_seed": 3931859397,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_2"
+}

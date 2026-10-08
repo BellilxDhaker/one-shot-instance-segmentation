@@ -1,0 +1,30 @@
+{
+  "category": "bowl",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1532517-1535977",
+  "original_sample_id": "sample_0006",
+  "parameters": {
+    "achieved_factor": 0.8499,
+    "clamped": false,
+    "object_area_fraction_after": 0.009085,
+    "object_area_fraction_before": 0.01069,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.85,
+    "window": [
+      -54,
+      -200,
+      467,
+      494
+    ],
+    "zoom": 0.922
+  },
+  "random_seed": 1384695730,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_1"
+}

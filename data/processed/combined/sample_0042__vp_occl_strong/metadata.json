@@ -1,0 +1,75 @@
+{
+  "category": "airplane",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-159116-159295",
+  "original_sample_id": "sample_0042",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 225.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            13,
+            10,
+            0,
+            51
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            162.0,
+            166.5
+          ],
+          "post_shift_px": [
+            -279.27,
+            10.68
+          ],
+          "pre_shift_px": [
+            88.0,
+            -7.0
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 1.4168,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.3006,
+          "anchor": [
+            114,
+            200
+          ],
+          "aspect": 0.9956,
+          "feathered": false,
+          "occluder_type": "rect",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            279,
+            141
+          ],
+          "window": [
+            33,
+            120,
+            195,
+            280
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 1857734595,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

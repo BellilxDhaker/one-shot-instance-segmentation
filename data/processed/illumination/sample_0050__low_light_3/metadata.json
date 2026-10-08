@@ -1,0 +1,18 @@
+{
+  "category": "cow",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1820647-278823",
+  "original_sample_id": "sample_0050",
+  "parameters": {
+    "mean_after": 19.056,
+    "mean_before": 111.164
+  },
+  "random_seed": 3858913188,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_3"
+}

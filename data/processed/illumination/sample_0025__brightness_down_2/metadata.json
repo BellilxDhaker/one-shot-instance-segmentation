@@ -1,0 +1,18 @@
+{
+  "category": "bed",
+  "condition": "brightness_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1611708-316292",
+  "original_sample_id": "sample_0025",
+  "parameters": {
+    "mean_after": 89.064,
+    "mean_before": 149.106
+  },
+  "random_seed": 1585468926,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_down_2"
+}

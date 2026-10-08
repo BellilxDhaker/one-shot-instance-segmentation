@@ -1,0 +1,57 @@
+{
+  "category": "mouse",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1105714-1104548",
+  "original_sample_id": "sample_0068",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            41,
+            0,
+            0
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            402.5,
+            475.0
+          ],
+          "post_shift_px": [
+            401.0,
+            99.5
+          ],
+          "pre_shift_px": [
+            -162.5,
+            -155.0
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 2.4105,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 23.066,
+          "mean_before": 82.988
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 2373392366,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

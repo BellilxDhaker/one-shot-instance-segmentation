@@ -1,0 +1,17 @@
+{
+  "category": "car",
+  "condition": "identity",
+  "dataset": "coco2017-val",
+  "family": "control",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1344872-146034",
+  "original_sample_id": "sample_0084",
+  "parameters": {
+    "identity": true
+  },
+  "random_seed": 4112537846,
+  "severity": 0,
+  "transform_version": 1,
+  "transformation": "identity",
+  "variant": "identity"
+}

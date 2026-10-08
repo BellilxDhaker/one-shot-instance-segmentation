@@ -1,0 +1,75 @@
+{
+  "category": "fire hydrant",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-417721-417693",
+  "original_sample_id": "sample_0056",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            478,
+            325,
+            0,
+            336
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            412.0,
+            289.5
+          ],
+          "post_shift_px": [
+            -152.82,
+            80.7
+          ],
+          "pre_shift_px": [
+            -92.0,
+            -76.0
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 2.3059,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.3025,
+          "anchor": [
+            425,
+            239
+          ],
+          "aspect": 0.6203,
+          "feathered": false,
+          "occluder_type": "polygon",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            48,
+            44
+          ],
+          "window": [
+            328,
+            178,
+            522,
+            300
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 3591038608,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

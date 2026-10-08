@@ -1,0 +1,18 @@
+{
+  "category": "bear",
+  "condition": "cool",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-587646-588042",
+  "original_sample_id": "sample_0065",
+  "parameters": {
+    "mean_after": 150.595,
+    "mean_before": 149.414
+  },
+  "random_seed": 3733995908,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "cool_1"
+}

@@ -1,0 +1,30 @@
+{
+  "category": "chair",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-378783-102658",
+  "original_sample_id": "sample_0082",
+  "parameters": {
+    "achieved_factor": 1.179,
+    "clamped": false,
+    "object_area_fraction_after": 0.029303,
+    "object_area_fraction_before": 0.024854,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.18,
+    "window": [
+      51,
+      34,
+      640,
+      427
+    ],
+    "zoom": 1.0863
+  },
+  "random_seed": 1744249187,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_1"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "stop sign",
+  "condition": "brightness_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-271021-269186",
+  "original_sample_id": "sample_0069",
+  "parameters": {
+    "mean_after": 187.74,
+    "mean_before": 133.764
+  },
+  "random_seed": 4091566696,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_up_3"
+}

@@ -1,0 +1,57 @@
+{
+  "category": "knife",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-694348-696637",
+  "original_sample_id": "sample_0045",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": true,
+          "padding_px": [
+            0,
+            800,
+            490,
+            102
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            154.5,
+            554.0
+          ],
+          "post_shift_px": [
+            153.0,
+            178.5
+          ],
+          "pre_shift_px": [
+            85.5,
+            -234.0
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 2.2919,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 34.225,
+          "mean_before": 125.315
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 570367486,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

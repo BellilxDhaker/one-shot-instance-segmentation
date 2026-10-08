@@ -1,0 +1,36 @@
+{
+  "category": "baseball glove",
+  "condition": "ellipse",
+  "dataset": "coco2017-val",
+  "family": "occlusion",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1858307-634731",
+  "original_sample_id": "sample_0073",
+  "parameters": {
+    "achieved_fraction": 0.4983,
+    "anchor": [
+      108,
+      229
+    ],
+    "aspect": 1.4828,
+    "feathered": false,
+    "occluder_type": "ellipse",
+    "target_fraction": 0.5,
+    "texture_origin": [
+      164,
+      110
+    ],
+    "window": [
+      61,
+      159,
+      155,
+      299
+    ],
+    "within_tolerance": true
+  },
+  "random_seed": 2404681409,
+  "severity": 5,
+  "transform_version": 1,
+  "transformation": "occlude",
+  "variant": "occlude_5"
+}

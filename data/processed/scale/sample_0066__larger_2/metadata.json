@@ -1,0 +1,30 @@
+{
+  "category": "donut",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1925293-1080349",
+  "original_sample_id": "sample_0066",
+  "parameters": {
+    "achieved_factor": 1.4305,
+    "clamped": false,
+    "object_area_fraction_after": 0.097585,
+    "object_area_fraction_before": 0.068216,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.43,
+    "window": [
+      49,
+      0,
+      584,
+      401
+    ],
+    "zoom": 1.1958
+  },
+  "random_seed": 1065868834,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_2"
+}

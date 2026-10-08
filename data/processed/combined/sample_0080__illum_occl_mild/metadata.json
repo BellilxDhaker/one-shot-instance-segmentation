@@ -1,0 +1,52 @@
+{
+  "category": "hair drier",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1188212-1188281",
+  "original_sample_id": "sample_0080",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 76.183,
+          "mean_before": 128.956
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2029,
+          "anchor": [
+            262,
+            303
+          ],
+          "aspect": 1.1106,
+          "feathered": false,
+          "occluder_type": "ellipse",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            400,
+            466
+          ],
+          "window": [
+            227,
+            264,
+            297,
+            342
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 2707061934,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

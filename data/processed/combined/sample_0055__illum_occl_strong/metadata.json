@@ -1,0 +1,52 @@
+{
+  "category": "broccoli",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1058001-1060528",
+  "original_sample_id": "sample_0055",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 29.945,
+          "mean_before": 104.623
+        },
+        "variant": "low_light_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2997,
+          "anchor": [
+            247,
+            248
+          ],
+          "aspect": 0.9057,
+          "feathered": false,
+          "occluder_type": "ellipse",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            290,
+            300
+          ],
+          "window": [
+            226,
+            228,
+            268,
+            268
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 3933738025,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_strong"
+}

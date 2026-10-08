@@ -1,0 +1,41 @@
+{
+  "category": "zebra",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-590129-1822860",
+  "original_sample_id": "sample_0046",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": true,
+    "padding_px": [
+      800,
+      0,
+      800,
+      800
+    ],
+    "pitch_deg": -6.0,
+    "pivot": [
+      116.5,
+      345.0
+    ],
+    "post_shift_px": [
+      35.0,
+      49.5
+    ],
+    "pre_shift_px": [
+      203.5,
+      -105.0
+    ],
+    "roll_deg": -6.0,
+    "visible_object_fraction": 1.732,
+    "yaw_deg": -40.0
+  },
+  "random_seed": 218784141,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

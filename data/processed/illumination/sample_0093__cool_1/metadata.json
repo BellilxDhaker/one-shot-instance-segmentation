@@ -1,0 +1,18 @@
+{
+  "category": "bus",
+  "condition": "cool",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-248552-165954",
+  "original_sample_id": "sample_0093",
+  "parameters": {
+    "mean_after": 73.395,
+    "mean_before": 72.639
+  },
+  "random_seed": 2986267722,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "cool_1"
+}

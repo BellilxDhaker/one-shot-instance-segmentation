@@ -1,0 +1,30 @@
+{
+  "category": "boat",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-179404-2055709",
+  "original_sample_id": "sample_0036",
+  "parameters": {
+    "achieved_factor": 1.1657,
+    "clamped": false,
+    "object_area_fraction_after": 0.006777,
+    "object_area_fraction_before": 0.005814,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.18,
+    "window": [
+      0,
+      0,
+      589,
+      442
+    ],
+    "zoom": 1.0863
+  },
+  "random_seed": 3681675026,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_1"
+}

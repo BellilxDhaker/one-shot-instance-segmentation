@@ -1,0 +1,57 @@
+{
+  "category": "broccoli",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1058001-1060528",
+  "original_sample_id": "sample_0055",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            518,
+            774,
+            292
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            224.5,
+            255.5
+          ],
+          "post_shift_px": [
+            143.0,
+            -40.0
+          ],
+          "pre_shift_px": [
+            95.5,
+            -15.5
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 2.3974,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 33.913,
+          "mean_before": 112.11
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 3065854301,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

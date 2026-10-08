@@ -1,0 +1,30 @@
+{
+  "category": "couch",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2223626-113720",
+  "original_sample_id": "sample_0090",
+  "parameters": {
+    "achieved_factor": 0.852,
+    "clamped": false,
+    "object_area_fraction_after": 0.025758,
+    "object_area_fraction_before": 0.030234,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.85,
+    "window": [
+      -105,
+      56,
+      589,
+      577
+    ],
+    "zoom": 0.922
+  },
+  "random_seed": 634394750,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_1"
+}

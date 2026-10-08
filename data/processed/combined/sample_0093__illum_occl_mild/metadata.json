@@ -1,0 +1,52 @@
+{
+  "category": "bus",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-248552-165954",
+  "original_sample_id": "sample_0093",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 26.857,
+          "mean_before": 72.639
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.1992,
+          "anchor": [
+            307,
+            122
+          ],
+          "aspect": 0.9659,
+          "feathered": false,
+          "occluder_type": "polygon",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            297,
+            225
+          ],
+          "window": [
+            272,
+            89,
+            342,
+            155
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 2652724000,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

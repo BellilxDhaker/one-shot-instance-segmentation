@@ -1,0 +1,30 @@
+{
+  "category": "laptop",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1100109-1099236",
+  "original_sample_id": "sample_0094",
+  "parameters": {
+    "achieved_factor": 1.1826,
+    "clamped": false,
+    "object_area_fraction_after": 0.01634,
+    "object_area_fraction_before": 0.013817,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.18,
+    "window": [
+      40,
+      34,
+      629,
+      426
+    ],
+    "zoom": 1.0863
+  },
+  "random_seed": 1184996157,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_1"
+}

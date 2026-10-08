@@ -1,0 +1,41 @@
+{
+  "category": "chair",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1944868-1580357",
+  "original_sample_id": "sample_0002",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": true,
+    "padding_px": [
+      0,
+      800,
+      393,
+      58
+    ],
+    "pitch_deg": -6.0,
+    "pivot": [
+      183.0,
+      622.0
+    ],
+    "post_shift_px": [
+      181.5,
+      246.5
+    ],
+    "pre_shift_px": [
+      57.0,
+      -302.0
+    ],
+    "roll_deg": -6.0,
+    "visible_object_fraction": 1.6986,
+    "yaw_deg": -40.0
+  },
+  "random_seed": 1984121257,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

@@ -1,0 +1,52 @@
+{
+  "category": "mouse",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1105714-1104548",
+  "original_sample_id": "sample_0068",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 18.424,
+          "mean_before": 57.429
+        },
+        "variant": "low_light_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2967,
+          "anchor": [
+            366,
+            531
+          ],
+          "aspect": 0.7136,
+          "feathered": false,
+          "occluder_type": "polygon",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            256,
+            113
+          ],
+          "window": [
+            272,
+            464,
+            460,
+            598
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 4069983918,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_strong"
+}

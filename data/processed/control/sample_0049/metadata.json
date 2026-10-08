@@ -1,0 +1,17 @@
+{
+  "category": "suitcase",
+  "condition": "identity",
+  "dataset": "coco2017-val",
+  "family": "control",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1186317-1842139",
+  "original_sample_id": "sample_0049",
+  "parameters": {
+    "identity": true
+  },
+  "random_seed": 533214974,
+  "severity": 0,
+  "transform_version": 1,
+  "transformation": "identity",
+  "variant": "identity"
+}

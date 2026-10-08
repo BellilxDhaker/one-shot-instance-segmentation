@@ -1,0 +1,18 @@
+{
+  "category": "cake",
+  "condition": "cool",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1084226-1088367",
+  "original_sample_id": "sample_0028",
+  "parameters": {
+    "mean_after": 114.443,
+    "mean_before": 113.308
+  },
+  "random_seed": 1026213989,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "cool_2"
+}

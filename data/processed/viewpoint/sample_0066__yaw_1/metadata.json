@@ -1,0 +1,41 @@
+{
+  "category": "donut",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1925293-1080349",
+  "original_sample_id": "sample_0066",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      42,
+      81,
+      94
+    ],
+    "pitch_deg": -0.0,
+    "pivot": [
+      316.5,
+      143.0
+    ],
+    "post_shift_px": [
+      57.72,
+      -97.0
+    ],
+    "pre_shift_px": [
+      3.5,
+      97.0
+    ],
+    "roll_deg": -0.0,
+    "visible_object_fraction": 1.0739,
+    "yaw_deg": -12.0
+  },
+  "random_seed": 1522474251,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

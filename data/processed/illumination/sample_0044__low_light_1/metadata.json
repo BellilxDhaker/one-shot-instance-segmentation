@@ -1,0 +1,18 @@
+{
+  "category": "skateboard",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-638070-639463",
+  "original_sample_id": "sample_0044",
+  "parameters": {
+    "mean_after": 109.71,
+    "mean_before": 136.003
+  },
+  "random_seed": 3153180522,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_1"
+}

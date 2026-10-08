@@ -1,0 +1,30 @@
+{
+  "category": "train",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-169968-171971",
+  "original_sample_id": "sample_0017",
+  "parameters": {
+    "achieved_factor": 1.0903,
+    "clamped": true,
+    "object_area_fraction_after": 0.484357,
+    "object_area_fraction_before": 0.44425,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.43,
+    "window": [
+      27,
+      0,
+      640,
+      410
+    ],
+    "zoom": 1.0439
+  },
+  "random_seed": 1692582410,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_2"
+}

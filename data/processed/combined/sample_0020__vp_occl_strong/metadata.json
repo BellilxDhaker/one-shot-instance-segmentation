@@ -1,0 +1,75 @@
+{
+  "category": "potted plant",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-20490-1609911",
+  "original_sample_id": "sample_0020",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            318,
+            128,
+            1,
+            705
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            385.5,
+            180.5
+          ],
+          "post_shift_px": [
+            -99.32,
+            -134.8
+          ],
+          "pre_shift_px": [
+            -145.5,
+            139.5
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 2.4263,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2998,
+          "anchor": [
+            396,
+            225
+          ],
+          "aspect": 1.4546,
+          "feathered": false,
+          "occluder_type": "polygon",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            85,
+            85
+          ],
+          "window": [
+            351,
+            159,
+            441,
+            291
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 3136321720,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

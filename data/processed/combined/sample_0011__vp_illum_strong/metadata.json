@@ -1,0 +1,57 @@
+{
+  "category": "cat",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-46859-49548",
+  "original_sample_id": "sample_0011",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 225.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            180,
+            88,
+            54
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            172.0,
+            277.0
+          ],
+          "post_shift_px": [
+            169.83,
+            -16.36
+          ],
+          "pre_shift_px": [
+            16.5,
+            -27.0
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 2.001,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 21.129,
+          "mean_before": 83.397
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 1319848057,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

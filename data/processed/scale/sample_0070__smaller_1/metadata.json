@@ -1,0 +1,30 @@
+{
+  "category": "hot dog",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1068304-1070340",
+  "original_sample_id": "sample_0070",
+  "parameters": {
+    "achieved_factor": 0.8453,
+    "clamped": false,
+    "object_area_fraction_after": 0.021126,
+    "object_area_fraction_before": 0.024993,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.85,
+    "window": [
+      -38,
+      208,
+      483,
+      902
+    ],
+    "zoom": 0.922
+  },
+  "random_seed": 1518504658,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_1"
+}

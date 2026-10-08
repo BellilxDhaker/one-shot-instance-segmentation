@@ -1,0 +1,18 @@
+{
+  "category": "scissors",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1158620-1157541",
+  "original_sample_id": "sample_0077",
+  "parameters": {
+    "mean_after": 61.566,
+    "mean_before": 88.646
+  },
+  "random_seed": 347459294,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_1"
+}

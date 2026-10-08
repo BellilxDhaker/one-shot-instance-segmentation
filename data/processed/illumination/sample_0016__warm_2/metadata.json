@@ -1,0 +1,18 @@
+{
+  "category": "handbag",
+  "condition": "warm",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1837185-1837302",
+  "original_sample_id": "sample_0016",
+  "parameters": {
+    "mean_after": 113.632,
+    "mean_before": 117.455
+  },
+  "random_seed": 1406342297,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "warm_2"
+}

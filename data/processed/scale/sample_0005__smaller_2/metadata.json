@@ -1,0 +1,30 @@
+{
+  "category": "cup",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1879964-1512961",
+  "original_sample_id": "sample_0005",
+  "parameters": {
+    "achieved_factor": 0.6991,
+    "clamped": false,
+    "object_area_fraction_after": 0.037817,
+    "object_area_fraction_before": 0.054092,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.7,
+    "window": [
+      -290,
+      -116,
+      475,
+      649
+    ],
+    "zoom": 0.8367
+  },
+  "random_seed": 2457282538,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_2"
+}

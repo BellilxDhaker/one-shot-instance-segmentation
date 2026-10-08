@@ -1,0 +1,18 @@
+{
+  "category": "tv",
+  "condition": "contrast_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-34898-1968885",
+  "original_sample_id": "sample_0089",
+  "parameters": {
+    "mean_after": 151.388,
+    "mean_before": 151.963
+  },
+  "random_seed": 854569738,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_down_3"
+}

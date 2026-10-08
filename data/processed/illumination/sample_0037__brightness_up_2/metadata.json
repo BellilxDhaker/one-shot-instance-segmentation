@@ -1,0 +1,18 @@
+{
+  "category": "refrigerator",
+  "condition": "brightness_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-330921-333731",
+  "original_sample_id": "sample_0037",
+  "parameters": {
+    "mean_after": 159.526,
+    "mean_before": 122.303
+  },
+  "random_seed": 1852866262,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_up_2"
+}

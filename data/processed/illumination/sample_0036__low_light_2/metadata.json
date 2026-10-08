@@ -1,0 +1,18 @@
+{
+  "category": "boat",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-179404-2055709",
+  "original_sample_id": "sample_0036",
+  "parameters": {
+    "mean_after": 62.227,
+    "mean_before": 101.764
+  },
+  "random_seed": 4247607072,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_2"
+}

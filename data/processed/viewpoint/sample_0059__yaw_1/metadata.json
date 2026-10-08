@@ -1,0 +1,41 @@
+{
+  "category": "carrot",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1563949-1565449",
+  "original_sample_id": "sample_0059",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      102,
+      267,
+      101
+    ],
+    "pitch_deg": -0.0,
+    "pivot": [
+      122.0,
+      182.0
+    ],
+    "post_shift_px": [
+      -136.78,
+      1.5
+    ],
+    "pre_shift_px": [
+      198.0,
+      -1.5
+    ],
+    "roll_deg": -0.0,
+    "visible_object_fraction": 1.0945,
+    "yaw_deg": -12.0
+  },
+  "random_seed": 1366182626,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

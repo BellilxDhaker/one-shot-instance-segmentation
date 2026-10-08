@@ -1,0 +1,41 @@
+{
+  "category": "laptop",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1098482-1097706",
+  "original_sample_id": "sample_0014",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      118,
+      90,
+      0,
+      77
+    ],
+    "pitch_deg": 0.0,
+    "pivot": [
+      376.5,
+      259.5
+    ],
+    "post_shift_px": [
+      -4.72,
+      19.5
+    ],
+    "pre_shift_px": [
+      -56.5,
+      -19.5
+    ],
+    "roll_deg": 0.0,
+    "visible_object_fraction": 1.128,
+    "yaw_deg": 12.0
+  },
+  "random_seed": 1996197568,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

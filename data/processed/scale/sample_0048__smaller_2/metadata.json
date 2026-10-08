@@ -1,0 +1,30 @@
+{
+  "category": "bird",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2229976-36154",
+  "original_sample_id": "sample_0048",
+  "parameters": {
+    "achieved_factor": 0.6992,
+    "clamped": false,
+    "object_area_fraction_after": 0.014785,
+    "object_area_fraction_before": 0.021146,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.7,
+    "window": [
+      -120,
+      -30,
+      645,
+      544
+    ],
+    "zoom": 0.8367
+  },
+  "random_seed": 630421140,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_2"
+}

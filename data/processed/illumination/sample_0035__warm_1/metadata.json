@@ -1,0 +1,18 @@
+{
+  "category": "clock",
+  "condition": "warm",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1666281-1666350",
+  "original_sample_id": "sample_0035",
+  "parameters": {
+    "mean_after": 63.65,
+    "mean_before": 64.258
+  },
+  "random_seed": 3211629520,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "warm_1"
+}

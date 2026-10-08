@@ -1,0 +1,18 @@
+{
+  "category": "person",
+  "condition": "mirror",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1332350-1304467",
+  "original_sample_id": "sample_0081",
+  "parameters": {
+    "axis": "horizontal",
+    "transformation": "mirror"
+  },
+  "random_seed": 4128025290,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "mirror",
+  "variant": "mirror"
+}

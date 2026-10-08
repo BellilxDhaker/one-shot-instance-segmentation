@@ -1,0 +1,52 @@
+{
+  "category": "pizza",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1923608-1077464",
+  "original_sample_id": "sample_0024",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 33.348,
+          "mean_before": 73.633
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2016,
+          "anchor": [
+            314,
+            178
+          ],
+          "aspect": 1.1477,
+          "feathered": false,
+          "occluder_type": "ellipse",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            419,
+            411
+          ],
+          "window": [
+            287,
+            148,
+            341,
+            208
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 162239238,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

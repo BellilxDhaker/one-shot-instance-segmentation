@@ -1,0 +1,41 @@
+{
+  "category": "bus",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-248552-165954",
+  "original_sample_id": "sample_0093",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      95,
+      257,
+      192
+    ],
+    "pitch_deg": -6.0,
+    "pivot": [
+      282.0,
+      147.0
+    ],
+    "post_shift_px": [
+      200.5,
+      -121.5
+    ],
+    "pre_shift_px": [
+      38.0,
+      66.0
+    ],
+    "roll_deg": -6.0,
+    "visible_object_fraction": 2.3897,
+    "yaw_deg": -40.0
+  },
+  "random_seed": 71038881,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

@@ -1,0 +1,30 @@
+{
+  "category": "dog",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-5993-14638",
+  "original_sample_id": "sample_0015",
+  "parameters": {
+    "achieved_factor": 1.4305,
+    "clamped": false,
+    "object_area_fraction_after": 0.188894,
+    "object_area_fraction_before": 0.132051,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.43,
+    "window": [
+      105,
+      70,
+      640,
+      427
+    ],
+    "zoom": 1.1958
+  },
+  "random_seed": 1718870724,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_2"
+}

@@ -1,0 +1,30 @@
+{
+  "category": "sports ball",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-303866-304578",
+  "original_sample_id": "sample_0076",
+  "parameters": {
+    "achieved_factor": 1.9887,
+    "clamped": false,
+    "object_area_fraction_after": 0.01291,
+    "object_area_fraction_before": 0.006492,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 2.0,
+    "window": [
+      0,
+      125,
+      453,
+      427
+    ],
+    "zoom": 1.4142
+  },
+  "random_seed": 3993042383,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_3"
+}

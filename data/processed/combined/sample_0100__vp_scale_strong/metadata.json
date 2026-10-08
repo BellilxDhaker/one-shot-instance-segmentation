@@ -1,0 +1,69 @@
+{
+  "category": "potted plant",
+  "condition": "viewpoint+scale",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1955786-1610466",
+  "original_sample_id": "sample_0100",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            14,
+            10,
+            0,
+            93
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            214.0,
+            182.5
+          ],
+          "post_shift_px": [
+            -350.82,
+            -54.3
+          ],
+          "pre_shift_px": [
+            106.0,
+            59.0
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 2.2368,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "scale",
+        "info": {
+          "achieved_factor": 0.4974,
+          "clamped": false,
+          "object_area_fraction_after": 0.009304,
+          "object_area_fraction_before": 0.018705,
+          "pad_mode": "reflect",
+          "padded": true,
+          "requested_factor": 0.5,
+          "window": [
+            -235,
+            -158,
+            670,
+            525
+          ],
+          "zoom": 0.7071
+        },
+        "variant": "smaller_3"
+      }
+    ]
+  },
+  "random_seed": 4037842404,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_scale_strong"
+}

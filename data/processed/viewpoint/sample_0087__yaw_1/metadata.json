@@ -1,0 +1,41 @@
+{
+  "category": "truck",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-397308-2052213",
+  "original_sample_id": "sample_0087",
+  "parameters": {
+    "focal_px": 225.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      200,
+      290,
+      56
+    ],
+    "pitch_deg": -0.0,
+    "pivot": [
+      44.0,
+      296.5
+    ],
+    "post_shift_px": [
+      -158.17,
+      109.0
+    ],
+    "pre_shift_px": [
+      206.0,
+      -109.0
+    ],
+    "roll_deg": -0.0,
+    "visible_object_fraction": 1.0424,
+    "yaw_deg": -12.0
+  },
+  "random_seed": 3598944317,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

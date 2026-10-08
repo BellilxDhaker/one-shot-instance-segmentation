@@ -1,0 +1,30 @@
+{
+  "category": "apple",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1907763-1551504",
+  "original_sample_id": "sample_0062",
+  "parameters": {
+    "achieved_factor": 2.0126,
+    "clamped": false,
+    "object_area_fraction_after": 0.010882,
+    "object_area_fraction_before": 0.005407,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 2.0,
+    "window": [
+      0,
+      33,
+      453,
+      372
+    ],
+    "zoom": 1.4142
+  },
+  "random_seed": 3423104456,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_3"
+}

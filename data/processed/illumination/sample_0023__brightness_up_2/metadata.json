@@ -1,0 +1,18 @@
+{
+  "category": "book",
+  "condition": "brightness_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1141588-1147813",
+  "original_sample_id": "sample_0023",
+  "parameters": {
+    "mean_after": 71.231,
+    "mean_before": 53.762
+  },
+  "random_seed": 3169346999,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_up_2"
+}

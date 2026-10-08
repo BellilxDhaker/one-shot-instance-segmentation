@@ -1,0 +1,18 @@
+{
+  "category": "apple",
+  "condition": "brightness_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1907763-1551504",
+  "original_sample_id": "sample_0062",
+  "parameters": {
+    "mean_after": 140.301,
+    "mean_before": 107.994
+  },
+  "random_seed": 2881912105,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_up_2"
+}

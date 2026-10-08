@@ -1,0 +1,57 @@
+{
+  "category": "baseball bat",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-628128-628868",
+  "original_sample_id": "sample_0072",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            166,
+            144,
+            0,
+            222
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            326.0,
+            295.0
+          ],
+          "post_shift_px": [
+            -238.82,
+            43.7
+          ],
+          "pre_shift_px": [
+            -6.0,
+            -39.0
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 1.6614,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 24.608,
+          "mean_before": 114.582
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 1530706280,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

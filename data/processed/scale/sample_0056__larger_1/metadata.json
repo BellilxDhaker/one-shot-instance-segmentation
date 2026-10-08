@@ -1,0 +1,30 @@
+{
+  "category": "fire hydrant",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-417721-417693",
+  "original_sample_id": "sample_0056",
+  "parameters": {
+    "achieved_factor": 1.1838,
+    "clamped": false,
+    "object_area_fraction_after": 0.051767,
+    "object_area_fraction_before": 0.043728,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.18,
+    "window": [
+      51,
+      34,
+      640,
+      427
+    ],
+    "zoom": 1.0863
+  },
+  "random_seed": 4001571775,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_1"
+}

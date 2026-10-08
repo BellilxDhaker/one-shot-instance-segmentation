@@ -1,0 +1,30 @@
+{
+  "category": "handbag",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1174289-1178474",
+  "original_sample_id": "sample_0096",
+  "parameters": {
+    "achieved_factor": 2.0002,
+    "clamped": false,
+    "object_area_fraction_after": 0.071754,
+    "object_area_fraction_before": 0.035874,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 2.0,
+    "window": [
+      146,
+      98,
+      500,
+      333
+    ],
+    "zoom": 1.4142
+  },
+  "random_seed": 1752113685,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_3"
+}

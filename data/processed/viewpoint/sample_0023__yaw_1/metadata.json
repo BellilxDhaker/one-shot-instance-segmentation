@@ -1,0 +1,41 @@
+{
+  "category": "book",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1141588-1147813",
+  "original_sample_id": "sample_0023",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      221,
+      88,
+      0,
+      125
+    ],
+    "pitch_deg": 0.0,
+    "pivot": [
+      482.0,
+      175.5
+    ],
+    "post_shift_px": [
+      100.78,
+      -38.0
+    ],
+    "pre_shift_px": [
+      -162.0,
+      38.0
+    ],
+    "roll_deg": 0.0,
+    "visible_object_fraction": 1.0843,
+    "yaw_deg": 12.0
+  },
+  "random_seed": 3203280146,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

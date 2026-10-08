@@ -1,0 +1,41 @@
+{
+  "category": "cake",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1084226-1088367",
+  "original_sample_id": "sample_0028",
+  "parameters": {
+    "focal_px": 225.0,
+    "pad_mode": "reflect",
+    "padding_capped": true,
+    "padding_px": [
+      0,
+      625,
+      625,
+      260
+    ],
+    "pitch_deg": -6.0,
+    "pivot": [
+      31.5,
+      358.5
+    ],
+    "post_shift_px": [
+      30.33,
+      65.14
+    ],
+    "pre_shift_px": [
+      156.0,
+      -108.5
+    ],
+    "roll_deg": -6.0,
+    "visible_object_fraction": 1.6827,
+    "yaw_deg": -40.0
+  },
+  "random_seed": 3090491058,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

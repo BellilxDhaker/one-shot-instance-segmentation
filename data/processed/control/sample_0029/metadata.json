@@ -1,0 +1,17 @@
+{
+  "category": "backpack",
+  "condition": "identity",
+  "dataset": "coco2017-val",
+  "family": "control",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1170444-1422343",
+  "original_sample_id": "sample_0029",
+  "parameters": {
+    "identity": true
+  },
+  "random_seed": 886891442,
+  "severity": 0,
+  "transform_version": 1,
+  "transformation": "identity",
+  "variant": "identity"
+}

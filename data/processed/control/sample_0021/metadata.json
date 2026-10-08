@@ -1,0 +1,17 @@
+{
+  "category": "motorcycle",
+  "condition": "identity",
+  "dataset": "coco2017-val",
+  "family": "control",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-155431-365209",
+  "original_sample_id": "sample_0021",
+  "parameters": {
+    "identity": true
+  },
+  "random_seed": 146737715,
+  "severity": 0,
+  "transform_version": 1,
+  "transformation": "identity",
+  "variant": "identity"
+}

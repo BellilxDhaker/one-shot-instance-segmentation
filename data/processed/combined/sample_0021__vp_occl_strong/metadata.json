@@ -1,0 +1,75 @@
+{
+  "category": "motorcycle",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-155431-365209",
+  "original_sample_id": "sample_0021",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            214,
+            173,
+            102
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            335.5,
+            282.0
+          ],
+          "post_shift_px": [
+            254.0,
+            13.0
+          ],
+          "pre_shift_px": [
+            -15.5,
+            -68.5
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 1.6996,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.3003,
+          "anchor": [
+            103,
+            319
+          ],
+          "aspect": 0.8521,
+          "feathered": true,
+          "occluder_type": "patch",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            10,
+            206
+          ],
+          "window": [
+            0,
+            215,
+            226,
+            423
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 3000780406,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

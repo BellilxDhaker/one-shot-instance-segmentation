@@ -1,0 +1,30 @@
+{
+  "category": "baseball bat",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-628128-628868",
+  "original_sample_id": "sample_0072",
+  "parameters": {
+    "achieved_factor": 0.4952,
+    "clamped": false,
+    "object_area_fraction_after": 0.007809,
+    "object_area_fraction_before": 0.015771,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.5,
+    "window": [
+      -126,
+      -67,
+      779,
+      657
+    ],
+    "zoom": 0.7071
+  },
+  "random_seed": 3729397822,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_3"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "train",
+  "condition": "contrast_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-169968-171971",
+  "original_sample_id": "sample_0017",
+  "parameters": {
+    "mean_after": 80.314,
+    "mean_before": 80.786
+  },
+  "random_seed": 2742156907,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_down_3"
+}

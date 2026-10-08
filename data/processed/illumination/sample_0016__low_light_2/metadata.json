@@ -1,0 +1,18 @@
+{
+  "category": "handbag",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1837185-1837302",
+  "original_sample_id": "sample_0016",
+  "parameters": {
+    "mean_after": 68.832,
+    "mean_before": 117.455
+  },
+  "random_seed": 3698304901,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_2"
+}

@@ -1,0 +1,30 @@
+{
+  "category": "wine glass",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2182951-662573",
+  "original_sample_id": "sample_0053",
+  "parameters": {
+    "achieved_factor": 1.4405,
+    "clamped": true,
+    "object_area_fraction_after": 0.053839,
+    "object_area_fraction_before": 0.037377,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 2.0,
+    "window": [
+      0,
+      1,
+      534,
+      244
+    ],
+    "zoom": 1.1975
+  },
+  "random_seed": 1604857105,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_3"
+}

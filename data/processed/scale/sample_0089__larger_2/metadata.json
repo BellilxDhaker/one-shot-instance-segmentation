@@ -1,0 +1,30 @@
+{
+  "category": "tv",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-34898-1968885",
+  "original_sample_id": "sample_0089",
+  "parameters": {
+    "achieved_factor": 1.0482,
+    "clamped": true,
+    "object_area_fraction_after": 0.505374,
+    "object_area_fraction_before": 0.482155,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.43,
+    "window": [
+      15,
+      0,
+      640,
+      469
+    ],
+    "zoom": 1.024
+  },
+  "random_seed": 1029135476,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_2"
+}

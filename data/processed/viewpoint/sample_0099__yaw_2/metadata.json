@@ -1,0 +1,41 @@
+{
+  "category": "toilet",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1096987-1092947",
+  "original_sample_id": "sample_0099",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      746,
+      774,
+      119
+    ],
+    "pitch_deg": -4.0,
+    "pivot": [
+      196.0,
+      415.5
+    ],
+    "post_shift_px": [
+      9.39,
+      149.34
+    ],
+    "pre_shift_px": [
+      124.0,
+      -176.5
+    ],
+    "roll_deg": -3.0,
+    "visible_object_fraction": 1.0607,
+    "yaw_deg": -25.0
+  },
+  "random_seed": 4004759844,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_2"
+}

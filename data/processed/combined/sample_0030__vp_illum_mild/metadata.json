@@ -1,0 +1,57 @@
+{
+  "category": "bicycle",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-130806-127950",
+  "original_sample_id": "sample_0030",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": true,
+          "padding_px": [
+            0,
+            800,
+            632,
+            138
+          ],
+          "pitch_deg": -4.0,
+          "pivot": [
+            235.5,
+            519.5
+          ],
+          "post_shift_px": [
+            48.89,
+            172.34
+          ],
+          "pre_shift_px": [
+            84.5,
+            -199.5
+          ],
+          "roll_deg": -3.0,
+          "visible_object_fraction": 1.3872,
+          "yaw_deg": -25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 20.532,
+          "mean_before": 52.911
+        },
+        "variant": "low_light_2"
+      }
+    ]
+  },
+  "random_seed": 4006743651,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_mild"
+}

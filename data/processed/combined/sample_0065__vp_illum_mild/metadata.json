@@ -1,0 +1,57 @@
+{
+  "category": "bear",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-587646-588042",
+  "original_sample_id": "sample_0065",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": true,
+          "padding_px": [
+            0,
+            410,
+            800,
+            727
+          ],
+          "pitch_deg": -4.0,
+          "pivot": [
+            44.0,
+            140.0
+          ],
+          "post_shift_px": [
+            -142.61,
+            -115.66
+          ],
+          "pre_shift_px": [
+            276.0,
+            88.5
+          ],
+          "roll_deg": -3.0,
+          "visible_object_fraction": 1.1908,
+          "yaw_deg": -25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 66.83,
+          "mean_before": 134.017
+        },
+        "variant": "low_light_2"
+      }
+    ]
+  },
+  "random_seed": 400298594,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_mild"
+}

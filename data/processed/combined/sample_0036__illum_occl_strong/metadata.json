@@ -1,0 +1,52 @@
+{
+  "category": "boat",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-179404-2055709",
+  "original_sample_id": "sample_0036",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 49.387,
+          "mean_before": 101.764
+        },
+        "variant": "low_light_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2945,
+          "anchor": [
+            12,
+            186
+          ],
+          "aspect": 0.9586,
+          "feathered": false,
+          "occluder_type": "polygon",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            112,
+            23
+          ],
+          "window": [
+            0,
+            163,
+            35,
+            209
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 813802262,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_strong"
+}

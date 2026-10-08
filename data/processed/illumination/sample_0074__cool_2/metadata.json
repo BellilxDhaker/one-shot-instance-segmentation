@@ -1,0 +1,18 @@
+{
+  "category": "parking meter",
+  "condition": "cool",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-419476-418211",
+  "original_sample_id": "sample_0074",
+  "parameters": {
+    "mean_after": 84.163,
+    "mean_before": 81.631
+  },
+  "random_seed": 1608462543,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "cool_2"
+}

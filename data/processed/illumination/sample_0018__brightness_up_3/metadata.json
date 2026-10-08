@@ -1,0 +1,18 @@
+{
+  "category": "umbrella",
+  "condition": "brightness_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1428882-286600",
+  "original_sample_id": "sample_0018",
+  "parameters": {
+    "mean_after": 188.477,
+    "mean_before": 140.017
+  },
+  "random_seed": 274601452,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_up_3"
+}

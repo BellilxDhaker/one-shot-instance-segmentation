@@ -1,0 +1,52 @@
+{
+  "category": "fork",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-689203-687468",
+  "original_sample_id": "sample_0039",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 29.708,
+          "mean_before": 121.855
+        },
+        "variant": "low_light_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.3043,
+          "anchor": [
+            20,
+            214
+          ],
+          "aspect": 0.6543,
+          "feathered": false,
+          "occluder_type": "ellipse",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            141,
+            118
+          ],
+          "window": [
+            0,
+            191,
+            56,
+            237
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 1111475328,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_strong"
+}

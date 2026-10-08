@@ -1,0 +1,30 @@
+{
+  "category": "bear",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-587646-588042",
+  "original_sample_id": "sample_0065",
+  "parameters": {
+    "achieved_factor": 1.4352,
+    "clamped": false,
+    "object_area_fraction_after": 0.070172,
+    "object_area_fraction_before": 0.048892,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.43,
+    "window": [
+      0,
+      0,
+      535,
+      382
+    ],
+    "zoom": 1.1958
+  },
+  "random_seed": 104343816,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_2"
+}

@@ -1,0 +1,57 @@
+{
+  "category": "banana",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1042088-1544295",
+  "original_sample_id": "sample_0047",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 225.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            125,
+            164,
+            0,
+            99
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            234.0,
+            397.5
+          ],
+          "post_shift_px": [
+            -144.77,
+            151.18
+          ],
+          "pre_shift_px": [
+            -46.5,
+            -147.5
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 2.2744,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 33.797,
+          "mean_before": 112.091
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 229043923,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

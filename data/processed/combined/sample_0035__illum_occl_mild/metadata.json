@@ -1,0 +1,52 @@
+{
+  "category": "clock",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1666281-1666350",
+  "original_sample_id": "sample_0035",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 24.256,
+          "mean_before": 64.258
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.198,
+          "anchor": [
+            514,
+            140
+          ],
+          "aspect": 1.2254,
+          "feathered": false,
+          "occluder_type": "rect",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            0,
+            20
+          ],
+          "window": [
+            501,
+            125,
+            527,
+            155
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 2762438693,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

@@ -1,0 +1,41 @@
+{
+  "category": "handbag",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1837185-1837302",
+  "original_sample_id": "sample_0016",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      156,
+      231,
+      125
+    ],
+    "pitch_deg": -4.0,
+    "pivot": [
+      302.5,
+      226.5
+    ],
+    "post_shift_px": [
+      115.89,
+      -14.16
+    ],
+    "pre_shift_px": [
+      17.5,
+      -13.0
+    ],
+    "roll_deg": -3.0,
+    "visible_object_fraction": 1.3559,
+    "yaw_deg": -25.0
+  },
+  "random_seed": 1331745398,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_2"
+}

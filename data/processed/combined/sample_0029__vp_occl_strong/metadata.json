@@ -1,0 +1,75 @@
+{
+  "category": "backpack",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1170444-1422343",
+  "original_sample_id": "sample_0029",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            22,
+            0,
+            0,
+            0
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            26.5,
+            247.0
+          ],
+          "post_shift_px": [
+            -538.32,
+            37.7
+          ],
+          "pre_shift_px": [
+            293.5,
+            -33.0
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 1.903,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2995,
+          "anchor": [
+            40,
+            275
+          ],
+          "aspect": 0.8773,
+          "feathered": true,
+          "occluder_type": "patch",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            240,
+            318
+          ],
+          "window": [
+            20,
+            258,
+            60,
+            292
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 1637267872,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

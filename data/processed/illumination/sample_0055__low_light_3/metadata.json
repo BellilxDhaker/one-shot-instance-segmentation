@@ -1,0 +1,18 @@
+{
+  "category": "broccoli",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1058001-1060528",
+  "original_sample_id": "sample_0055",
+  "parameters": {
+    "mean_after": 29.948,
+    "mean_before": 104.623
+  },
+  "random_seed": 1808768815,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_3"
+}

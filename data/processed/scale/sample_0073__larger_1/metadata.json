@@ -1,0 +1,30 @@
+{
+  "category": "baseball glove",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1858307-634731",
+  "original_sample_id": "sample_0073",
+  "parameters": {
+    "achieved_factor": 1.1783,
+    "clamped": false,
+    "object_area_fraction_after": 0.158931,
+    "object_area_fraction_before": 0.134885,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.18,
+    "window": [
+      0,
+      24,
+      265,
+      307
+    ],
+    "zoom": 1.0863
+  },
+  "random_seed": 1554289236,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_1"
+}

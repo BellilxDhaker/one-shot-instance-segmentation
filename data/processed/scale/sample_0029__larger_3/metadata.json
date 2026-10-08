@@ -1,0 +1,30 @@
+{
+  "category": "backpack",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1170444-1422343",
+  "original_sample_id": "sample_0029",
+  "parameters": {
+    "achieved_factor": 2.0006,
+    "clamped": false,
+    "object_area_fraction_after": 0.012723,
+    "object_area_fraction_before": 0.00636,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 2.0,
+    "window": [
+      0,
+      96,
+      453,
+      399
+    ],
+    "zoom": 1.4142
+  },
+  "random_seed": 4136080311,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_3"
+}

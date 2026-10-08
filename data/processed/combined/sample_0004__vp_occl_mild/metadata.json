@@ -1,0 +1,75 @@
+{
+  "category": "car",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1338552-347918",
+  "original_sample_id": "sample_0004",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 225.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            58,
+            43,
+            34
+          ],
+          "pitch_deg": -4.0,
+          "pivot": [
+            177.5,
+            190.0
+          ],
+          "post_shift_px": [
+            114.21,
+            -81.22
+          ],
+          "pre_shift_px": [
+            -10.0,
+            60.0
+          ],
+          "roll_deg": -3.0,
+          "visible_object_fraction": 1.4477,
+          "yaw_deg": -25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2014,
+          "anchor": [
+            24,
+            224
+          ],
+          "aspect": 0.7578,
+          "feathered": false,
+          "occluder_type": "ellipse",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            89,
+            342
+          ],
+          "window": [
+            0,
+            178,
+            85,
+            270
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 4232163836,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_mild"
+}

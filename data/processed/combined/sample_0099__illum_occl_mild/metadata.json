@@ -1,0 +1,52 @@
+{
+  "category": "toilet",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1096987-1092947",
+  "original_sample_id": "sample_0099",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 37.597,
+          "mean_before": 96.95
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2026,
+          "anchor": [
+            267,
+            378
+          ],
+          "aspect": 0.7372,
+          "feathered": false,
+          "occluder_type": "rect",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            122,
+            39
+          ],
+          "window": [
+            228,
+            349,
+            306,
+            407
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 120712669,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

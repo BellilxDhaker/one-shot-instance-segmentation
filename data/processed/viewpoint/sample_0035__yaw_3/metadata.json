@@ -1,0 +1,41 @@
+{
+  "category": "clock",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1666281-1666350",
+  "original_sample_id": "sample_0035",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": true,
+    "padding_px": [
+      800,
+      374,
+      0,
+      800
+    ],
+    "pitch_deg": 6.0,
+    "pivot": [
+      524.5,
+      124.5
+    ],
+    "post_shift_px": [
+      -40.32,
+      -83.8
+    ],
+    "pre_shift_px": [
+      -204.5,
+      88.5
+    ],
+    "roll_deg": 6.0,
+    "visible_object_fraction": 2.2737,
+    "yaw_deg": 40.0
+  },
+  "random_seed": 2815913840,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

@@ -1,0 +1,57 @@
+{
+  "category": "hot dog",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1068304-1070340",
+  "original_sample_id": "sample_0070",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            79,
+            77,
+            0,
+            51
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            222.5,
+            555.5
+          ],
+          "post_shift_px": [
+            -262.32,
+            240.2
+          ],
+          "pre_shift_px": [
+            17.5,
+            -235.5
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 2.6386,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 30.929,
+          "mean_before": 97.211
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 3100620269,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

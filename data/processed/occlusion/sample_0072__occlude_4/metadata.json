@@ -1,0 +1,36 @@
+{
+  "category": "baseball bat",
+  "condition": "patch",
+  "dataset": "coco2017-val",
+  "family": "occlusion",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-628128-628868",
+  "original_sample_id": "sample_0072",
+  "parameters": {
+    "achieved_fraction": 0.3998,
+    "anchor": [
+      409,
+      303
+    ],
+    "aspect": 1.2785,
+    "feathered": true,
+    "occluder_type": "patch",
+    "target_fraction": 0.4,
+    "texture_origin": [
+      22,
+      144
+    ],
+    "window": [
+      287,
+      147,
+      531,
+      459
+    ],
+    "within_tolerance": true
+  },
+  "random_seed": 526858887,
+  "severity": 4,
+  "transform_version": 1,
+  "transformation": "occlude",
+  "variant": "occlude_4"
+}

@@ -1,0 +1,68 @@
+{
+  "baseline": "results/baseline",
+  "baseline_samples": 100,
+  "rationale": "samples ranked by baseline IoU (results/baseline/samples), then picked at evenly spaced ranks so retention is measured across the whole performance range instead of only on the easy end",
+  "samples": [
+    {
+      "baseline_iou": 0.0,
+      "rank": 0,
+      "sample_id": "sample_0001"
+    },
+    {
+      "baseline_iou": 0.0,
+      "rank": 9,
+      "sample_id": "sample_0030"
+    },
+    {
+      "baseline_iou": 0.0,
+      "rank": 18,
+      "sample_id": "sample_0062"
+    },
+    {
+      "baseline_iou": 0.0,
+      "rank": 27,
+      "sample_id": "sample_0094"
+    },
+    {
+      "baseline_iou": 0.007831,
+      "rank": 36,
+      "sample_id": "sample_0029"
+    },
+    {
+      "baseline_iou": 0.04529,
+      "rank": 45,
+      "sample_id": "sample_0060"
+    },
+    {
+      "baseline_iou": 0.14491,
+      "rank": 54,
+      "sample_id": "sample_0070"
+    },
+    {
+      "baseline_iou": 0.30541,
+      "rank": 63,
+      "sample_id": "sample_0092"
+    },
+    {
+      "baseline_iou": 0.475945,
+      "rank": 72,
+      "sample_id": "sample_0014"
+    },
+    {
+      "baseline_iou": 0.678957,
+      "rank": 81,
+      "sample_id": "sample_0059"
+    },
+    {
+      "baseline_iou": 0.912797,
+      "rank": 90,
+      "sample_id": "sample_0007"
+    },
+    {
+      "baseline_iou": 0.962391,
+      "rank": 99,
+      "sample_id": "sample_0095"
+    }
+  ],
+  "selection_size": 12
+}

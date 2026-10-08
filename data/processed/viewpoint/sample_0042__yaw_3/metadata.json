@@ -1,0 +1,41 @@
+{
+  "category": "airplane",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-159116-159295",
+  "original_sample_id": "sample_0042",
+  "parameters": {
+    "focal_px": 225.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      13,
+      10,
+      0,
+      51
+    ],
+    "pitch_deg": 6.0,
+    "pivot": [
+      162.0,
+      166.5
+    ],
+    "post_shift_px": [
+      -279.27,
+      10.68
+    ],
+    "pre_shift_px": [
+      88.0,
+      -7.0
+    ],
+    "roll_deg": 6.0,
+    "visible_object_fraction": 1.4168,
+    "yaw_deg": 40.0
+  },
+  "random_seed": 2458685483,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

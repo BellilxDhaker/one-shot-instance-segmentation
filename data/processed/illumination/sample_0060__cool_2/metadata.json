@@ -1,0 +1,18 @@
+{
+  "category": "kite",
+  "condition": "cool",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-621853-1465879",
+  "original_sample_id": "sample_0060",
+  "parameters": {
+    "mean_after": 150.258,
+    "mean_before": 148.11
+  },
+  "random_seed": 4231245976,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "cool_2"
+}

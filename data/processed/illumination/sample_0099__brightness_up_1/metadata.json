@@ -1,0 +1,18 @@
+{
+  "category": "toilet",
+  "condition": "brightness_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1096987-1092947",
+  "original_sample_id": "sample_0099",
+  "parameters": {
+    "mean_after": 110.012,
+    "mean_before": 96.95
+  },
+  "random_seed": 3186187184,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_up_1"
+}

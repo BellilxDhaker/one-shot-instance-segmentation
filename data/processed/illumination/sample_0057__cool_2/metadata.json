@@ -1,0 +1,18 @@
+{
+  "category": "orange",
+  "condition": "cool",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2187549-1912948",
+  "original_sample_id": "sample_0057",
+  "parameters": {
+    "mean_after": 57.989,
+    "mean_before": 58.142
+  },
+  "random_seed": 3168812995,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "cool_2"
+}

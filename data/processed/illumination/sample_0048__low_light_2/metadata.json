@@ -1,0 +1,18 @@
+{
+  "category": "bird",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2229976-36154",
+  "original_sample_id": "sample_0048",
+  "parameters": {
+    "mean_after": 81.378,
+    "mean_before": 151.582
+  },
+  "random_seed": 1158734053,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_2"
+}

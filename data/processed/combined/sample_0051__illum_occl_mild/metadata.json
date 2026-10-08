@@ -1,0 +1,52 @@
+{
+  "category": "vase",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1994789-1153655",
+  "original_sample_id": "sample_0051",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 37.116,
+          "mean_before": 109.783
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.199,
+          "anchor": [
+            373,
+            488
+          ],
+          "aspect": 1.3077,
+          "feathered": false,
+          "occluder_type": "rect",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            72,
+            376
+          ],
+          "window": [
+            308,
+            402,
+            438,
+            574
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 1153411245,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

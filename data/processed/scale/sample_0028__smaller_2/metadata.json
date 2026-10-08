@@ -1,0 +1,30 @@
+{
+  "category": "cake",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1084226-1088367",
+  "original_sample_id": "sample_0028",
+  "parameters": {
+    "achieved_factor": 0.7053,
+    "clamped": false,
+    "object_area_fraction_after": 0.008501,
+    "object_area_fraction_before": 0.012053,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.7,
+    "window": [
+      -192,
+      60,
+      256,
+      658
+    ],
+    "zoom": 0.8367
+  },
+  "random_seed": 1855050938,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_2"
+}

@@ -1,0 +1,69 @@
+{
+  "category": "cake",
+  "condition": "viewpoint+scale",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1084226-1088367",
+  "original_sample_id": "sample_0028",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 225.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            22,
+            0,
+            0,
+            2
+          ],
+          "pitch_deg": 4.0,
+          "pivot": [
+            31.5,
+            358.5
+          ],
+          "post_shift_px": [
+            -261.85,
+            118.71
+          ],
+          "pre_shift_px": [
+            156.0,
+            -108.5
+          ],
+          "roll_deg": 3.0,
+          "visible_object_fraction": 1.2836,
+          "yaw_deg": 25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "scale",
+        "info": {
+          "achieved_factor": 0.707,
+          "clamped": false,
+          "object_area_fraction_after": 0.010939,
+          "object_area_fraction_before": 0.015472,
+          "pad_mode": "reflect",
+          "padded": true,
+          "requested_factor": 0.7,
+          "window": [
+            -188,
+            52,
+            260,
+            650
+          ],
+          "zoom": 0.8367
+        },
+        "variant": "smaller_2"
+      }
+    ]
+  },
+  "random_seed": 3745014155,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_scale_mild"
+}

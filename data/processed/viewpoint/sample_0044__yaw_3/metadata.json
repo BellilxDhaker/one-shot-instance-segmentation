@@ -1,0 +1,41 @@
+{
+  "category": "skateboard",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-638070-639463",
+  "original_sample_id": "sample_0044",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      142,
+      140,
+      0,
+      111
+    ],
+    "pitch_deg": 6.0,
+    "pivot": [
+      310.0,
+      329.0
+    ],
+    "post_shift_px": [
+      -254.82,
+      124.7
+    ],
+    "pre_shift_px": [
+      10.0,
+      -120.0
+    ],
+    "roll_deg": 6.0,
+    "visible_object_fraction": 2.1174,
+    "yaw_deg": 40.0
+  },
+  "random_seed": 1283341695,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "skis",
+  "condition": "brightness_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2200513-2199903",
+  "original_sample_id": "sample_0063",
+  "parameters": {
+    "mean_after": 154.568,
+    "mean_before": 138.019
+  },
+  "random_seed": 1327381386,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_up_1"
+}

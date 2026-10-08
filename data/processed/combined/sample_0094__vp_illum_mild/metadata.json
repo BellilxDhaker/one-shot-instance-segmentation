@@ -1,0 +1,57 @@
+{
+  "category": "laptop",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1100109-1099236",
+  "original_sample_id": "sample_0094",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            181,
+            186,
+            85
+          ],
+          "pitch_deg": -4.0,
+          "pivot": [
+            334.5,
+            283.5
+          ],
+          "post_shift_px": [
+            147.89,
+            43.34
+          ],
+          "pre_shift_px": [
+            -14.5,
+            -70.5
+          ],
+          "roll_deg": -3.0,
+          "visible_object_fraction": 1.3332,
+          "yaw_deg": -25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 21.267,
+          "mean_before": 64.592
+        },
+        "variant": "low_light_2"
+      }
+    ]
+  },
+  "random_seed": 3623462299,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_mild"
+}

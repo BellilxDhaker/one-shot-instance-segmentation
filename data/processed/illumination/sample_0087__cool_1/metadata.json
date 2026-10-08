@@ -1,0 +1,18 @@
+{
+  "category": "truck",
+  "condition": "cool",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-397308-2052213",
+  "original_sample_id": "sample_0087",
+  "parameters": {
+    "mean_after": 130.082,
+    "mean_before": 127.867
+  },
+  "random_seed": 440767166,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "cool_1"
+}

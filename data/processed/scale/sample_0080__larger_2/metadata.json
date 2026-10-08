@@ -1,0 +1,30 @@
+{
+  "category": "hair drier",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1188212-1188281",
+  "original_sample_id": "sample_0080",
+  "parameters": {
+    "achieved_factor": 1.4316,
+    "clamped": false,
+    "object_area_fraction_after": 0.049645,
+    "object_area_fraction_before": 0.034678,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.43,
+    "window": [
+      66,
+      56,
+      467,
+      591
+    ],
+    "zoom": 1.1958
+  },
+  "random_seed": 2346758953,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_2"
+}

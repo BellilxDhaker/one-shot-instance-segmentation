@@ -1,0 +1,18 @@
+{
+  "category": "skateboard",
+  "condition": "mirror",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-638070-639463",
+  "original_sample_id": "sample_0044",
+  "parameters": {
+    "axis": "horizontal",
+    "transformation": "mirror"
+  },
+  "random_seed": 3993294897,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "mirror",
+  "variant": "mirror"
+}

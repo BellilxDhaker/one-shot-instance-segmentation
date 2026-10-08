@@ -1,0 +1,41 @@
+{
+  "category": "toothbrush",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-341646-1998926",
+  "original_sample_id": "sample_0078",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      3,
+      0,
+      0
+    ],
+    "pitch_deg": -6.0,
+    "pivot": [
+      563.0,
+      345.0
+    ],
+    "post_shift_px": [
+      481.5,
+      49.5
+    ],
+    "pre_shift_px": [
+      -243.0,
+      -105.0
+    ],
+    "roll_deg": -6.0,
+    "visible_object_fraction": 2.0182,
+    "yaw_deg": -40.0
+  },
+  "random_seed": 2042009612,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "baseball glove",
+  "condition": "brightness_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1858307-634731",
+  "original_sample_id": "sample_0073",
+  "parameters": {
+    "mean_after": 66.661,
+    "mean_before": 111.765
+  },
+  "random_seed": 4074618736,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_down_2"
+}

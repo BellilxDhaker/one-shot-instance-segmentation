@@ -1,0 +1,18 @@
+{
+  "category": "cup",
+  "condition": "contrast_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-684935-1884673",
+  "original_sample_id": "sample_0085",
+  "parameters": {
+    "mean_after": 53.086,
+    "mean_before": 53.608
+  },
+  "random_seed": 672585767,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_down_2"
+}

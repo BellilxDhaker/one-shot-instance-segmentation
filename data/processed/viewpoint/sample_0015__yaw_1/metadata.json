@@ -1,0 +1,41 @@
+{
+  "category": "dog",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-5993-14638",
+  "original_sample_id": "sample_0015",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      186,
+      114,
+      0,
+      79
+    ],
+    "pitch_deg": 0.0,
+    "pivot": [
+      451.0,
+      254.5
+    ],
+    "post_shift_px": [
+      69.78,
+      41.0
+    ],
+    "pre_shift_px": [
+      -131.0,
+      -41.0
+    ],
+    "roll_deg": 0.0,
+    "visible_object_fraction": 1.0758,
+    "yaw_deg": 12.0
+  },
+  "random_seed": 2892855271,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

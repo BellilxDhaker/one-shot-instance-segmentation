@@ -1,0 +1,36 @@
+{
+  "category": "fork",
+  "condition": "patch",
+  "dataset": "coco2017-val",
+  "family": "occlusion",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-689203-687468",
+  "original_sample_id": "sample_0039",
+  "parameters": {
+    "achieved_fraction": 0.498,
+    "anchor": [
+      12,
+      236
+    ],
+    "aspect": 0.8124,
+    "feathered": true,
+    "occluder_type": "patch",
+    "target_fraction": 0.5,
+    "texture_origin": [
+      178,
+      388
+    ],
+    "window": [
+      0,
+      196,
+      61,
+      276
+    ],
+    "within_tolerance": true
+  },
+  "random_seed": 429556470,
+  "severity": 5,
+  "transform_version": 1,
+  "transformation": "occlude",
+  "variant": "occlude_5"
+}

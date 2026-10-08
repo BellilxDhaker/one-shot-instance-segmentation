@@ -1,0 +1,52 @@
+{
+  "category": "zebra",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-590129-1822860",
+  "original_sample_id": "sample_0046",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 93.965,
+          "mean_before": 155.379
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.1993,
+          "anchor": [
+            141,
+            337
+          ],
+          "aspect": 0.9604,
+          "feathered": true,
+          "occluder_type": "patch",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            460,
+            354
+          ],
+          "window": [
+            114,
+            312,
+            168,
+            362
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 2733987859,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

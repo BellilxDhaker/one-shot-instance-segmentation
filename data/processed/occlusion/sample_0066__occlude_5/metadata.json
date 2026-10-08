@@ -1,0 +1,36 @@
+{
+  "category": "donut",
+  "condition": "polygon",
+  "dataset": "coco2017-val",
+  "family": "occlusion",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1925293-1080349",
+  "original_sample_id": "sample_0066",
+  "parameters": {
+    "achieved_fraction": 0.499,
+    "anchor": [
+      277,
+      140
+    ],
+    "aspect": 0.8777,
+    "feathered": false,
+    "occluder_type": "polygon",
+    "target_fraction": 0.5,
+    "texture_origin": [
+      249,
+      264
+    ],
+    "window": [
+      177,
+      52,
+      377,
+      228
+    ],
+    "within_tolerance": true
+  },
+  "random_seed": 4153014160,
+  "severity": 5,
+  "transform_version": 1,
+  "transformation": "occlude",
+  "variant": "occlude_5"
+}

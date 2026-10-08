@@ -1,0 +1,18 @@
+{
+  "category": "bottle",
+  "condition": "contrast_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-79545-1491882",
+  "original_sample_id": "sample_0008",
+  "parameters": {
+    "mean_after": 105.274,
+    "mean_before": 105.686
+  },
+  "random_seed": 446481659,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_down_3"
+}

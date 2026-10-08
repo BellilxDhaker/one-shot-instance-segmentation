@@ -1,0 +1,75 @@
+{
+  "category": "hair drier",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1188212-1188281",
+  "original_sample_id": "sample_0080",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            118,
+            37,
+            20
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            267.0,
+            324.0
+          ],
+          "post_shift_px": [
+            265.5,
+            -51.5
+          ],
+          "pre_shift_px": [
+            -27.0,
+            -4.0
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 2.3293,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2999,
+          "anchor": [
+            124,
+            467
+          ],
+          "aspect": 0.6173,
+          "feathered": false,
+          "occluder_type": "polygon",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            20,
+            114
+          ],
+          "window": [
+            0,
+            341,
+            329,
+            593
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 2632470645,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

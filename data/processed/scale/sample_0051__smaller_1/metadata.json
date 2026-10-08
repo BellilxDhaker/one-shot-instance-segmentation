@@ -1,0 +1,30 @@
+{
+  "category": "vase",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1994789-1153655",
+  "original_sample_id": "sample_0051",
+  "parameters": {
+    "achieved_factor": 0.8496,
+    "clamped": false,
+    "object_area_fraction_after": 0.112451,
+    "object_area_fraction_before": 0.132363,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.85,
+    "window": [
+      40,
+      -13,
+      561,
+      681
+    ],
+    "zoom": 0.922
+  },
+  "random_seed": 240697908,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_1"
+}

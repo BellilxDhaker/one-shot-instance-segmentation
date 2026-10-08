@@ -1,0 +1,41 @@
+{
+  "category": "spoon",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-703056-708022",
+  "original_sample_id": "sample_0061",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      617,
+      280,
+      0,
+      413
+    ],
+    "pitch_deg": 4.0,
+    "pivot": [
+      472.5,
+      269.5
+    ],
+    "post_shift_px": [
+      17.01,
+      42.57
+    ],
+    "pre_shift_px": [
+      -152.5,
+      -29.5
+    ],
+    "roll_deg": 3.0,
+    "visible_object_fraction": 1.1234,
+    "yaw_deg": 25.0
+  },
+  "random_seed": 1583228085,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_2"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "tv",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-31458-1969335",
+  "original_sample_id": "sample_0009",
+  "parameters": {
+    "mean_after": 38.002,
+    "mean_before": 136.097
+  },
+  "random_seed": 909042884,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_3"
+}

@@ -1,0 +1,52 @@
+{
+  "category": "fire hydrant",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-417721-417693",
+  "original_sample_id": "sample_0056",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 43.963,
+          "mean_before": 112.175
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.1987,
+          "anchor": [
+            380,
+            238
+          ],
+          "aspect": 1.1492,
+          "feathered": false,
+          "occluder_type": "ellipse",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            362,
+            97
+          ],
+          "window": [
+            341,
+            194,
+            419,
+            282
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 2299007687,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

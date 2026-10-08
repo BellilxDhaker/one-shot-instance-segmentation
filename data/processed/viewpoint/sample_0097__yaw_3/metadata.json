@@ -1,0 +1,41 @@
+{
+  "category": "train",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-170830-173675",
+  "original_sample_id": "sample_0097",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      71,
+      57,
+      0,
+      129
+    ],
+    "pitch_deg": 6.0,
+    "pivot": [
+      274.0,
+      233.5
+    ],
+    "post_shift_px": [
+      -290.82,
+      25.7
+    ],
+    "pre_shift_px": [
+      46.0,
+      -21.0
+    ],
+    "roll_deg": 6.0,
+    "visible_object_fraction": 1.8819,
+    "yaw_deg": 40.0
+  },
+  "random_seed": 3831013151,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

@@ -1,0 +1,75 @@
+{
+  "category": "skis",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2200513-2199903",
+  "original_sample_id": "sample_0063",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": true,
+          "padding_px": [
+            0,
+            800,
+            502,
+            103
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            303.5,
+            505.5
+          ],
+          "post_shift_px": [
+            222.0,
+            163.0
+          ],
+          "pre_shift_px": [
+            16.5,
+            -218.5
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 1.4781,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.3001,
+          "anchor": [
+            166,
+            545
+          ],
+          "aspect": 1.1217,
+          "feathered": false,
+          "occluder_type": "ellipse",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            377,
+            102
+          ],
+          "window": [
+            114,
+            486,
+            218,
+            574
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 2487054971,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "dog",
+  "condition": "brightness_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-14217-12379",
+  "original_sample_id": "sample_0095",
+  "parameters": {
+    "mean_after": 58.723,
+    "mean_before": 147.805
+  },
+  "random_seed": 1089798005,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_down_3"
+}

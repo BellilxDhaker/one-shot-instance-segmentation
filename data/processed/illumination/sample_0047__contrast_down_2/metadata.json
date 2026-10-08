@@ -1,0 +1,18 @@
+{
+  "category": "banana",
+  "condition": "contrast_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1042088-1544295",
+  "original_sample_id": "sample_0047",
+  "parameters": {
+    "mean_after": 108.992,
+    "mean_before": 109.486
+  },
+  "random_seed": 3367268343,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_down_2"
+}

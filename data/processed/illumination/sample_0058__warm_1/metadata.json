@@ -1,0 +1,18 @@
+{
+  "category": "sheep",
+  "condition": "warm",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-61537-61816",
+  "original_sample_id": "sample_0058",
+  "parameters": {
+    "mean_after": 86.911,
+    "mean_before": 87.442
+  },
+  "random_seed": 2517288452,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "warm_1"
+}

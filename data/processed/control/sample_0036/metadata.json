@@ -1,0 +1,17 @@
+{
+  "category": "boat",
+  "condition": "identity",
+  "dataset": "coco2017-val",
+  "family": "control",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-179404-2055709",
+  "original_sample_id": "sample_0036",
+  "parameters": {
+    "identity": true
+  },
+  "random_seed": 3971365553,
+  "severity": 0,
+  "transform_version": 1,
+  "transformation": "identity",
+  "variant": "identity"
+}

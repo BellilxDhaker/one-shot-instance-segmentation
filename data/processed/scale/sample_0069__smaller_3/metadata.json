@@ -1,0 +1,30 @@
+{
+  "category": "stop sign",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-271021-269186",
+  "original_sample_id": "sample_0069",
+  "parameters": {
+    "achieved_factor": 0.5015,
+    "clamped": false,
+    "object_area_fraction_after": 0.017876,
+    "object_area_fraction_before": 0.035644,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.5,
+    "window": [
+      -112,
+      -283,
+      459,
+      622
+    ],
+    "zoom": 0.7071
+  },
+  "random_seed": 2587812841,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_3"
+}

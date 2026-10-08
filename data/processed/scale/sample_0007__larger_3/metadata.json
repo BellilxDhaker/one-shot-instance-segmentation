@@ -1,0 +1,30 @@
+{
+  "category": "truck",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-396402-394674",
+  "original_sample_id": "sample_0007",
+  "parameters": {
+    "achieved_factor": 1.3307,
+    "clamped": true,
+    "object_area_fraction_after": 0.652997,
+    "object_area_fraction_before": 0.49072,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 2.0,
+    "window": [
+      34,
+      42,
+      589,
+      412
+    ],
+    "zoom": 1.1541
+  },
+  "random_seed": 78733010,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_3"
+}

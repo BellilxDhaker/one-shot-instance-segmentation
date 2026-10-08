@@ -1,0 +1,18 @@
+{
+  "category": "parking meter",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-419476-418211",
+  "original_sample_id": "sample_0074",
+  "parameters": {
+    "mean_after": 57.485,
+    "mean_before": 81.631
+  },
+  "random_seed": 519785759,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_1"
+}

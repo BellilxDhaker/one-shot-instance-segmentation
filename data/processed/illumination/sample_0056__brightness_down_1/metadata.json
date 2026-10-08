@@ -1,0 +1,18 @@
+{
+  "category": "fire hydrant",
+  "condition": "brightness_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-417721-417693",
+  "original_sample_id": "sample_0056",
+  "parameters": {
+    "mean_after": 89.343,
+    "mean_before": 112.175
+  },
+  "random_seed": 2273163193,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_down_1"
+}

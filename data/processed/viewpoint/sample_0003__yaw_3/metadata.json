@@ -1,0 +1,41 @@
+{
+  "category": "dining table",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1964764-1964357",
+  "original_sample_id": "sample_0003",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      20,
+      0,
+      0,
+      0
+    ],
+    "pitch_deg": 6.0,
+    "pivot": [
+      40.5,
+      272.5
+    ],
+    "post_shift_px": [
+      -416.82,
+      -42.8
+    ],
+    "pre_shift_px": [
+      172.0,
+      47.5
+    ],
+    "roll_deg": 6.0,
+    "visible_object_fraction": 2.1788,
+    "yaw_deg": 40.0
+  },
+  "random_seed": 2139549212,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

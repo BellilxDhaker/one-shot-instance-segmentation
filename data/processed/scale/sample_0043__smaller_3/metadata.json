@@ -1,0 +1,30 @@
+{
+  "category": "elephant",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-581517-1411207",
+  "original_sample_id": "sample_0043",
+  "parameters": {
+    "achieved_factor": 0.5035,
+    "clamped": false,
+    "object_area_fraction_after": 0.00404,
+    "object_area_fraction_before": 0.008024,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.5,
+    "window": [
+      -6,
+      -127,
+      899,
+      614
+    ],
+    "zoom": 0.7071
+  },
+  "random_seed": 1434598351,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_3"
+}

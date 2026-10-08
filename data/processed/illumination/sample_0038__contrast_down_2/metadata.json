@@ -1,0 +1,18 @@
+{
+  "category": "cell phone",
+  "condition": "contrast_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-322217-323312",
+  "original_sample_id": "sample_0038",
+  "parameters": {
+    "mean_after": 54.216,
+    "mean_before": 54.674
+  },
+  "random_seed": 3186147828,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_down_2"
+}

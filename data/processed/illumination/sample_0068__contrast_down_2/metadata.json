@@ -1,0 +1,18 @@
+{
+  "category": "mouse",
+  "condition": "contrast_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1105714-1104548",
+  "original_sample_id": "sample_0068",
+  "parameters": {
+    "mean_after": 56.906,
+    "mean_before": 57.429
+  },
+  "random_seed": 1892483880,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_down_2"
+}

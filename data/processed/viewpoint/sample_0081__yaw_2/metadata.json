@@ -1,0 +1,41 @@
+{
+  "category": "person",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1332350-1304467",
+  "original_sample_id": "sample_0081",
+  "parameters": {
+    "focal_px": 225.0,
+    "pad_mode": "reflect",
+    "padding_capped": true,
+    "padding_px": [
+      625,
+      617,
+      10,
+      625
+    ],
+    "pitch_deg": 4.0,
+    "pivot": [
+      480.0,
+      228.0
+    ],
+    "post_shift_px": [
+      124.15,
+      50.71
+    ],
+    "pre_shift_px": [
+      -230.0,
+      -40.5
+    ],
+    "roll_deg": 3.0,
+    "visible_object_fraction": 1.314,
+    "yaw_deg": 25.0
+  },
+  "random_seed": 2844598120,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_2"
+}

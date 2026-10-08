@@ -1,0 +1,18 @@
+{
+  "category": "person",
+  "condition": "brightness_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1229061-1710651",
+  "original_sample_id": "sample_0001",
+  "parameters": {
+    "mean_after": 157.207,
+    "mean_before": 112.185
+  },
+  "random_seed": 2987832015,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_up_3"
+}

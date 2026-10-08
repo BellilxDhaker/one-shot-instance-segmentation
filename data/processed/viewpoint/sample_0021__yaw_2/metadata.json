@@ -1,0 +1,41 @@
+{
+  "category": "motorcycle",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-155431-365209",
+  "original_sample_id": "sample_0021",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      179,
+      184,
+      86
+    ],
+    "pitch_deg": -4.0,
+    "pivot": [
+      335.5,
+      282.0
+    ],
+    "post_shift_px": [
+      148.89,
+      41.34
+    ],
+    "pre_shift_px": [
+      -15.5,
+      -68.5
+    ],
+    "roll_deg": -3.0,
+    "visible_object_fraction": 1.2868,
+    "yaw_deg": -25.0
+  },
+  "random_seed": 3676866432,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_2"
+}

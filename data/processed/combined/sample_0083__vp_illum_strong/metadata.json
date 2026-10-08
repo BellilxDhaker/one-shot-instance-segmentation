@@ -1,0 +1,57 @@
+{
+  "category": "dining table",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-120754-120031",
+  "original_sample_id": "sample_0083",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 225.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            5,
+            237,
+            199
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            192.5,
+            20.0
+          ],
+          "post_shift_px": [
+            128.83,
+            -248.86
+          ],
+          "pre_shift_px": [
+            57.5,
+            205.5
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 2.3253,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 30.529,
+          "mean_before": 101.893
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 3778141599,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

@@ -1,0 +1,57 @@
+{
+  "category": "kite",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-621853-1465879",
+  "original_sample_id": "sample_0060",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            192,
+            83,
+            0,
+            239
+          ],
+          "pitch_deg": 4.0,
+          "pivot": [
+            351.0,
+            175.5
+          ],
+          "post_shift_px": [
+            -104.49,
+            -24.93
+          ],
+          "pre_shift_px": [
+            -31.0,
+            38.0
+          ],
+          "roll_deg": 3.0,
+          "visible_object_fraction": 1.24,
+          "yaw_deg": 25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 94.759,
+          "mean_before": 148.366
+        },
+        "variant": "low_light_2"
+      }
+    ]
+  },
+  "random_seed": 1106469564,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_mild"
+}

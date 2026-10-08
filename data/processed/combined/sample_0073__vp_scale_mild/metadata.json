@@ -1,0 +1,69 @@
+{
+  "category": "baseball glove",
+  "condition": "viewpoint+scale",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1858307-634731",
+  "original_sample_id": "sample_0073",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 138.15,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            210,
+            183,
+            80
+          ],
+          "pitch_deg": -4.0,
+          "pivot": [
+            113.0,
+            192.0
+          ],
+          "post_shift_px": [
+            32.98,
+            25.47
+          ],
+          "pre_shift_px": [
+            31.0,
+            -38.5
+          ],
+          "roll_deg": -3.0,
+          "visible_object_fraction": 1.3675,
+          "yaw_deg": -25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "scale",
+        "info": {
+          "achieved_factor": 0.7019,
+          "clamped": false,
+          "object_area_fraction_after": 0.129468,
+          "object_area_fraction_before": 0.184458,
+          "pad_mode": "reflect",
+          "padded": true,
+          "requested_factor": 0.7,
+          "window": [
+            -77,
+            6,
+            267,
+            373
+          ],
+          "zoom": 0.8367
+        },
+        "variant": "smaller_2"
+      }
+    ]
+  },
+  "random_seed": 547672380,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_scale_mild"
+}

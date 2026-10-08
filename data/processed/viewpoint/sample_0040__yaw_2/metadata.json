@@ -1,0 +1,41 @@
+{
+  "category": "sandwich",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1555183-312596",
+  "original_sample_id": "sample_0040",
+  "parameters": {
+    "focal_px": 173.25,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      40,
+      35,
+      0,
+      66
+    ],
+    "pitch_deg": 4.0,
+    "pivot": [
+      144.5,
+      154.5
+    ],
+    "post_shift_px": [
+      -129.51,
+      17.86
+    ],
+    "pre_shift_px": [
+      48.0,
+      -10.0
+    ],
+    "roll_deg": 3.0,
+    "visible_object_fraction": 1.357,
+    "yaw_deg": 25.0
+  },
+  "random_seed": 1770553468,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_2"
+}

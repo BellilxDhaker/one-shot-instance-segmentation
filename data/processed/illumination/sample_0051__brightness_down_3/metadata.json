@@ -1,0 +1,18 @@
+{
+  "category": "vase",
+  "condition": "brightness_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1994789-1153655",
+  "original_sample_id": "sample_0051",
+  "parameters": {
+    "mean_after": 43.513,
+    "mean_before": 109.783
+  },
+  "random_seed": 833627242,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_down_3"
+}

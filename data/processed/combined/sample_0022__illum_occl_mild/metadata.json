@@ -1,0 +1,52 @@
+{
+  "category": "sink",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1129323-1134446",
+  "original_sample_id": "sample_0022",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 61.908,
+          "mean_before": 116.314
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2003,
+          "anchor": [
+            477,
+            555
+          ],
+          "aspect": 0.7457,
+          "feathered": true,
+          "occluder_type": "patch",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            425,
+            87
+          ],
+          "window": [
+            452,
+            537,
+            478,
+            573
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 3856390727,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

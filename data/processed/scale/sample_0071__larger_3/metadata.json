@@ -1,0 +1,30 @@
+{
+  "category": "frisbee",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-604064-1844909",
+  "original_sample_id": "sample_0071",
+  "parameters": {
+    "achieved_factor": 2.0075,
+    "clamped": false,
+    "object_area_fraction_after": 0.01123,
+    "object_area_fraction_before": 0.005594,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 2.0,
+    "window": [
+      57,
+      85,
+      411,
+      322
+    ],
+    "zoom": 1.4142
+  },
+  "random_seed": 2860449309,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_3"
+}

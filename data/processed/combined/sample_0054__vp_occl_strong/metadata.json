@@ -1,0 +1,75 @@
+{
+  "category": "traffic light",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1199484-404367",
+  "original_sample_id": "sample_0054",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            96.0,
+            53.0
+          ],
+          "post_shift_px": [
+            -468.82,
+            -221.8
+          ],
+          "pre_shift_px": [
+            224.0,
+            226.5
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 1.8904,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2999,
+          "anchor": [
+            49,
+            70
+          ],
+          "aspect": 1.3325,
+          "feathered": false,
+          "occluder_type": "rect",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            454,
+            15
+          ],
+          "window": [
+            17,
+            27,
+            81,
+            113
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 2022007222,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

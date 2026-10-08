@@ -1,0 +1,57 @@
+{
+  "category": "frisbee",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-604064-1844909",
+  "original_sample_id": "sample_0071",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 225.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            154,
+            196,
+            91
+          ],
+          "pitch_deg": -4.0,
+          "pivot": [
+            234.0,
+            203.5
+          ],
+          "post_shift_px": [
+            88.21,
+            14.78
+          ],
+          "pre_shift_px": [
+            16.0,
+            -36.0
+          ],
+          "roll_deg": -3.0,
+          "visible_object_fraction": 1.3575,
+          "yaw_deg": -25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 47.33,
+          "mean_before": 109.802
+        },
+        "variant": "low_light_2"
+      }
+    ]
+  },
+  "random_seed": 1821946745,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_mild"
+}

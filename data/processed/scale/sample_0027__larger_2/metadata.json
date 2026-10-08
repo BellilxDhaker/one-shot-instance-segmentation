@@ -1,0 +1,30 @@
+{
+  "category": "horse",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-56984-55301",
+  "original_sample_id": "sample_0027",
+  "parameters": {
+    "achieved_factor": 1.4279,
+    "clamped": false,
+    "object_area_fraction_after": 0.035632,
+    "object_area_fraction_before": 0.024954,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.43,
+    "window": [
+      0,
+      79,
+      535,
+      480
+    ],
+    "zoom": 1.1958
+  },
+  "random_seed": 3889037353,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_2"
+}

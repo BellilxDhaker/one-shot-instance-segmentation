@@ -1,0 +1,36 @@
+{
+  "category": "elephant",
+  "condition": "rect",
+  "dataset": "coco2017-val",
+  "family": "occlusion",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-581517-1411207",
+  "original_sample_id": "sample_0043",
+  "parameters": {
+    "achieved_fraction": 0.1929,
+    "anchor": [
+      450,
+      234
+    ],
+    "aspect": 1.2703,
+    "feathered": false,
+    "occluder_type": "rect",
+    "target_fraction": 0.2,
+    "texture_origin": [
+      165,
+      434
+    ],
+    "window": [
+      439,
+      220,
+      461,
+      248
+    ],
+    "within_tolerance": true
+  },
+  "random_seed": 3801609021,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "occlude",
+  "variant": "occlude_2"
+}

@@ -1,0 +1,36 @@
+{
+  "category": "potted plant",
+  "condition": "rect",
+  "dataset": "coco2017-val",
+  "family": "occlusion",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-20490-1609911",
+  "original_sample_id": "sample_0020",
+  "parameters": {
+    "achieved_fraction": 0.4945,
+    "anchor": [
+      400,
+      178
+    ],
+    "aspect": 0.9416,
+    "feathered": false,
+    "occluder_type": "rect",
+    "target_fraction": 0.5,
+    "texture_origin": [
+      429,
+      279
+    ],
+    "window": [
+      375,
+      155,
+      425,
+      201
+    ],
+    "within_tolerance": true
+  },
+  "random_seed": 3948774024,
+  "severity": 5,
+  "transform_version": 1,
+  "transformation": "occlude",
+  "variant": "occlude_5"
+}

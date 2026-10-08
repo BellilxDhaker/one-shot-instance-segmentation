@@ -1,0 +1,41 @@
+{
+  "category": "tv",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-31458-1969335",
+  "original_sample_id": "sample_0009",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      9,
+      4,
+      0,
+      89
+    ],
+    "pitch_deg": 4.0,
+    "pivot": [
+      119.0,
+      144.0
+    ],
+    "post_shift_px": [
+      -256.49,
+      -162.93
+    ],
+    "pre_shift_px": [
+      121.0,
+      176.0
+    ],
+    "roll_deg": 3.0,
+    "visible_object_fraction": 1.3762,
+    "yaw_deg": 25.0
+  },
+  "random_seed": 2272196733,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_2"
+}

@@ -1,0 +1,36 @@
+{
+  "category": "pizza",
+  "condition": "ellipse",
+  "dataset": "coco2017-val",
+  "family": "occlusion",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1923608-1077464",
+  "original_sample_id": "sample_0024",
+  "parameters": {
+    "achieved_fraction": 0.2024,
+    "anchor": [
+      299,
+      150
+    ],
+    "aspect": 0.7311,
+    "feathered": false,
+    "occluder_type": "ellipse",
+    "target_fraction": 0.2,
+    "texture_origin": [
+      5,
+      125
+    ],
+    "window": [
+      275,
+      133,
+      323,
+      167
+    ],
+    "within_tolerance": true
+  },
+  "random_seed": 2145078748,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "occlude",
+  "variant": "occlude_2"
+}

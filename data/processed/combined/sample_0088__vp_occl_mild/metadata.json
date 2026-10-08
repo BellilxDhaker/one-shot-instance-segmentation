@@ -1,0 +1,75 @@
+{
+  "category": "bottle",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1870847-90753",
+  "original_sample_id": "sample_0088",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            347,
+            263,
+            0,
+            114
+          ],
+          "pitch_deg": 4.0,
+          "pivot": [
+            413.0,
+            365.0
+          ],
+          "post_shift_px": [
+            -42.49,
+            164.07
+          ],
+          "pre_shift_px": [
+            -93.0,
+            -151.0
+          ],
+          "roll_deg": 3.0,
+          "visible_object_fraction": 1.2761,
+          "yaw_deg": 25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.1994,
+          "anchor": [
+            414,
+            307
+          ],
+          "aspect": 0.9588,
+          "feathered": false,
+          "occluder_type": "ellipse",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            154,
+            291
+          ],
+          "window": [
+            372,
+            267,
+            456,
+            347
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 3933871874,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_mild"
+}

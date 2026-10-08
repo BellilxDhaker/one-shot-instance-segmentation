@@ -1,0 +1,18 @@
+{
+  "category": "donut",
+  "condition": "brightness_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1925293-1080349",
+  "original_sample_id": "sample_0066",
+  "parameters": {
+    "mean_after": 95.386,
+    "mean_before": 119.732
+  },
+  "random_seed": 768429367,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_down_1"
+}

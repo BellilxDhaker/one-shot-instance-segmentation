@@ -1,0 +1,41 @@
+{
+  "category": "bear",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-587646-588042",
+  "original_sample_id": "sample_0065",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      100,
+      392,
+      222
+    ],
+    "pitch_deg": -0.0,
+    "pivot": [
+      44.0,
+      140.0
+    ],
+    "post_shift_px": [
+      -214.78,
+      -88.5
+    ],
+    "pre_shift_px": [
+      276.0,
+      88.5
+    ],
+    "roll_deg": -0.0,
+    "visible_object_fraction": 1.0574,
+    "yaw_deg": -12.0
+  },
+  "random_seed": 1541555659,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

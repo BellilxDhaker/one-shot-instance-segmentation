@@ -1,0 +1,30 @@
+{
+  "category": "bicycle",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-130806-127950",
+  "original_sample_id": "sample_0030",
+  "parameters": {
+    "achieved_factor": 1.4241,
+    "clamped": false,
+    "object_area_fraction_after": 0.007444,
+    "object_area_fraction_before": 0.005227,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 1.43,
+    "window": [
+      0,
+      105,
+      535,
+      640
+    ],
+    "zoom": 1.1958
+  },
+  "random_seed": 582694985,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_2"
+}

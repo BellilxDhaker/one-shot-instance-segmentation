@@ -1,0 +1,41 @@
+{
+  "category": "skis",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2200513-2199903",
+  "original_sample_id": "sample_0063",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      129,
+      166,
+      0,
+      65
+    ],
+    "pitch_deg": 4.0,
+    "pivot": [
+      303.5,
+      505.5
+    ],
+    "post_shift_px": [
+      -151.99,
+      231.57
+    ],
+    "pre_shift_px": [
+      16.5,
+      -218.5
+    ],
+    "roll_deg": 3.0,
+    "visible_object_fraction": 1.4867,
+    "yaw_deg": 25.0
+  },
+  "random_seed": 3351956916,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_2"
+}

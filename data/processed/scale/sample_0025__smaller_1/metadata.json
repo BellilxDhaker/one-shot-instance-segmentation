@@ -1,0 +1,30 @@
+{
+  "category": "bed",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1611708-316292",
+  "original_sample_id": "sample_0025",
+  "parameters": {
+    "achieved_factor": 0.8501,
+    "clamped": false,
+    "object_area_fraction_after": 0.319152,
+    "object_area_fraction_before": 0.375445,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.85,
+    "window": [
+      -95,
+      70,
+      355,
+      748
+    ],
+    "zoom": 0.922
+  },
+  "random_seed": 3301742262,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_1"
+}

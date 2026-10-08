@@ -1,0 +1,57 @@
+{
+  "category": "cake",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1084226-1088367",
+  "original_sample_id": "sample_0028",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 225.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            34,
+            0,
+            0,
+            0
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            31.5,
+            358.5
+          ],
+          "post_shift_px": [
+            -347.27,
+            112.18
+          ],
+          "pre_shift_px": [
+            156.0,
+            -108.5
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 2.004,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 41.409,
+          "mean_before": 117.506
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 3845886155,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

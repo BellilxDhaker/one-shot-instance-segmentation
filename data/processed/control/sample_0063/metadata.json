@@ -1,0 +1,17 @@
+{
+  "category": "skis",
+  "condition": "identity",
+  "dataset": "coco2017-val",
+  "family": "control",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2200513-2199903",
+  "original_sample_id": "sample_0063",
+  "parameters": {
+    "identity": true
+  },
+  "random_seed": 497011237,
+  "severity": 0,
+  "transform_version": 1,
+  "transformation": "identity",
+  "variant": "identity"
+}

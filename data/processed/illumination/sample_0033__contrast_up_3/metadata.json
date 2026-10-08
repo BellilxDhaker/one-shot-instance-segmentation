@@ -1,0 +1,18 @@
+{
+  "category": "surfboard",
+  "condition": "contrast_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-648632-649219",
+  "original_sample_id": "sample_0033",
+  "parameters": {
+    "mean_after": 129.941,
+    "mean_before": 128.846
+  },
+  "random_seed": 1016365885,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_up_3"
+}

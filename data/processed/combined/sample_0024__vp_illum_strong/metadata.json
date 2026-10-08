@@ -1,0 +1,57 @@
+{
+  "category": "pizza",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1923608-1077464",
+  "original_sample_id": "sample_0024",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            328.0,
+            153.5
+          ],
+          "post_shift_px": [
+            327.5,
+            -222.0
+          ],
+          "pre_shift_px": [
+            -89.0,
+            166.5
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 2.4282,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 33.826,
+          "mean_before": 100.015
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 3104801224,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

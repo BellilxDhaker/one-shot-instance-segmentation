@@ -1,0 +1,41 @@
+{
+  "category": "baseball glove",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1858307-634731",
+  "original_sample_id": "sample_0073",
+  "parameters": {
+    "focal_px": 138.15,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      210,
+      183,
+      80
+    ],
+    "pitch_deg": -4.0,
+    "pivot": [
+      113.0,
+      192.0
+    ],
+    "post_shift_px": [
+      32.98,
+      25.47
+    ],
+    "pre_shift_px": [
+      31.0,
+      -38.5
+    ],
+    "roll_deg": -3.0,
+    "visible_object_fraction": 1.3675,
+    "yaw_deg": -25.0
+  },
+  "random_seed": 4161404395,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_2"
+}

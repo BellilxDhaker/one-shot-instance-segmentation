@@ -1,0 +1,41 @@
+{
+  "category": "banana",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1042088-1544295",
+  "original_sample_id": "sample_0047",
+  "parameters": {
+    "focal_px": 225.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      53,
+      99,
+      0,
+      28
+    ],
+    "pitch_deg": 0.0,
+    "pivot": [
+      234.0,
+      397.5
+    ],
+    "post_shift_px": [
+      -1.33,
+      147.5
+    ],
+    "pre_shift_px": [
+      -46.5,
+      -147.5
+    ],
+    "roll_deg": 0.0,
+    "visible_object_fraction": 1.0577,
+    "yaw_deg": 12.0
+  },
+  "random_seed": 4068156306,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

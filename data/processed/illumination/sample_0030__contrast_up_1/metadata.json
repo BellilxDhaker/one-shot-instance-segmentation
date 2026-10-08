@@ -1,0 +1,18 @@
+{
+  "category": "bicycle",
+  "condition": "contrast_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-130806-127950",
+  "original_sample_id": "sample_0030",
+  "parameters": {
+    "mean_after": 63.155,
+    "mean_before": 62.019
+  },
+  "random_seed": 1238692084,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_up_1"
+}

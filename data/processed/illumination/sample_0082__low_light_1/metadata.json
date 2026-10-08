@@ -1,0 +1,18 @@
+{
+  "category": "chair",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-378783-102658",
+  "original_sample_id": "sample_0082",
+  "parameters": {
+    "mean_after": 37.618,
+    "mean_before": 64.092
+  },
+  "random_seed": 4056780403,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_1"
+}

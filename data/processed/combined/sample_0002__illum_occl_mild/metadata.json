@@ -1,0 +1,52 @@
+{
+  "category": "chair",
+  "condition": "illumination+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1944868-1580357",
+  "original_sample_id": "sample_0002",
+  "parameters": {
+    "components": [
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 45.924,
+          "mean_before": 120.082
+        },
+        "variant": "low_light_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2029,
+          "anchor": [
+            148,
+            630
+          ],
+          "aspect": 1.3864,
+          "feathered": true,
+          "occluder_type": "patch",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            227,
+            94
+          ],
+          "window": [
+            131,
+            607,
+            165,
+            640
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 1059860315,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "illum_occl_mild"
+}

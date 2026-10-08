@@ -1,0 +1,36 @@
+{
+  "category": "cup",
+  "condition": "polygon",
+  "dataset": "coco2017-val",
+  "family": "occlusion",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1879964-1512961",
+  "original_sample_id": "sample_0005",
+  "parameters": {
+    "achieved_fraction": 0.2011,
+    "anchor": [
+      51,
+      223
+    ],
+    "aspect": 1.3947,
+    "feathered": false,
+    "occluder_type": "polygon",
+    "target_fraction": 0.2,
+    "texture_origin": [
+      47,
+      508
+    ],
+    "window": [
+      4,
+      158,
+      98,
+      288
+    ],
+    "within_tolerance": true
+  },
+  "random_seed": 3058907587,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "occlude",
+  "variant": "occlude_2"
+}

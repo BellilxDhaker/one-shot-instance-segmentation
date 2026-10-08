@@ -1,0 +1,30 @@
+{
+  "category": "oven",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2228145-2139696",
+  "original_sample_id": "sample_0032",
+  "parameters": {
+    "achieved_factor": 0.4994,
+    "clamped": false,
+    "object_area_fraction_after": 0.031254,
+    "object_area_fraction_before": 0.062585,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.5,
+    "window": [
+      42,
+      39,
+      643,
+      944
+    ],
+    "zoom": 0.7071
+  },
+  "random_seed": 828085998,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_3"
+}

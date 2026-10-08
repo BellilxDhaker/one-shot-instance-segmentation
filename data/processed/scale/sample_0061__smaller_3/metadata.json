@@ -1,0 +1,30 @@
+{
+  "category": "spoon",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-703056-708022",
+  "original_sample_id": "sample_0061",
+  "parameters": {
+    "achieved_factor": 0.5001,
+    "clamped": false,
+    "object_area_fraction_after": 0.017786,
+    "object_area_fraction_before": 0.035566,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.5,
+    "window": [
+      20,
+      -70,
+      925,
+      609
+    ],
+    "zoom": 0.7071
+  },
+  "random_seed": 2483003686,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_3"
+}

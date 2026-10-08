@@ -1,0 +1,41 @@
+{
+  "category": "refrigerator",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-330921-333731",
+  "original_sample_id": "sample_0037",
+  "parameters": {
+    "focal_px": 225.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pitch_deg": -6.0,
+    "pivot": [
+      480.0,
+      164.5
+    ],
+    "post_shift_px": [
+      416.33,
+      -45.36
+    ],
+    "pre_shift_px": [
+      -230.0,
+      2.0
+    ],
+    "roll_deg": -6.0,
+    "visible_object_fraction": 1.4247,
+    "yaw_deg": -40.0
+  },
+  "random_seed": 1498380800,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

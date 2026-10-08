@@ -1,0 +1,18 @@
+{
+  "category": "potted plant",
+  "condition": "contrast_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-20490-1609911",
+  "original_sample_id": "sample_0020",
+  "parameters": {
+    "mean_after": 91.896,
+    "mean_before": 100.455
+  },
+  "random_seed": 3842028873,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_up_3"
+}

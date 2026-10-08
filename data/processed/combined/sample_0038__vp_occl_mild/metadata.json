@@ -1,0 +1,75 @@
+{
+  "category": "cell phone",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-322217-323312",
+  "original_sample_id": "sample_0038",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            198,
+            96,
+            0,
+            225
+          ],
+          "pitch_deg": 4.0,
+          "pivot": [
+            354.0,
+            195.0
+          ],
+          "post_shift_px": [
+            -101.49,
+            -5.43
+          ],
+          "pre_shift_px": [
+            -34.0,
+            18.5
+          ],
+          "roll_deg": 3.0,
+          "visible_object_fraction": 1.3309,
+          "yaw_deg": 25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.1949,
+          "anchor": [
+            365,
+            193
+          ],
+          "aspect": 0.7861,
+          "feathered": true,
+          "occluder_type": "patch",
+          "target_fraction": 0.2,
+          "texture_origin": [
+            583,
+            200
+          ],
+          "window": [
+            350,
+            181,
+            380,
+            205
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_2"
+      }
+    ]
+  },
+  "random_seed": 1287632986,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_mild"
+}

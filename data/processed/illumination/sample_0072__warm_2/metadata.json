@@ -1,0 +1,18 @@
+{
+  "category": "baseball bat",
+  "condition": "warm",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-628128-628868",
+  "original_sample_id": "sample_0072",
+  "parameters": {
+    "mean_after": 121.428,
+    "mean_before": 123.075
+  },
+  "random_seed": 2293937602,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "warm_2"
+}

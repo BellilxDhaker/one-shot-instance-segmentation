@@ -1,0 +1,18 @@
+{
+  "category": "giraffe",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-595284-595505",
+  "original_sample_id": "sample_0031",
+  "parameters": {
+    "mean_after": 61.232,
+    "mean_before": 125.86
+  },
+  "random_seed": 3101941670,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_2"
+}

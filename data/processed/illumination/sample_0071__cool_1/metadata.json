@@ -1,0 +1,18 @@
+{
+  "category": "frisbee",
+  "condition": "cool",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-604064-1844909",
+  "original_sample_id": "sample_0071",
+  "parameters": {
+    "mean_after": 106.758,
+    "mean_before": 105.609
+  },
+  "random_seed": 1618979606,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "cool_1"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "laptop",
+  "condition": "brightness_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1098482-1097706",
+  "original_sample_id": "sample_0014",
+  "parameters": {
+    "mean_after": 89.952,
+    "mean_before": 150.539
+  },
+  "random_seed": 3335616278,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_down_2"
+}

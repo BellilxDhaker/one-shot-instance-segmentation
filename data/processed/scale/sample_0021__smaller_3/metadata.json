@@ -1,0 +1,30 @@
+{
+  "category": "motorcycle",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-155431-365209",
+  "original_sample_id": "sample_0021",
+  "parameters": {
+    "achieved_factor": 0.5003,
+    "clamped": false,
+    "object_area_fraction_after": 0.147574,
+    "object_area_fraction_before": 0.294976,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.5,
+    "window": [
+      -117,
+      -20,
+      788,
+      584
+    ],
+    "zoom": 0.7071
+  },
+  "random_seed": 4037189239,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_3"
+}

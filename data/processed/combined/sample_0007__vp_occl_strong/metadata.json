@@ -1,0 +1,75 @@
+{
+  "category": "truck",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-396402-394674",
+  "original_sample_id": "sample_0007",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            175,
+            211,
+            137
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            311.5,
+            227.0
+          ],
+          "post_shift_px": [
+            230.0,
+            -42.0
+          ],
+          "pre_shift_px": [
+            8.5,
+            -13.5
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 1.5493,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2996,
+          "anchor": [
+            7,
+            40
+          ],
+          "aspect": 0.7494,
+          "feathered": false,
+          "occluder_type": "ellipse",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            13,
+            57
+          ],
+          "window": [
+            0,
+            0,
+            266,
+            234
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 2446189257,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

@@ -1,0 +1,17 @@
+{
+  "category": "truck",
+  "condition": "identity",
+  "dataset": "coco2017-val",
+  "family": "control",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-396402-394674",
+  "original_sample_id": "sample_0007",
+  "parameters": {
+    "identity": true
+  },
+  "random_seed": 3567879437,
+  "severity": 0,
+  "transform_version": 1,
+  "transformation": "identity",
+  "variant": "identity"
+}

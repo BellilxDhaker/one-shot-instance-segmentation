@@ -1,0 +1,18 @@
+{
+  "category": "potted plant",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-20490-1609911",
+  "original_sample_id": "sample_0020",
+  "parameters": {
+    "mean_after": 44.875,
+    "mean_before": 100.455
+  },
+  "random_seed": 1321428632,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_3"
+}

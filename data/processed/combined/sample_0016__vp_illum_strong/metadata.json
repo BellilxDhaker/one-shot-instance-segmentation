@@ -1,0 +1,57 @@
+{
+  "category": "handbag",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1837185-1837302",
+  "original_sample_id": "sample_0016",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            190,
+            239,
+            149
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            302.5,
+            226.5
+          ],
+          "post_shift_px": [
+            221.0,
+            -42.5
+          ],
+          "pre_shift_px": [
+            17.5,
+            -13.0
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 2.2779,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 43.135,
+          "mean_before": 109.262
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 1896205978,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

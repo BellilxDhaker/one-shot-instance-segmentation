@@ -1,0 +1,36 @@
+{
+  "category": "bed",
+  "condition": "rect",
+  "dataset": "coco2017-val",
+  "family": "occlusion",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1611708-316292",
+  "original_sample_id": "sample_0025",
+  "parameters": {
+    "achieved_fraction": 0.4015,
+    "anchor": [
+      154,
+      372
+    ],
+    "aspect": 1.475,
+    "feathered": false,
+    "occluder_type": "rect",
+    "target_fraction": 0.4,
+    "texture_origin": [
+      48,
+      244
+    ],
+    "window": [
+      72,
+      251,
+      236,
+      493
+    ],
+    "within_tolerance": true
+  },
+  "random_seed": 2238642073,
+  "severity": 4,
+  "transform_version": 1,
+  "transformation": "occlude",
+  "variant": "occlude_4"
+}

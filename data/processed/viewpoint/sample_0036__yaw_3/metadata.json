@@ -1,0 +1,41 @@
+{
+  "category": "boat",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-179404-2055709",
+  "original_sample_id": "sample_0036",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      13,
+      0,
+      0,
+      0
+    ],
+    "pitch_deg": 6.0,
+    "pivot": [
+      34.0,
+      198.0
+    ],
+    "post_shift_px": [
+      -530.82,
+      -37.3
+    ],
+    "pre_shift_px": [
+      286.0,
+      42.0
+    ],
+    "roll_deg": 6.0,
+    "visible_object_fraction": 1.8919,
+    "yaw_deg": 40.0
+  },
+  "random_seed": 1543357852,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_3"
+}

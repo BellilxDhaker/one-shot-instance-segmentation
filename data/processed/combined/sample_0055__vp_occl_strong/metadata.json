@@ -1,0 +1,75 @@
+{
+  "category": "broccoli",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1058001-1060528",
+  "original_sample_id": "sample_0055",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            32,
+            28,
+            0,
+            86
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            224.5,
+            255.5
+          ],
+          "post_shift_px": [
+            -340.32,
+            20.2
+          ],
+          "pre_shift_px": [
+            95.5,
+            -15.5
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 2.2297,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2987,
+          "anchor": [
+            240,
+            256
+          ],
+          "aspect": 0.8503,
+          "feathered": false,
+          "occluder_type": "ellipse",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            203,
+            183
+          ],
+          "window": [
+            216,
+            235,
+            264,
+            277
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 2202240591,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

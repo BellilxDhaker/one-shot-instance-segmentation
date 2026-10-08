@@ -1,0 +1,41 @@
+{
+  "category": "tennis racket",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-655753-655158",
+  "original_sample_id": "sample_0026",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      43,
+      82,
+      0,
+      44
+    ],
+    "pitch_deg": 0.0,
+    "pivot": [
+      247.0,
+      422.5
+    ],
+    "post_shift_px": [
+      -26.22,
+      102.5
+    ],
+    "pre_shift_px": [
+      -35.0,
+      -102.5
+    ],
+    "roll_deg": 0.0,
+    "visible_object_fraction": 1.1064,
+    "yaw_deg": 12.0
+  },
+  "random_seed": 3535453947,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

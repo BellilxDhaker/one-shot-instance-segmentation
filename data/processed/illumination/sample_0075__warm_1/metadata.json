@@ -1,0 +1,18 @@
+{
+  "category": "snowboard",
+  "condition": "warm",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-619689-620656",
+  "original_sample_id": "sample_0075",
+  "parameters": {
+    "mean_after": 122.26,
+    "mean_before": 124.653
+  },
+  "random_seed": 4084524007,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "temperature",
+  "variant": "warm_1"
+}

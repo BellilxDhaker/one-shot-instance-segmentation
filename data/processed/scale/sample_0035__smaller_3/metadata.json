@@ -1,0 +1,30 @@
+{
+  "category": "clock",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1666281-1666350",
+  "original_sample_id": "sample_0035",
+  "parameters": {
+    "achieved_factor": 0.4997,
+    "clamped": false,
+    "object_area_fraction_after": 0.005887,
+    "object_area_fraction_before": 0.011781,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.5,
+    "window": [
+      72,
+      -176,
+      977,
+      426
+    ],
+    "zoom": 0.7071
+  },
+  "random_seed": 1436421211,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_3"
+}

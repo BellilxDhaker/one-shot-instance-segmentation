@@ -1,0 +1,57 @@
+{
+  "category": "bus",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-248552-165954",
+  "original_sample_id": "sample_0093",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            64,
+            26,
+            0,
+            183
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            282.0,
+            147.0
+          ],
+          "post_shift_px": [
+            -282.82,
+            -61.3
+          ],
+          "pre_shift_px": [
+            38.0,
+            66.0
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 2.3892,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 11.935,
+          "mean_before": 62.616
+        },
+        "variant": "low_light_3"
+      }
+    ]
+  },
+  "random_seed": 3778121948,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_strong"
+}

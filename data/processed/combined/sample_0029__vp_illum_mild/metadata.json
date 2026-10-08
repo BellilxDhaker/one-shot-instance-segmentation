@@ -1,0 +1,57 @@
+{
+  "category": "backpack",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1170444-1422343",
+  "original_sample_id": "sample_0029",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": true,
+          "padding_px": [
+            0,
+            800,
+            800,
+            616
+          ],
+          "pitch_deg": -4.0,
+          "pivot": [
+            26.5,
+            247.0
+          ],
+          "post_shift_px": [
+            -160.11,
+            5.84
+          ],
+          "pre_shift_px": [
+            293.5,
+            -33.0
+          ],
+          "roll_deg": -3.0,
+          "visible_object_fraction": 1.2687,
+          "yaw_deg": -25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 23.861,
+          "mean_before": 66.596
+        },
+        "variant": "low_light_2"
+      }
+    ]
+  },
+  "random_seed": 659181540,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_mild"
+}

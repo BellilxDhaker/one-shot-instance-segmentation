@@ -1,0 +1,30 @@
+{
+  "category": "giraffe",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-595284-595505",
+  "original_sample_id": "sample_0031",
+  "parameters": {
+    "achieved_factor": 0.5,
+    "clamped": false,
+    "object_area_fraction_after": 0.086241,
+    "object_area_fraction_before": 0.172468,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.5,
+    "window": [
+      -96,
+      -125,
+      508,
+      780
+    ],
+    "zoom": 0.7071
+  },
+  "random_seed": 1415828744,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_3"
+}

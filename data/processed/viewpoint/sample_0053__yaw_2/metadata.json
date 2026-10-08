@@ -1,0 +1,41 @@
+{
+  "category": "wine glass",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2182951-662573",
+  "original_sample_id": "sample_0053",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": true,
+    "padding_px": [
+      0,
+      362,
+      800,
+      563
+    ],
+    "pitch_deg": -4.0,
+    "pivot": [
+      33.5,
+      122.5
+    ],
+    "post_shift_px": [
+      -153.11,
+      -50.16
+    ],
+    "pre_shift_px": [
+      286.5,
+      23.0
+    ],
+    "roll_deg": -3.0,
+    "visible_object_fraction": 1.1217,
+    "yaw_deg": -25.0
+  },
+  "random_seed": 2580130870,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_2"
+}

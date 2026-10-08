@@ -1,0 +1,18 @@
+{
+  "category": "traffic light",
+  "condition": "contrast_down",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1199484-404367",
+  "original_sample_id": "sample_0054",
+  "parameters": {
+    "mean_after": 123.163,
+    "mean_before": 123.717
+  },
+  "random_seed": 3196559940,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_down_1"
+}

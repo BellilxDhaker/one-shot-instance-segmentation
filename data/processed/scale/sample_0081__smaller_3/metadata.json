@@ -1,0 +1,30 @@
+{
+  "category": "person",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1332350-1304467",
+  "original_sample_id": "sample_0081",
+  "parameters": {
+    "achieved_factor": 0.5022,
+    "clamped": false,
+    "object_area_fraction_after": 0.005963,
+    "object_area_fraction_before": 0.011872,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.5,
+    "window": [
+      126,
+      -37,
+      833,
+      493
+    ],
+    "zoom": 0.7071
+  },
+  "random_seed": 565924650,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_3"
+}

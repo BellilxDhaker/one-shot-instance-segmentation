@@ -1,0 +1,30 @@
+{
+  "category": "cell phone",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-322217-323312",
+  "original_sample_id": "sample_0038",
+  "parameters": {
+    "achieved_factor": 1.9959,
+    "clamped": false,
+    "object_area_fraction_after": 0.019822,
+    "object_area_fraction_before": 0.009931,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 2.0,
+    "window": [
+      128,
+      44,
+      581,
+      346
+    ],
+    "zoom": 1.4142
+  },
+  "random_seed": 2584109659,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_3"
+}

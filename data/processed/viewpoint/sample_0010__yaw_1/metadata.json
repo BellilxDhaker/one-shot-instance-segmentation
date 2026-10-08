@@ -1,0 +1,41 @@
+{
+  "category": "couch",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-99646-113621",
+  "original_sample_id": "sample_0010",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      0,
+      20,
+      6,
+      9
+    ],
+    "pitch_deg": -0.0,
+    "pivot": [
+      547.0,
+      357.5
+    ],
+    "post_shift_px": [
+      288.22,
+      117.5
+    ],
+    "pre_shift_px": [
+      -227.0,
+      -117.5
+    ],
+    "roll_deg": -0.0,
+    "visible_object_fraction": 1.0306,
+    "yaw_deg": -12.0
+  },
+  "random_seed": 437310277,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

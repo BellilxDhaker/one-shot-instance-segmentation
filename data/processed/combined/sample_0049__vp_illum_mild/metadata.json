@@ -1,0 +1,57 @@
+{
+  "category": "suitcase",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1186317-1842139",
+  "original_sample_id": "sample_0049",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 225.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            53,
+            66,
+            0,
+            39
+          ],
+          "pitch_deg": 4.0,
+          "pivot": [
+            176.5,
+            424.5
+          ],
+          "post_shift_px": [
+            -88.35,
+            184.71
+          ],
+          "pre_shift_px": [
+            -17.5,
+            -174.5
+          ],
+          "roll_deg": 3.0,
+          "visible_object_fraction": 1.3711,
+          "yaw_deg": 25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 56.039,
+          "mean_before": 99.075
+        },
+        "variant": "low_light_2"
+      }
+    ]
+  },
+  "random_seed": 1983262444,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_mild"
+}

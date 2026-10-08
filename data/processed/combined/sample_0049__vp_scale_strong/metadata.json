@@ -1,0 +1,69 @@
+{
+  "category": "suitcase",
+  "condition": "viewpoint+scale",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1186317-1842139",
+  "original_sample_id": "sample_0049",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 225.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            213,
+            41,
+            21
+          ],
+          "pitch_deg": -6.0,
+          "pivot": [
+            176.5,
+            424.5
+          ],
+          "post_shift_px": [
+            203.83,
+            131.14
+          ],
+          "pre_shift_px": [
+            -17.5,
+            -174.5
+          ],
+          "roll_deg": -6.0,
+          "visible_object_fraction": 2.5557,
+          "yaw_deg": -40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "scale",
+        "info": {
+          "achieved_factor": 0.4993,
+          "clamped": false,
+          "object_area_fraction_after": 0.054673,
+          "object_area_fraction_before": 0.109509,
+          "pad_mode": "reflect",
+          "padded": true,
+          "requested_factor": 0.5,
+          "window": [
+            -78,
+            86,
+            372,
+            793
+          ],
+          "zoom": 0.7071
+        },
+        "variant": "smaller_3"
+      }
+    ]
+  },
+  "random_seed": 1686644411,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_scale_strong"
+}

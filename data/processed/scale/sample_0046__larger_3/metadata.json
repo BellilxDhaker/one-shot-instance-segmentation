@@ -1,0 +1,30 @@
+{
+  "category": "zebra",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-590129-1822860",
+  "original_sample_id": "sample_0046",
+  "parameters": {
+    "achieved_factor": 2.0003,
+    "clamped": false,
+    "object_area_fraction_after": 0.07709,
+    "object_area_fraction_before": 0.038538,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 2.0,
+    "window": [
+      0,
+      141,
+      453,
+      480
+    ],
+    "zoom": 1.4142
+  },
+  "random_seed": 2124224151,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_3"
+}

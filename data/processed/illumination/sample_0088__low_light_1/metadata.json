@@ -1,0 +1,18 @@
+{
+  "category": "bottle",
+  "condition": "low_light",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1870847-90753",
+  "original_sample_id": "sample_0088",
+  "parameters": {
+    "mean_after": 24.513,
+    "mean_before": 49.057
+  },
+  "random_seed": 102657629,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "low_light",
+  "variant": "low_light_1"
+}

@@ -1,0 +1,75 @@
+{
+  "category": "chair",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-378783-102658",
+  "original_sample_id": "sample_0082",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            236,
+            224,
+            0,
+            145
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            350.0,
+            346.5
+          ],
+          "post_shift_px": [
+            -214.82,
+            137.7
+          ],
+          "pre_shift_px": [
+            -30.0,
+            -133.0
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 2.2936,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.2968,
+          "anchor": [
+            371,
+            306
+          ],
+          "aspect": 0.9921,
+          "feathered": false,
+          "occluder_type": "rect",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            336,
+            165
+          ],
+          "window": [
+            327,
+            262,
+            415,
+            350
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 2288992331,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

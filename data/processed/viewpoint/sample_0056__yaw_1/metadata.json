@@ -1,0 +1,41 @@
+{
+  "category": "fire hydrant",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-417721-417693",
+  "original_sample_id": "sample_0056",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      147,
+      113,
+      0,
+      56
+    ],
+    "pitch_deg": 0.0,
+    "pivot": [
+      412.0,
+      289.5
+    ],
+    "post_shift_px": [
+      30.78,
+      76.0
+    ],
+    "pre_shift_px": [
+      -92.0,
+      -76.0
+    ],
+    "roll_deg": 0.0,
+    "visible_object_fraction": 1.0758,
+    "yaw_deg": 12.0
+  },
+  "random_seed": 1642616485,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

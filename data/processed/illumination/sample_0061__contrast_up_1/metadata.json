@@ -1,0 +1,18 @@
+{
+  "category": "spoon",
+  "condition": "contrast_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-703056-708022",
+  "original_sample_id": "sample_0061",
+  "parameters": {
+    "mean_after": 87.18,
+    "mean_before": 85.644
+  },
+  "random_seed": 1551571585,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "contrast",
+  "variant": "contrast_up_1"
+}

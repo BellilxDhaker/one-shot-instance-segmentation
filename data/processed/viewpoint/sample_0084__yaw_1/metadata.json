@@ -1,0 +1,41 @@
+{
+  "category": "car",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1344872-146034",
+  "original_sample_id": "sample_0084",
+  "parameters": {
+    "focal_px": 288.0,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      284,
+      132,
+      0,
+      117
+    ],
+    "pitch_deg": 0.0,
+    "pivot": [
+      530.0,
+      228.0
+    ],
+    "post_shift_px": [
+      148.78,
+      13.5
+    ],
+    "pre_shift_px": [
+      -210.0,
+      -13.5
+    ],
+    "roll_deg": 0.0,
+    "visible_object_fraction": 1.097,
+    "yaw_deg": 12.0
+  },
+  "random_seed": 2843692680,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

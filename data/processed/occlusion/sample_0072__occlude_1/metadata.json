@@ -1,0 +1,36 @@
+{
+  "category": "baseball bat",
+  "condition": "rect",
+  "dataset": "coco2017-val",
+  "family": "occlusion",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-628128-628868",
+  "original_sample_id": "sample_0072",
+  "parameters": {
+    "achieved_fraction": 0.0981,
+    "anchor": [
+      391,
+      298
+    ],
+    "aspect": 1.4754,
+    "feathered": false,
+    "occluder_type": "rect",
+    "target_fraction": 0.1,
+    "texture_origin": [
+      210,
+      166
+    ],
+    "window": [
+      370,
+      267,
+      412,
+      329
+    ],
+    "within_tolerance": true
+  },
+  "random_seed": 1357651021,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "occlude",
+  "variant": "occlude_1"
+}

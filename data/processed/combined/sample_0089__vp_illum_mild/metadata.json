@@ -1,0 +1,57 @@
+{
+  "category": "tv",
+  "condition": "viewpoint+illumination",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-34898-1968885",
+  "original_sample_id": "sample_0089",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            0,
+            92,
+            166,
+            128
+          ],
+          "pitch_deg": -4.0,
+          "pivot": [
+            329.5,
+            177.0
+          ],
+          "post_shift_px": [
+            142.89,
+            -90.16
+          ],
+          "pre_shift_px": [
+            -9.5,
+            63.0
+          ],
+          "roll_deg": -3.0,
+          "visible_object_fraction": 1.038,
+          "yaw_deg": -25.0
+        },
+        "variant": "yaw_2"
+      },
+      {
+        "family": "illumination",
+        "info": {
+          "mean_after": 84.092,
+          "mean_before": 146.745
+        },
+        "variant": "low_light_2"
+      }
+    ]
+  },
+  "random_seed": 437786033,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_illum_mild"
+}

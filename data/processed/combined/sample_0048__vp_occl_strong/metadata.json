@@ -1,0 +1,75 @@
+{
+  "category": "bird",
+  "condition": "viewpoint+occlusion",
+  "dataset": "coco2017-val",
+  "family": "combined",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-2229976-36154",
+  "original_sample_id": "sample_0048",
+  "parameters": {
+    "components": [
+      {
+        "family": "viewpoint",
+        "info": {
+          "focal_px": 288.0,
+          "pad_mode": "reflect",
+          "padding_capped": false,
+          "padding_px": [
+            62,
+            55,
+            0,
+            128
+          ],
+          "pitch_deg": 6.0,
+          "pivot": [
+            262.0,
+            256.5
+          ],
+          "post_shift_px": [
+            -302.82,
+            21.2
+          ],
+          "pre_shift_px": [
+            58.0,
+            -16.5
+          ],
+          "roll_deg": 6.0,
+          "visible_object_fraction": 2.5493,
+          "yaw_deg": 40.0
+        },
+        "variant": "yaw_3"
+      },
+      {
+        "family": "occlusion",
+        "info": {
+          "achieved_fraction": 0.3006,
+          "anchor": [
+            248,
+            287
+          ],
+          "aspect": 0.7613,
+          "feathered": false,
+          "occluder_type": "polygon",
+          "target_fraction": 0.3,
+          "texture_origin": [
+            315,
+            12
+          ],
+          "window": [
+            128,
+            195,
+            368,
+            379
+          ],
+          "within_tolerance": true
+        },
+        "variant": "occlude_3"
+      }
+    ]
+  },
+  "random_seed": 1187143576,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "compose",
+  "variant": "vp_occl_strong"
+}

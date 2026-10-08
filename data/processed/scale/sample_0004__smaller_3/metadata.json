@@ -1,0 +1,30 @@
+{
+  "category": "car",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1338552-347918",
+  "original_sample_id": "sample_0004",
+  "parameters": {
+    "achieved_factor": 0.4991,
+    "clamped": false,
+    "object_area_fraction_after": 0.036263,
+    "object_area_fraction_before": 0.072657,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.5,
+    "window": [
+      -60,
+      -164,
+      414,
+      543
+    ],
+    "zoom": 0.7071
+  },
+  "random_seed": 2016697070,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_3"
+}

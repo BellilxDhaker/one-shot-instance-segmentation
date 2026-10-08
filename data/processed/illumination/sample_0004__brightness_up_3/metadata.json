@@ -1,0 +1,18 @@
+{
+  "category": "car",
+  "condition": "brightness_up",
+  "dataset": "coco2017-val",
+  "family": "illumination",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1338552-347918",
+  "original_sample_id": "sample_0004",
+  "parameters": {
+    "mean_after": 196.841,
+    "mean_before": 131.908
+  },
+  "random_seed": 2195284379,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "brightness",
+  "variant": "brightness_up_3"
+}

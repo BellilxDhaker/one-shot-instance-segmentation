@@ -1,0 +1,41 @@
+{
+  "category": "bed",
+  "condition": "yaw",
+  "dataset": "coco2017-val",
+  "family": "viewpoint",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1611708-316292",
+  "original_sample_id": "sample_0025",
+  "parameters": {
+    "focal_px": 281.25,
+    "pad_mode": "reflect",
+    "padding_capped": false,
+    "padding_px": [
+      11,
+      36,
+      0,
+      21
+    ],
+    "pitch_deg": 0.0,
+    "pivot": [
+      130.0,
+      408.5
+    ],
+    "post_shift_px": [
+      -137.28,
+      96.0
+    ],
+    "pre_shift_px": [
+      77.5,
+      -96.0
+    ],
+    "roll_deg": 0.0,
+    "visible_object_fraction": 1.0537,
+    "yaw_deg": 12.0
+  },
+  "random_seed": 3861232200,
+  "severity": 1,
+  "transform_version": 1,
+  "transformation": "rotation",
+  "variant": "yaw_1"
+}

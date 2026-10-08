@@ -1,0 +1,30 @@
+{
+  "category": "bench",
+  "condition": "smaller",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-1811598-574838",
+  "original_sample_id": "sample_0012",
+  "parameters": {
+    "achieved_factor": 0.6999,
+    "clamped": false,
+    "object_area_fraction_after": 0.078434,
+    "object_area_fraction_before": 0.112057,
+    "pad_mode": "reflect",
+    "padded": true,
+    "requested_factor": 0.7,
+    "window": [
+      -51,
+      -22,
+      714,
+      552
+    ],
+    "zoom": 0.8367
+  },
+  "random_seed": 1071013591,
+  "severity": 2,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "smaller_2"
+}

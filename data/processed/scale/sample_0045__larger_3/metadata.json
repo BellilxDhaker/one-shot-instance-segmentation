@@ -1,0 +1,30 @@
+{
+  "category": "knife",
+  "condition": "larger",
+  "dataset": "coco2017-val",
+  "family": "scale",
+  "generator": "tools/build_robustness.py",
+  "object_id": "coco2017-694348-696637",
+  "original_sample_id": "sample_0045",
+  "parameters": {
+    "achieved_factor": 2.001,
+    "clamped": false,
+    "object_area_fraction_after": 0.031865,
+    "object_area_fraction_before": 0.015924,
+    "pad_mode": "none",
+    "padded": false,
+    "requested_factor": 2.0,
+    "window": [
+      0,
+      187,
+      339,
+      640
+    ],
+    "zoom": 1.4142
+  },
+  "random_seed": 1878605615,
+  "severity": 3,
+  "transform_version": 1,
+  "transformation": "crop_zoom",
+  "variant": "larger_3"
+}
